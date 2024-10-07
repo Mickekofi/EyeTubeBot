@@ -3,7 +3,7 @@ import yt_dlp
 import time
 import re
 from EyeTube_you_a import extract_youtube_audio_link
-from EyeTube_you_a import download_youtube_video
+from EyeTube_you import download_youtube_video
 from EyeTube_Ig_a import extract_instagram_audio_link
 from EyeTube_Face_a import extract_facebook_audio_link
 from EyeTube_X_a import extract_twitter_audio_link
@@ -21,8 +21,34 @@ from EyeTube_Lin import download_linkedin_video
 logging.basicConfig(level=logging.INFO)
 
 
-TOKEN = ''
-bot = telebot.TeleBot(TOKEN)
+
+print("Welcome to EyeTubeB👁t!.\n📌Note, this is just a basic core version of this program.\nTry Our Advanced Model with more automated features like all internet and social media links responce, Website legit detection, audio extraction etc..Try Today! 👉  https://t.me/EyeTubeAiBot \n\n")
+print("⚠️ This software is provided for personal and non-commercial use only. Replication for commercial purposes without Egineers prompt or to compete with EyeTubeAiBot is strictly prohibited. All rights reserved.\n\n")
+# Prompt the user for the API token
+TOKEN = input("Please enter your Telegram API token 👉: ")
+
+# Check if the token was provided
+if not TOKEN:
+    print("Error: No API token provided. Exiting...")
+    exit(1)
+
+# Initialize the bot with the token
+try:
+    bot = telebot.TeleBot(TOKEN)
+    print("Bot initialized successfully!")
+    
+    # Optional: You can send a message or respond here
+    # Example: Printing a success message or bot info
+    bot_info = bot.get_me()
+    print(f"Bot Username: {bot_info.username}")
+    print("Ready to receive commands.")
+    
+except Exception as e:
+    print(f"Error: Failed to initialize bot. {e}")
+
+
+
+
 
 #==============================================================================
 # Retry Error Handling
@@ -102,7 +128,8 @@ def broadcast_fix_message(fix_message):
             print(f"Failed to send message to {chat_id}: {e}")
 
 
-new_feature_message = "🎉 New feature: You can now download videos from LinkedIn! 🎉\n\nPlease note that this feature is still in beta and may not work for all videos. If you encounter any issues, please let us know by sending a message to the developers using the /Engineer command. Thank you for using EyeTube! 🤖"
+new_feature_message = '''🎉 Switch to the More Advanced Model with Much automated features.\n\n Get the Advanced Model\n\n 
+Try Today! 👉 [ EyeTubeB👁t ] ( https://t.me/EyeTubeAiBot )'''
 # Save chat IDs to a file
 def save_chat_ids():
     try:
@@ -198,7 +225,6 @@ You can also use the following commands:\n\n/About - Learn more about EyeTube\n/
 #Engineer button should send the user the picture of the developer and picture of his home lab also with a link to his linkedin profile, github profile, whatsapp chat and email address and lastly a qoute from the developer
 @bot.message_handler(commands=['Engineer'])
 def send_engineer(message):
-    bot.send_photo(message.chat.id, open('Michael.jpg', 'rb'),"""✓ Keep Moving Forward...""")
     bot.reply_to(message, '''@mickekofi
 I am an Aspired Artificial Intelligence Engineer in the field of  Systems Automation and Development.
 
