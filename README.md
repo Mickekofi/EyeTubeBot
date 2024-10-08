@@ -214,3 +214,50 @@ TT8XTX5EQPSGwmgYrqtU5yEH8sF73Nix9P
 Wait for the Next Project... 
 
 "!Keep Moving Forward"
+
+=<h2><strong>[ What Can this Bot do ? ]</strong></h2>
+
+<ol>
+  <li><strong>⬇️ Download</strong> 📽️ Movies / 🎬Videos with the 💯 Highest Quality from Social Media including:
+    <ul>
+      <li>[ Facebook ]</li>
+      <li>[ YouTube ]</li>
+      <li>[ Instagram ]</li>
+      <li>[ Snapchat ]</li>
+      <li>[ Twitter (X) ] [& more]</li>
+    </ul>
+  </li>
+
+  <li><strong>🔦 Fetch information</strong> from a Social Media Video Upload including:
+    <ul>
+      <li>[ Title of Video ]</li>
+      <li>[ Purpose or Description of the Video ]</li>
+      <li>[ Views ]</li>
+      <li>[ Links ]</li>
+      <li>[ Thumbnail picture ]</li>
+    </ul>
+  </li>
+
+  <li><strong>🧲 Extract and Download</strong> 🔊Audio from an Uploaded Video on Social Media.
+    <ul>
+      <li>[ YouTube ]</li>
+    </ul>
+  </li>
+
+  <li><strong>👮🏾‍♂️ Detect</strong> [ Fraud & Legit Website ]</li>
+
+  <li><strong>⛏️ Dig all Information</strong> from a Target Website including:
+    <ul>
+      <li>[ Target Website date of creation and Renewal ]</li>
+      <li>[ Keywords in Target website ]</li>
+      <li>[ Purpose or Description of a Target Website ]</li>
+      <li>[ Connected links in a Target Website ]</li>
+      <li>[ Pictures in a Target website ]</li>
+      <li>[ Owner of Target Website ]</li>
+      <li>[ robots.txts in Target Website ]</li>
+      <li>[ OpenGraph Title in Target Website ]</li>
+      <li>[ Social Media Links in Target Website ]</li>
+      <li>[ HTTPS Status in Target Website ]</li>
+    </ul>
+  </li>
+</ol>
