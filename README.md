@@ -48,7 +48,6 @@ I present to you;
         </ul>
     </li>
     <br>
-
     <li><strong>🔦 Fetch information from a Social Media Video Upload including:</strong>
         <ul>
             <li>✓ [ Title of Video ]</li>
@@ -59,17 +58,14 @@ I present to you;
         </ul>
     </li>
     <br>
-
     <li><strong>🧲 Extract and Download 🔊Audio from an Uploaded Video on Social Media.</strong>
         <ul>
             <li>✓ [ YouTube ]</li>
         </ul>
     </li>
     <br>
-
     <li><strong>👮🏾‍♂️ Detect</strong> ✓ [ Fraud & Legit Website ]</li>
     <br>
-
     <li><strong>⛏️ Dig all Information from a Target Website including:</strong>
         <ul>
             <li>✓ [ Target Website date of creation and Renewal ]</li>
@@ -87,45 +83,43 @@ I present to you;
 </ol>
 <br>
 <br>
-
 <h2>Who is EyeTubeBot For?</h2>
-
 <br>
-<h3>1. Content Consumers</h3>
+<h4>1. Content Consumers</h3>
 <ul>
   <li>✓ People who frequently watch videos online and want to download them for offline viewing or personal use.</li>
   <li>✓ Users who want to save content for future reference, education, entertainment, or sharing.</li>
 </ul>
 <br>
-<h3>2. Social Media Enthusiasts</h3>
+<h4>2. Social Media Enthusiasts</h3>
 <ul>
   <li>✓ Individuals who spend a lot of time on social platforms like YouTube, Instagram, and Facebook, and want to download and share videos with their friends or followers.</li>
 </ul>
 <br>
-<h3>3. Creators and Marketers</h3>
+<h4>3. Creators and Marketers</h3>
 <ul>
   <li>✓ Social media content creators and digital marketers who need to download videos for reference, editing, or reposting.</li>
   <li>✓ Users who may want to study competitors' content or use certain clips as inspiration for their own videos.</li>
 </ul>
 <br>
-<h3>4. Students and Educators</h3>
+<h4>4. Students and Educators</h3>
 <ul>
   <li>✓ Students who want to download educational videos, tutorials, or lectures for offline use.</li>
   <li>✓ Educators who want to save educational content for teaching purposes or offline use in classrooms.</li>
 </ul>
 <br>
-<h3>5. Travelers and Individuals with Limited Internet Access</h3>
+<h4>5. Travelers and Individuals with Limited Internet Access</h3>
 <ul>
   <li>✓ People with limited or inconsistent internet access who want to download videos in advance for offline viewing.</li>
   <li>✓ Frequent travelers looking for entertainment or information during commutes or flights without needing a connection.</li>
 </ul>
 <br>
-<h3>6. Referral and Reward Enthusiasts</h3>
+<h4>6. Referral and Reward Enthusiasts</h3>
 <ul>
   <li>✓ Users interested in our <strong><a href="https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/EyeGaming">EyeGa🎮ing 🏆</a></strong> who love to participate in referral programs to earn rewards like cash, free subscriptions, and recognition on leaderboards.</li>
 </ul>
 <br>
-<h3>7. Tech-Savvy Users</h3>
+<h4>7. Tech-Savvy Users</h3>
 <ul>
   <li>✓ People who appreciate the convenience and automation of tools like Telegram bots to handle tasks, such as video downloading, quickly and efficiently.</li>
 </ul>
@@ -213,11 +207,11 @@ We have several examples. Here is the first one to get you started:
 
 # 📝 Documentation
 
-## Read [👥 Documentation [For_End_User]]([https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D)
+## Read [👥 Documentation [For_End_User]](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation%5BFor_End_User%5D/Documentation.md)
 
 ## Read [👥 Documentation [For_Developer]](https://github.com/Mickekofi/EyeTubeBot)
 
-## Read [👥 Who are we?](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/Who_are_we)
+## Read [👥 Who are we?](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/Who_are_we.md)
 
 ## Feedback
 
