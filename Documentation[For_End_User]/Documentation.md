@@ -1,19 +1,20 @@
-<p align="center">
-  <a href="https://t.me/EyeTubeAiBot">
-    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/logo.png" alt="Logo" width="130" style="vertical-align: middle;">
-  </a>
-  <a href="https://t.me/EyeTubeAiBot" style="text-decoration: none;">
-    <span style="font-size: 30px; font-weight: bold; vertical-align: middle;">EyeTubeB👁T</span>
-  </a>
+<p style="display: flex; align-items: center;">
+    <a href="https://t.me/EyeTubeAiBot">
+        <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/logo.png" alt="Logo" width="130">
+    </a>
+    <a href="https://t.me/EyeTubeAiBot" style="margin-left: 10px; text-decoration: none; color: #000; transition: color 0.3s;">
+        <h1 style="font-size: 2em; font-weight: bold; display: inline; margin: 0;"
+            onmouseover="this.style.color='#007BFF';"
+            onmouseout="this.style.color='#000';">EyeTubeB👁T</h1>
+    </a>
 </p>
-
-<p align="center">
-  <a href="http://www.gnu.org/licenses/agpl-3.0">
-    <img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPL License">
-  </a>
-  <a href="https://github.com/Mickekofi/EyeTubeBot/actions">
-    <img src="https://img.shields.io/badge/license-Caution-red.svg" alt="Build Status">
-  </a>
+<p>
+    <a href="http://www.gnu.org/licenses/agpl-3.0">
+        <img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPL License">
+    </a>
+    <a href="https://github.com/Mickekofi/EyeTubeBot/actions">
+        <img src="https://img.shields.io/badge/Contact-Us-red.svg" alt="Build Status">
+    </a>
 </p>
 
 # Documentation[For_End_Users]
