@@ -17,10 +17,6 @@
 
 ---
 
-
-
-
-
 # Introduction
 
 🌟 As part of contributing to the Societal Evolution into a new Era full of 🚀 technological advancements, the emergence of  Automation in AI has led us to discover innovative ways to solve and change human repetitive processes into a more productive living. 
@@ -31,53 +27,110 @@ I present to you;
 
 [![Try EyeTubeB👁T Today!](https://img.shields.io/badge/Try%20Today%21-EyeTubeB👁T-red)](https://t.me/EyeTubeAiBot)
 
+# ✅ EyeTubeBot
 
-
- # ✅ EyeTubeB👁t
- 
  ```EyeTubeBot is an innovative Telegram AI bot built with an Interactive User Interface which features Advanced automated Internet Capabilities.```
 
-
 [![Try EyeTubeB👁T Today!](https://img.shields.io/badge/Try%20Today%21-EyeTubeB👁T-red)](https://t.me/EyeTubeAiBot)
-
 
 ![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/eyetubebot.gif)
 
 ## [ What Can this Bot do ? ]
 
+<ol>
+    <li><strong>⬇️ Download 📽️ Movies / 🎬Videos with the 💯 Highest Quality from Social Media including:</strong>
+        <ul>
+            <li>✓ [ Facebook ]</li>
+            <li>✓ [ YouTube ]</li>
+            <li>✓ [ Instagram ]</li>
+            <li>✓ [ Snapchat ]</li>
+            <li>✓ [ Twitter (X) ] [& more]</li>
+        </ul>
+    </li>
+    <br>
 
-``` 1. ⬇️ Download 📽️ Movies / 🎬Videos with the 💯 Highest Quality from Social Media including;
-✓ [ Facebook ]
-✓ [ YouTube ]
-✓ [ Instagram]
-✓ [ Snapchat ]
-✓ [ Twitter (X) ]
-        [& more]
+    <li><strong>🔦 Fetch information from a Social Media Video Upload including:</strong>
+        <ul>
+            <li>✓ [ Title of Video ]</li>
+            <li>✓ [ Purpose or Description of the Video ]</li>
+            <li>✓ [ Views ]</li>
+            <li>✓ [ Links ]</li>
+            <li>✓ [ Thumbnail picture ]</li>
+        </ul>
+    </li>
+    <br>
 
-2. 🔦 Fetch information from a Social Media Video Upload including;
-✓ [ Title of Video ]
-✓ [ Purpose or Description of the Video ]
-✓ [ Views ]
-✓ [ Links ]
-✓ [ Thumbnail picture ]
+    <li><strong>🧲 Extract and Download 🔊Audio from an Uploaded Video on Social Media.</strong>
+        <ul>
+            <li>✓ [ YouTube ]</li>
+        </ul>
+    </li>
+    <br>
 
-3. 🧲 Extract and Download 🔊Audio from an Uploaded Video on Social Media. 
-✓ [ YouTube ]
+    <li><strong>👮🏾‍♂️ Detect</strong> ✓ [ Fraud & Legit Website ]</li>
+    <br>
 
-4. 👮🏾‍♂️ Detect  [ Fraud & Legit Website ]
+    <li><strong>⛏️ Dig all Information from a Target Website including:</strong>
+        <ul>
+            <li>✓ [ Target Website date of creation and Renewal ]</li>
+            <li>✓ [ Keywords in Target website ]</li>
+            <li>✓ [ Purpose or Description of a Target Website ]</li>
+            <li>✓ [ Connected links in a Target Website ]</li>
+            <li>✓ [ Pictures in a Target website ]</li>
+            <li>✓ [ Owner of Target Website ]</li>
+            <li>✓ [ robots.txts in Target Website ]</li>
+            <li>✓ [ OpenGraph Title in Target Website ]</li>
+            <li>✓ [ Social Media Links in Target Website ]</li>
+            <li>✓ [ HTTPS Status in Target Website ]</li>
+        </ul>
+    </li>
+</ol>
+<br>
+<br>
 
-5. ⛏️ Dig all Information from a Target Website including;
-✓ [Target Website date of creation and Renewal]
-✓ [keywords in Target website]
-✓ [Purpose or Description of a Target Website]
-✓ [Connected links in a Target Website]
-✓ [ pictures in a Target website ]
-✓ [ Owner of Target Website]
-✓ [  robots.txts in Target Website ]
-✓ [ OpenGraph Title in Target Website ]
-✓ [ Social Media Links in Target Website ]
-✓ [ HTTPS Status in Target Website ]
-```
+<h2>Who is EyeTubeBot For?</h2>
+
+<br>
+<h3>1. Content Consumers</h3>
+<ul>
+  <li>✓ People who frequently watch videos online and want to download them for offline viewing or personal use.</li>
+  <li>✓ Users who want to save content for future reference, education, entertainment, or sharing.</li>
+</ul>
+<br>
+<h3>2. Social Media Enthusiasts</h3>
+<ul>
+  <li>✓ Individuals who spend a lot of time on social platforms like YouTube, Instagram, and Facebook, and want to download and share videos with their friends or followers.</li>
+</ul>
+<br>
+<h3>3. Creators and Marketers</h3>
+<ul>
+  <li>✓ Social media content creators and digital marketers who need to download videos for reference, editing, or reposting.</li>
+  <li>✓ Users who may want to study competitors' content or use certain clips as inspiration for their own videos.</li>
+</ul>
+<br>
+<h3>4. Students and Educators</h3>
+<ul>
+  <li>✓ Students who want to download educational videos, tutorials, or lectures for offline use.</li>
+  <li>✓ Educators who want to save educational content for teaching purposes or offline use in classrooms.</li>
+</ul>
+<br>
+<h3>5. Travelers and Individuals with Limited Internet Access</h3>
+<ul>
+  <li>✓ People with limited or inconsistent internet access who want to download videos in advance for offline viewing.</li>
+  <li>✓ Frequent travelers looking for entertainment or information during commutes or flights without needing a connection.</li>
+</ul>
+<br>
+<h3>6. Referral and Reward Enthusiasts</h3>
+<ul>
+  <li>✓ Users interested in our <strong><a href="https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/EyeGaming">EyeGa🎮ing 🏆</a></strong> who love to participate in referral programs to earn rewards like cash, free subscriptions, and recognition on leaderboards.</li>
+</ul>
+<br>
+<h3>7. Tech-Savvy Users</h3>
+<ul>
+  <li>✓ People who appreciate the convenience and automation of tools like Telegram bots to handle tasks, such as video downloading, quickly and efficiently.</li>
+</ul>
+</ul>
+<br>
 
 # [ Installation ]
 
@@ -86,7 +139,7 @@ Whether you're here to install the fully built commercial version or explore the
 ```EyeTubeBot``` is designed to cater to various needs:
 
 ```For End_Users: It offers a seamless and user-friendly experience with advanced Automated features and commercial-grade functionalities.```
-    
+
 ```For Developers: The open-source core version is ideal for experimentation, customization, and further development.```
 
 Choose your journey below to get started!
@@ -95,16 +148,16 @@ Choose your journey below to get started!
 
 This section is for end-users who want to install and use the fully featured commercial version of the bot.
 
-#### Prerequisites:
+**Prerequisites:**
 
 ```1. A Telegram account```
 
 ```2. Read Documentation[For_End_User]```
 
 
-#### Installation Steps:
+**Installation Steps:**
 
-```1. Download the Telegram App``` 
+```1. Download the Telegram App```
 
 ```2. Search For EyeTubeAiBot```
 
@@ -112,30 +165,24 @@ This section is for end-users who want to install and use the fully featured com
 
  4.📌 Note, read the [Documentation[For_End_User]](https://t.me/EyeTubeAiBot) before use.
 
+[![Start Here](https://img.shields.io/badge/Try%20Today%21-EyeTubeB👁T-red)](https://t.me/EyeTubeAiBot)
 
-<--Make this a button-->
-
-Start Here ! 👉 [[ EyeTubeB👁t ]](https://t.me/EyeTubeAiBot)
-
-
-#### Tutorial 
-
+### Tutorial
 
 ![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/tutorials.gif)
-
 
 ## 🛠️ Installation and Setup (For_Developers)
 
 This section is for developers who want to clone and run the core features of the bot locally.
 
-#### Prerequisites:
+**Prerequisites:**
 
-    Git
-    Python 3
-    Telegram Bot API token
+1. Git
+2. Python 3
+3. Telegram Bot API token
 
 
-#### Installation
+**Installation:**
 
 ```sh
 git clone https://github.com/Mickekofi/Age_Doctor.git
@@ -155,10 +202,10 @@ pip install -r requirements.txt
 
 run it 
 ```sh
-python3 EyeTubeAiBot.py
+python3 EyeTube_main.py
 ```
 
-#### Examples 
+### Examples 
 
 We have several examples. Here is the first one to get you started:
 
@@ -166,26 +213,77 @@ We have several examples. Here is the first one to get you started:
 
 # 📝 Documentation
 
-### Read [👥 Documentation [For_End_User]](https://t.me/EyeTubeAiBot) 
+## Read [👥 Documentation [For_End_User]]([https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D)
 
-### Read [👥 Documentation [For_Developers]](https://t.me/EyeTubeAiBot)
+## Read [👥 Documentation [For_Developer]](https://github.com/Mickekofi/EyeTubeBot)
 
+## Read [👥 Who are we?](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/Who_are_we)
 
-## [Feedback]
+## Feedback
 
 If you have any feedback, please reach out to us at eyetubebot@gmail.com
 
- 
-## [ Contributing ]
+## Contributing
 
-I will definitely appreciate and mention you if you would want to Contribute either by ```fork```  , ```pull request``` and suggestings through ```issues``` .
+We welcome contributions from everyone to help improve **EyeTubeBot**! Whether it's fixing a bug, or adding a new feature, or optimizing performance, all contributions are valuable. Here's how you can get started:
 
-and
+### How to Contribute
 
- ```! Hit me in one of the Links and Lets Build Together !```
+1. **Fork the Repository**:
+   - Click on the "Fork" button at the top right corner of this repository to create your own copy.
 
+2. **Clone Your Fork**:
+   - Clone your fork locally using Git:
+     ```bash
+     git clone https://github.com/Mickekofi/EyeTubeBot.git
+     ```
+
+3. **Create a New Branch**:
+   - Before making any changes, create a new branch:
+     ```bash
+     git checkout -b feature-or-bugfix-name
+     ```
+
+4. **Make Your Changes**:
+   - Modify the code, add features, or fix bugs.
+   - Be sure to test your changes thoroughly before submitting them.
+
+5. **Commit Your Changes**:
+   - Write clear and descriptive commit messages. For example:
+     ```bash
+     git commit -m "Added feature X"
+     ```
+
+6. **Push to Your Fork**:
+   - Push your branch to your forked repository:
+     ```bash
+     git push origin feature-or-bugfix-name
+     ```
+
+7. **Submit a Pull Request (PR)**:
+   - Go to the original repository on GitHub.
+   - Click the "Compare & pull request" button.
+   - Fill in the required information, including a description of the changes you've made and their purpose.
+   - Submit your pull request for review.
+
+### Contribution Guidelines
+
+- **Write clear commit messages**: Each commit should focus on one specific change and have a concise message.
+- **Follow the coding style**: Keep your code consistent with the existing codebase.
+- **Test your changes**: Ensure that your changes do not break existing functionality.
+- **Open an issue first**: If you're planning to work on a major feature or bug, it's a good idea to open an issue first to discuss your idea with the community.
+- **Be respectful and collaborative**: Contributions are welcomed from everyone, and discussions should remain professional and helpful.
+
+## Reporting Issues
+
+If you find any bugs or have suggestions for improvements, feel free to [open an issue](https://github.com/Mickekofi/EyeTubeBot/issues) in the repository. Please be as detailed as possible so we can resolve the problem effectively.
+
+## Code of Conduct
+
+By participating in this project, you agree to abide by the [Code of Conduct](link-to-code-of-conduct), which encourages a respectful and inclusive environment for all contributors.
 
 ## API References
+
 1. ```pytelegram library ```
 
 2. ```YLT library```
@@ -193,122 +291,31 @@ and
 
 
 ## 🔗 Links
+
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://orcid.org/0009-0005-1069-7360/)
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michael-appiah-9b6919255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/)
 
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-Hit%20Me-brightgreen)](https://wa.me/+233597326320)
 
+## 🌟 Support
 
-## [ Support ]
-🌟 you can decide to buy or push to me a cup of ☕️ coffee in my skrill account at ```michaelappiah6910```
+### You can decide to buy or push to us a cup of ☕️ coffee in our skrill account at : 👇
 
-or 
+ ```
+ michaelappiah6910
+ ```
 
-#### ⭐️in my USDT cryto Wallet ID : 
+or
+
+### in our USDT cryto Wallet ID : 👇
+
  ```
 TT8XTX5EQPSGwmgYrqtU5yEH8sF73Nix9P
 ```  
+
 ## Related
 
-Wait for the Next Project... 
+Wait for the Next Project...
 
 "!Keep Moving Forward"
-
-=<h2><strong>[ What Can this Bot do ? ]</strong></h2>
-
-<ol>
-  <li><strong>⬇️ Download</strong> 📽️ Movies / 🎬Videos with the 💯 Highest Quality from Social Media including:
-    <ul>
-      <li>[ Facebook ]</li>
-      <li>[ YouTube ]</li>
-      <li>[ Instagram ]</li>
-      <li>[ Snapchat ]</li>
-      <li>[ Twitter (X) ] [& more]</li>
-    </ul>
-  </li>
-
-  <li><strong>🔦 Fetch information</strong> from a Social Media Video Upload including:
-    <ul>
-      <li>[ Title of Video ]</li>
-      <li>[ Purpose or Description of the Video ]</li>
-      <li>[ Views ]</li>
-      <li>[ Links ]</li>
-      <li>[ Thumbnail picture ]</li>
-    </ul>
-  </li>
-
-  <li><strong>🧲 Extract and Download</strong> 🔊Audio from an Uploaded Video on Social Media.
-    <ul>
-      <li>[ YouTube ]</li>
-    </ul>
-  </li>
-
-  <li><strong>👮🏾‍♂️ Detect</strong> [ Fraud & Legit Website ]</li>
-
-  <li><strong>⛏️ Dig all Information</strong> from a Target Website including:
-    <ul>
-      <li>[ Target Website date of creation and Renewal ]</li>
-      <li>[ Keywords in Target website ]</li>
-      <li>[ Purpose or Description of a Target Website ]</li>
-      <li>[ Connected links in a Target Website ]</li>
-      <li>[ Pictures in a Target website ]</li>
-      <li>[ Owner of Target Website ]</li>
-      <li>[ robots.txts in Target Website ]</li>
-      <li>[ OpenGraph Title in Target Website ]</li>
-      <li>[ Social Media Links in Target Website ]</li>
-      <li>[ HTTPS Status in Target Website ]</li>
-    </ul>
-  </li>
-</ol>
-
-
-<div style="background-color: #BEBEBE; padding: 10px; border-radius: 5px;">
-  <h2><strong>[ What Can this Bot do ? ]</strong></h2>
-
-  <ol>
-    <li><strong>⬇️ Download</strong> 📽️ Movies / 🎬Videos with the 💯 Highest Quality from Social Media including:
-      <ul>
-        <li>[ Facebook ]</li>
-        <li>[ YouTube ]</li>
-        <li>[ Instagram ]</li>
-        <li>[ Snapchat ]</li>
-        <li>[ Twitter (X) ] [& more]</li>
-      </ul>
-    </li>
-
-    <li><strong>🔦 Fetch information</strong> from a Social Media Video Upload including:
-      <ul>
-        <li>[ Title of Video ]</li>
-        <li>[ Purpose or Description of the Video ]</li>
-        <li>[ Views ]</li>
-        <li>[ Links ]</li>
-        <li>[ Thumbnail picture ]</li>
-      </ul>
-    </li>
-
-    <li><strong>🧲 Extract and Download</strong> 🔊Audio from an Uploaded Video on Social Media.
-      <ul>
-        <li>[ YouTube ]</li>
-      </ul>
-    </li>
-
-    <li><strong>👮🏾‍♂️ Detect</strong> [ Fraud & Legit Website ]</li>
-
-    <li><strong>⛏️ Dig all Information</strong> from a Target Website including:
-      <ul>
-        <li>[ Target Website date of creation and Renewal ]</li>
-        <li>[ Keywords in Target website ]</li>
-        <li>[ Purpose or Description of a Target Website ]</li>
-        <li>[ Connected links in a Target Website ]</li>
-        <li>[ Pictures in a Target website ]</li>
-        <li>[ Owner of Target Website ]</li>
-        <li>[ robots.txts in Target Website ]</li>
-        <li>[ OpenGraph Title in Target Website ]</li>
-        <li>[ Social Media Links in Target Website ]</li>
-        <li>[ HTTPS Status in Target Website ]</li>
-      </ul>
-    </li>
-  </ol>
-</div>
-
