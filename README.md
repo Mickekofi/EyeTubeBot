@@ -31,7 +31,7 @@ I present to you;
 
  ```EyeTubeBot is an innovative Telegram AI bot built with an Interactive User Interface which features Advanced automated Internet Capabilities.```
 
-[![Try EyeTubeB👁T Today!](https://img.shields.io/badge/Open%20%-EyeTubeB👁T-red)](https://t.me/EyeTubeAiBot)
+[![Try EyeTubeB👁T Today!](https://img.shields.io/badge/Open%20-EyeTubeB👁T-red)](https://t.me/EyeTubeAiBot)
 
 ![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/eyetubebot.gif)
 
