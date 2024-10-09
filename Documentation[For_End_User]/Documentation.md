@@ -1,33 +1,34 @@
-<p>
-    <a href="https://t.me/EyeTubeAiBot">
-      <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/logo.png" alt="Logo" width="130">
-    </a>
-    <a href = "https://t.me/EyeTubeAiBot">
-      <h1><strong>EyeTubeB👁T</strong></h1>
-    </a>
-    <p>
-      <a href="http://www.gnu.org/licenses/agpl-3.0">
-        <img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPL License">
-      </a>
-      <a href="https://github.com/Mickekofi/EyeTubeBot/actions">
-        <img src="https://img.shields.io/badge/license-Caution-red.svg" alt="Build Status">
-      </a>
-    </p>
-  </p>
-  
+<p align="center">
+  <a href="https://t.me/EyeTubeAiBot">
+    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/logo.png" alt="Logo" width="130" style="vertical-align: middle;">
+  </a>
+  <a href="https://t.me/EyeTubeAiBot" style="text-decoration: none;">
+    <span style="font-size: 30px; font-weight: bold; vertical-align: middle;">EyeTubeB👁T</span>
+  </a>
+</p>
+
+<p align="center">
+  <a href="http://www.gnu.org/licenses/agpl-3.0">
+    <img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPL License">
+  </a>
+  <a href="https://github.com/Mickekofi/EyeTubeBot/actions">
+    <img src="https://img.shields.io/badge/license-Caution-red.svg" alt="Build Status">
+  </a>
+</p>
+
 # Documentation[For_End_Users]
 
 ## Related Information
 
-### **What is** [![EyeTubeBot ?](https://github.com/Mickekofi/EyeTubeBot/blob/master/README.md)
+### **What is* [ [EyeTubeBot ?] ](https://github.com/Mickekofi/EyeTubeBot/blob/master/README.md)
 
-### **Learn About** [![Terms & Conditions ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/Terms_and_Conditions)
+### *Learn About* [ [Terms & Conditions] ](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/Terms_and_Conditions)
 
-### **Read About** [![Privacy Policy ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/Privacy_Policy)
+### **Read About* [ [Privacy Policy] ](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/Privacy_Policy)
 
-### **Join** [![EyeGa🎮ing]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/EyeGaming)
+### **Join* [ [🏆 EyeGa🎮ing] ](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/EyeGaming)
 
-### **Get to Know** [![Who are we?]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/Who_are_we)
+### **Get to Know* [ [Who we are?] ](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/Who_are_we)
 
 ## 💁🏻 How to Use EyeTubeAiBot
 
@@ -36,13 +37,13 @@
 ✓  The bot has a number of buttons that are used to navigate through the bot. The buttons are as follows:Help,subscribe,About and Donate.
 ✓  Double click on the button tab to Hide it. The image below shows the button tab.
 
-![Button Tab](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/show_button.jpg)
+![Button Tab](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation%5BFor_End_User%5D/show_button.jpg)
 
 ### The Menu Tab
 
 The Menu Tab consists of all available commands used in the bot. These Commands are used to navigate through the entire bot. The image below shows the Menu Tab.
 
-![Menu Tab](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/show_menu.jpg)
+![Menu Tab](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation%5BFor_End_User%5D/show_menu.jpg)
 
 ## ⬇️ Download 📽️ Movies / 🎬Reals from a Social Media Platform
 
@@ -85,7 +86,7 @@ visit the following links to learn how to downloads from Youtube:
 To extract information from a video uploaded on a social media platform, follow the steps below:
 
 1.  ✓Copy the video link from the social media platform.eg;Youtube,Facebook,Instagram etc.
-2.  ✓Add the letter **"-info" at the end of the link.eg;https://www.youtube.com/watch?v=**-info**
+2.  ✓Add the letter **"-info" at the end of the link.eg;```https://www.youtube.com/watch?v=**-info**```
 3.  ✓Paste the link in the bot.
 
 **Bot will automatically detect the link and get all information for you.**
