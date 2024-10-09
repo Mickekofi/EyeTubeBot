@@ -1,6 +1,6 @@
 =<p align="center">
   <a href="https://t.me/EyeTubeAiBot">
-    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/logo.png" alt="Logo" width="130">
+    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/logo.png" alt="Logo" width="140" hight = "200">
   </a>
   <a href = "https://t.me/EyeTubeAiBot">
   <h1 align="center"><strong>EyeTubeB👁T</strong></h1>
@@ -10,7 +10,7 @@
       <img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPL License">
     </a>
     <a href="https://wa.me/233505994829?text=*👁_EyeTube_From_User_Github_User_💬Message_:*">
-      <img src="https://img.shields.io/badge/Contact-Engineers.red.svg" alt="Build Status">
+      <img src="https://img.shields.io/badge/Contact-Engineers-red.svg" alt="Build Status">
     </a>
   </p>
 </p>
