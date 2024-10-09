@@ -9,8 +9,8 @@
     <a href="http://www.gnu.org/licenses/agpl-3.0">
       <img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPL License">
     </a>
-    <a href="https://github.com/Mickekofi/EyeTubeBot/actions">
-      <img src="https://img.shields.io/badge/license-Caution-red.svg" alt="Build Status">
+    <a href="https://wa.me/233505994829?text=*👁_EyeTube_From_User_Github_User_💬Message_:*">
+      <img src="https://img.shields.io/badge/Contact-Engineers.red.svg" alt="Build Status">
     </a>
   </p>
 </p>
