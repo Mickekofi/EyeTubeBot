@@ -1,6 +1,6 @@
 =<p align="center">
   <a href="https://t.me/EyeTubeAiBot">
-    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/logo.png" alt="Logo" width="140" hight = "200">
+    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/logo.png" alt="Logo" width="140">
   </a>
   <a href = "https://t.me/EyeTubeAiBot">
   <h1 align="center"><strong>EyeTubeB👁T</strong></h1>
