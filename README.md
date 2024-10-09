@@ -31,7 +31,7 @@ I present to you;
 
  ```EyeTubeBot is an innovative Telegram AI bot built with an Interactive User Interface which features Advanced automated Internet Capabilities.```
 
-[![Try EyeTubeB👁T Today!](https://img.shields.io/badge/Try%20Today%21-EyeTubeB👁T-red)](https://t.me/EyeTubeAiBot)
+[![Try EyeTubeB👁T Today!](https://img.shields.io/badge/Open%20%-EyeTubeB👁T-red)](https://t.me/EyeTubeAiBot)
 
 ![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/eyetubebot.gif)
 
@@ -116,7 +116,7 @@ I present to you;
 <br>
 <h4>6. Referral and Reward Enthusiasts</h3>
 <ul>
-  <li>✓ Users interested in our <strong><a href="https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/EyeGaming">EyeGa🎮ing 🏆</a></strong> who love to participate in referral programs to earn rewards like cash, free subscriptions, and recognition on leaderboards.</li>
+  <li>✓ Users interested in our <strong><a href="https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/EyeGaming">EyeGa🎮ing 🏆</a></strong> who love to participate in referral programs to earn rewards like cash, free subscriptions, and recognition on leaderboards.</li>
 </ul>
 <br>
 <h4>7. Tech-Savvy Users</h3>
@@ -159,7 +159,7 @@ This section is for end-users who want to install and use the fully featured com
 
  4.📌 Note, read the [Documentation[For_End_User]](https://t.me/EyeTubeAiBot) before use.
 
-[![Start Here](https://img.shields.io/badge/Try%20Today%21-EyeTubeB👁T-red)](https://t.me/EyeTubeAiBot)
+[![Start Here](https://img.shields.io/badge/Launch%20%21-EyeTubeB👁T-red)](https://t.me/EyeTubeAiBot)
 
 ### Tutorial
 
@@ -179,7 +179,7 @@ This section is for developers who want to clone and run the core features of th
 **Installation:**
 
 ```sh
-git clone https://github.com/Mickekofi/Age_Doctor.git
+git clone https://github.com/Mickekofi/EyeTubBot.git
 
 ```
 Navigate to the project directory:
@@ -207,11 +207,11 @@ We have several examples. Here is the first one to get you started:
 
 # 📝 Documentation
 
-## Read [👥 Documentation [For_End_User]](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation%5BFor_End_User%5D/Documentation.md)
+## Read [👥 Documentation(For_End_User)](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/Documentation.md)
 
-## Read [👥 Documentation [For_Developer]](https://github.com/Mickekofi/EyeTubeBot)
+## Read [👥 Documentation(For_Developer)](https://github.com/Mickekofi/EyeTubeBot)
 
-## Read [👥 Who are we?](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/Who_are_we.md)
+## Read [👥 Who are we?](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Who_are_we.md)
 
 ## Feedback
 
@@ -272,10 +272,6 @@ We welcome contributions from everyone to help improve **EyeTubeBot**! Whether i
 
 If you find any bugs or have suggestions for improvements, feel free to [open an issue](https://github.com/Mickekofi/EyeTubeBot/issues) in the repository. Please be as detailed as possible so we can resolve the problem effectively.
 
-## Code of Conduct
-
-By participating in this project, you agree to abide by the [Code of Conduct](link-to-code-of-conduct), which encourages a respectful and inclusive environment for all contributors.
-
 ## API References
 
 1. ```pytelegram library ```
@@ -286,11 +282,8 @@ By participating in this project, you agree to abide by the [Code of Conduct](li
 
 ## 🔗 Links
 
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://orcid.org/0009-0005-1069-7360/)
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michael-appiah-9b6919255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/)
-
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Hit%20Me-brightgreen)](https://wa.me/+233597326320)
 
 ## 🌟 Support
 
@@ -312,4 +305,4 @@ TT8XTX5EQPSGwmgYrqtU5yEH8sF73Nix9P
 
 Wait for the Next Project...
 
-"!Keep Moving Forward"
+"Keep Moving Forward"
