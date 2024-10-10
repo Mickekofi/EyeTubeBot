@@ -48,6 +48,7 @@ Follow these simple steps to 🔓Unlock Access:
    ```bash
    /subscribe
 ```
+
 button or command
 
 **Step 2 :** Select a ```payment Method```
