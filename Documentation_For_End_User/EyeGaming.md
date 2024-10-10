@@ -1,10 +1,31 @@
-# 🏆 EyeGa🎮ing 🏆
 
-## Welcome to EyeGaming (EG): The Ultimate Referral Game by EyeTubeBot! 🎮✨
+=<p align="center">
+  <a href="https://t.me/EyeTubeAiBot">
+    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/logo.png" alt="Logo" width="130">
+  </a>
+  <a href = "https://t.me/EyeTubeAiBot">
+  <h1 align="center"><strong>🏆 EyeGa🎮ing 🏆</strong></h1>
+  </a>
+  <p align="center">
+    <a href="http://www.gnu.org/licenses/agpl-3.0">
+      <img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPL License">
+    </a>
+    <a href="https://wa.me/233505994829?text=*EyeTubeB👁t_From_Github_User_💬Message_:*%20">
+      <img src="https://img.shields.io/badge/Contact-Engineers-red.svg" alt="Build Status">
+    </a>
+  </p>
+</p>
+
+---
+
+## ✨ The Ultimate Referral Game
 
 EyeGaming is your gateway to exciting rewards, including cash prizes and free subscription plans, all for doing something simple—sharing **EyeTubeBot** with your friends. Let's take a closer look at how you can get started, earn rewards, and compete for weekly prizes!
 
 ---
+
+![EG](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/eg.jpg)
+
 
 ## 🌟 Why Join the EyeTubeBot Referral Challenge?
 

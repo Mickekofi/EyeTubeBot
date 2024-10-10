@@ -1,3 +1,23 @@
+
+=<p align="center">
+  <a href="https://t.me/EyeTubeAiBot">
+    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/logo.png" alt="Logo" width="130">
+  </a>
+  <a href = "https://t.me/EyeTubeAiBot">
+  <h1 align="center"><strong>EyeTubeB👁T</strong></h1>
+  </a>
+  <p align="center">
+    <a href="http://www.gnu.org/licenses/agpl-3.0">
+      <img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPL License">
+    </a>
+    <a href="https://wa.me/233505994829?text=*EyeTubeB👁t_From_Github_User_💬Message_:*%20">
+      <img src="https://img.shields.io/badge/Contact-Engineers-red.svg" alt="Build Status">
+    </a>
+  </p>
+</p>
+
+---
+
 # Who Are We?
 
 EyeTubeBot is more than just a tool—it's a dedicated platform committed to making video downloads from social media seamless and accessible. We are a team of passionate developers, innovators, and creators with a single vision: to simplify video content consumption and provide value to users globally.

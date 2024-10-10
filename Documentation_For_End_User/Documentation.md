@@ -1,50 +1,55 @@
-<p style="display: flex; align-items: center;">
-    <a href="https://t.me/EyeTubeAiBot">
-        <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/logo.png" alt="Logo" width="130">
-    </a>
-    <a href="https://t.me/EyeTubeAiBot" style="margin-left: 10px; text-decoration: none; color: #000; transition: color 0.3s;">
-        <h1 style="font-size: 2em; font-weight: bold; display: inline; margin: 0;"
-            onmouseover="this.style.color='#007BFF';"
-            onmouseout="this.style.color='#000';">EyeTubeB👁T</h1>
-    </a>
-</p>
-<p>
+=<p align="center">
+  <a href="https://t.me/EyeTubeAiBot">
+    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/logo.png" alt="Logo" width="130">
+  </a>
+  <a href = "https://t.me/EyeTubeAiBot">
+  <h1 align="center"><strong>EyeTubeB👁T</strong></h1>
+  </a>
+  <p align="center">
     <a href="http://www.gnu.org/licenses/agpl-3.0">
-        <img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPL License">
+      <img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPL License">
     </a>
-    <a href="https://github.com/Mickekofi/EyeTubeBot/actions">
-        <img src="https://img.shields.io/badge/Contact-Us-red.svg" alt="Build Status">
+    <a href="https://wa.me/233505994829?text=*EyeTubeB👁t_From_Github_User_💬Message_:*%20">
+      <img src="https://img.shields.io/badge/Contact-Engineers-red.svg" alt="Build Status">
     </a>
+  </p>
 </p>
 
-# Documentation[For_End_Users]
+---
+
+
+# Documentation
 
 ## Related Information
 
-### **What is* [ [EyeTubeBot ?] ](https://github.com/Mickekofi/EyeTubeBot/blob/master/README.md)
+### *What is* [[ EyeTubeBot ? ]](https://github.com/Mickekofi/EyeTubeBot/blob/master/README.md)
 
-### *Learn About* [ [Terms & Conditions] ](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/Terms_and_Conditions)
+### *How to 🔐Unlock* [[ ⚡️ Premium ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Subscription)
 
-### **Read About* [ [Privacy Policy] ](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/Privacy_Policy)
+### *Learn About* [[ Terms & Conditions ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Terms_and_Conditions)
 
-### **Join* [ [🏆 EyeGa🎮ing] ](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/EyeGaming)
+### *Read About* [[ Privacy Policy ] ](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Privacy_Policy)
 
-### **Get to Know* [ [Who we are?] ](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation%5BFor_End_User%5D/Who_are_we)
+### *Join* [[ 🏆 EyeGa🎮ing ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/EyeGaming)
 
-## 💁🏻 How to Use EyeTubeAiBot
+### *Get to Know* [[ Who we are? ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User_/Who_are_we)
+
+
+
+## 💁🏻 How to Use EyeTubeBot
 
 ### The Button tab
 
 ✓  The bot has a number of buttons that are used to navigate through the bot. The buttons are as follows:Help,subscribe,About and Donate.
 ✓  Double click on the button tab to Hide it. The image below shows the button tab.
 
-![Button Tab](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation%5BFor_End_User%5D/show_button.jpg)
+![Button Tab](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/show_button.jpg)
 
 ### The Menu Tab
 
 The Menu Tab consists of all available commands used in the bot. These Commands are used to navigate through the entire bot. The image below shows the Menu Tab.
 
-![Menu Tab](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation%5BFor_End_User%5D/show_menu.jpg)
+![Menu Tab](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/show_menu.jpg)
 
 ## ⬇️ Download 📽️ Movies / 🎬Reals from a Social Media Platform
 
