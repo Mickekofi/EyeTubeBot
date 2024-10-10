@@ -24,15 +24,15 @@
 
 ### *What is* [[ EyeTubeBot ? ]](https://github.com/Mickekofi/EyeTubeBot/blob/master/README.md)
 
-### *How to 🔐Unlock* [[ ⚡️ Premium ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Subscription)
+### *How to 🔐Unlock* [[ ⚡️ Premium ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Subscription.md)
 
-### *Learn About* [[ Terms & Conditions ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Terms_and_Conditions)
+### *Learn About* [[ Terms & Conditions ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Terms_and_Conditions.md)
 
-### *Read About* [[ Privacy Policy ] ](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Privacy_Policy)
+### *Read About* [[ Privacy Policy ] ](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Privacy_Policy.md)
 
-### *Join* [[ 🏆 EyeGa🎮ing ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/EyeGaming)
+### *Join* [[ 🏆 EyeGa🎮ing ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/EyeGaming.md)
 
-### *Get to Know* [[ Who we are? ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User_/Who_are_we)
+### *Get to Know* [[ Who we are? ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User_/Who_are_we.md)
 
 
 
@@ -62,15 +62,15 @@ To download a **Movie,Real or any Video** from a Social media Platform, follow t
 
 visit the following links to learn how to downloads from these Social platforms:
 
-- [Download from Youtube]()
+- [Tutorial Download from Youtube]()
 - 
-- [Download from Facebook]()
+- [Tutorial Download from Facebook]()
 - 
-- [Download from Instagram]()
+- [Tutorial Download from Instagram]()
 - 
-- [Download from Twitter]()
+- [Tutorial Download from Twitter]()
 - 
-- [Download from Tiktok]()
+- [Tutorial Download from Tiktok]()
 
 ## 🧲 Extract and Download 🔊Audio/music from an Uploaded Video from Youtube
 
