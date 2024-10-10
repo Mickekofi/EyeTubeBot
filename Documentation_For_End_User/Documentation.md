@@ -36,7 +36,7 @@
 
 
 
-## 💁🏻 How to Use EyeTubeBot
+## 💁🏻 How to Use
 
 ### The Button tab
 

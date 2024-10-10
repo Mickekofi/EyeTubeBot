@@ -17,13 +17,13 @@ from EyeTube_Face import download_facebook_video
 import logging
 from EyeTube_Lin import download_linkedin_video
 
-# Configure logging
 logging.basicConfig(level=logging.INFO)
 
 
 
-print("Welcome to EyeTubeB👁t!.\n📌Note, this is just a basic core version of this program.\nTry Our Advanced Model with more automated features like all internet and social media links responce, Website legit detection, audio extraction etc..Try Today! 👉  https://t.me/EyeTubeAiBot \n\n")
-print("⚠️ This software is provided for personal and non-commercial use only. Replication for commercial purposes without Egineers prompt or to compete with EyeTubeAiBot is strictly prohibited. All rights reserved.\n\n")
+print("Welcome to EyeTubeB👁t!.\n📌Note, this is just a basic core version of this program.\nTry Our more Matured automated Model with more automated features like all internet and social media links responce, Website legit detection, audio extraction etc..Try Today! 👉  https://t.me/EyeTubeAiBot \n\n")
+
+print("We could had made this a bit advanced and heavy but looking at cost and server resources, we decided to take alternatives and make it simple and light for you to use.\n\n")
 # Prompt the user for the API token
 TOKEN = input("Please enter your Telegram API token 👉: ")
 
@@ -32,13 +32,10 @@ if not TOKEN:
     print("Error: No API token provided. Exiting...")
     exit(1)
 
-# Initialize the bot with the token
 try:
     bot = telebot.TeleBot(TOKEN)
     print("Bot initialized successfully!")
     
-    # Optional: You can send a message or respond here
-    # Example: Printing a success message or bot info
     bot_info = bot.get_me()
     print(f"Bot Username: {bot_info.username}")
     print("Ready to receive commands.")
@@ -84,7 +81,6 @@ def is_valid_twitter_url(url):
     twitter_regex = re.compile(r'(https?://)?(www\.)?(twitter|x)\.com/.+/status/.+')
     return twitter_regex.match(url)
 
-#make it support this facebook link https://www.facebook.com/share/v/V36zS2gWo4ezB4Rj/?mibextid=
 def is_valid_facebook_url(url):
     facebook_regex = re.compile(r'(https?://)?(www\.)?(facebook|fb)\.com/.+')
     return facebook_regex.match(url)
@@ -98,16 +94,10 @@ def is_valid_snapchat_url(url):
     return bool(snapchat_regex.match(url))
 
 #==============================================================================
-#Make the bot to send a welcome message to the user when the user starts the bot
 
-# A list to store user chat IDs
-user_chat_ids = set()
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
-    # Add the user's chat ID to the set
-    user_chat_ids.add(message.chat.id)
-    save_chat_ids()  # Save chat IDs whenever a new user starts the bot
     
     # Creating buttons
     markup = telebot.types.ReplyKeyboardMarkup(row_width=2)
@@ -119,43 +109,6 @@ def send_welcome(message):
     bot.reply_to(message, "Welc👁me to eyeTube. Order your Link?", reply_markup=markup)
 
 #=============================================================================================
-# Function to broadcast new feature/fix messages
-def broadcast_fix_message(fix_message):
-    for chat_id in user_chat_ids:
-        try:
-            bot.send_message(chat_id, fix_message)
-        except Exception as e:
-            print(f"Failed to send message to {chat_id}: {e}")
-
-
-new_feature_message = '''🎉 Switch to the More Advanced Model with Much automated features.\n\n Get the Advanced Model\n\n 
-Try Today! 👉 [ EyeTubeB👁t ] ( https://t.me/EyeTubeAiBot )'''
-# Save chat IDs to a file
-def save_chat_ids():
-    try:
-        with open('chat_ids.txt', 'w') as file:
-            for chat_id in user_chat_ids:
-                file.write(f"{chat_id}\n")
-    except Exception as e:
-        print(f"Failed to save chat IDs: {e}")
-
-# Load chat IDs from a file
-def load_chat_ids():
-    global user_chat_ids
-    try:
-        with open('chat_ids.txt', 'r') as file:
-            user_chat_ids = set(line.strip() for line in file)
-    except FileNotFoundError:
-        user_chat_ids = set()
-    except Exception as e:
-        print(f"Failed to load chat IDs: {e}")
-
-# Load chat IDs at startup
-load_chat_ids()
-
-# Broadcast the message when the bot starts
-broadcast_fix_message(new_feature_message)
-
 #About
 @bot.message_handler(commands=['About'])
 def send_about(message):
@@ -243,7 +196,7 @@ Find
 
 #STAGE 2
 #==============================================================================
-#Make the bot to handle the user's message and check if the user's message is a valid link and then send the user a message to wait while the bot is processing the link using the created handle platform function
+# bot to handle the user's message and check if the user's message is a valid link and then send the user a message to wait while the bot is processing the link using the created handle platform function
 @bot.message_handler(func=lambda message: True)
 def handle_message(message):
     url = message.text.strip()
@@ -281,7 +234,7 @@ def handle_youtube_url(message, url):
         if '-a' in url:
             bot.reply_to(message, "Generating YouTube audio download link...")
             send_youtube_audio(message, url.replace('-a', '').strip())
-            return  # Exit the function after handling audio download
+            return  
         
         # Set default quality
         quality = 'best'
@@ -291,17 +244,15 @@ def handle_youtube_url(message, url):
             quality = 'worst'
             url = url.replace('-l', '').strip()
         elif '-h' in url:
-            quality = 'best'  # This line is actually redundant as quality is already set to 'best'
+            quality = 'best' 
 
-        # Notify the user that the download is in progress
         bot.reply_to(message, "Generating YouTube video download link. Please wait...")
         
         # Call the download function
         download_url = download_youtube_video(url, quality)
         
-        # Check the download URL and respond accordingly
         if download_url:
-            bot.reply_to(message, f"Here is your download link: {download_url}\n\nPlease note: This link will use your own internet data to download the file.")
+            bot.reply_to(message, f"Here is your download link: {download_url}\n\n.")
         else:
             bot.reply_to(message, "Failed to generate the download link. Please check the URL and try again.")
 
@@ -317,7 +268,7 @@ def handle_instagram_url(message, url):
         try:
             download_url = download_instagram_content(url)
             if download_url:
-                bot.reply_to(message, f"Here is your download link: {download_url}\n\nPlease note: This link will use your own internet data to download the file.")
+                bot.reply_to(message, f"Here is your download link: {download_url}\n\n.")
             else:
                 bot.reply_to(message, "Failed to generate the download link.")
         except Exception as e:
@@ -332,7 +283,7 @@ def handle_twitter_url(message, url):
         try:
             download_url = download_twitter_video(url)
             if download_url:
-                bot.reply_to(message, f"Here is your download link: {download_url}\n\nPlease note: This link will use your own internet data to download the file.")
+                bot.reply_to(message, f"Here is your download link: {download_url}\n\n.")
             else:
                 bot.reply_to(message, "Failed to generate the download link.")
         except Exception as e:
@@ -346,7 +297,7 @@ def handle_facebook_url(message, url):
         bot.reply_to(message, "Downloading Facebook video. Please wait...")
         try:
             video_url = download_facebook_video(url)
-            bot.reply_to(message, f"Here is your download link: {video_url}\n\nPlease note: This link will use your own internet data to download the file.")
+            bot.reply_to(message, f"Here is your download link: {video_url}\n\n.")
         except Exception as e:
             bot.reply_to(message, f"Failed to download video: {e}")
 
@@ -360,7 +311,7 @@ def handle_linkedin_url(message, url):
             logging.info(f"Received LinkedIn URL: {url}")  # Debugging line    
             video_url = download_linkedin_video(url)
             if video_url:
-                bot.reply_to(message, f"Here is your download link: {video_url}\n\nPlease note: This link will use your own internet data to download the file.")
+                bot.reply_to(message, f"Here is your download link: {video_url}\n\n.")
             else:
                 bot.reply_to(message, "Sorry, something went wrong while generating the download link.")
         except Exception as e:
@@ -376,7 +327,7 @@ def handle_snapchat_url(message, url):
         bot.reply_to(message, "Downloading Snapchat video. Please wait...")
         try:
             video_url = download_snapchat_video(url)
-            bot.reply_to(message, f"Here is your download link: {video_url}\n\nPlease note: This link will use your own internet data to download the file.")
+            bot.reply_to(message, f"Here is your download link: {video_url}\n\n.")
         except Exception as e:
             bot.reply_to(message, f"Failed to download video: {e}")
 
@@ -391,7 +342,7 @@ def handle_snapchat_url(message, url):
 def send_audiomack_audio(message, url):
     audio_url = extract_audiomack_audio_link(url)
     if audio_url:
-        bot.reply_to(message, f"Here is your AudioMack download link: {audio_url}\n\nPlease note: This link will use your own internet data to download the file.")
+        bot.reply_to(message, f"Here is your AudioMack download link: {audio_url}\n\n.")
     else:
         bot.reply_to(message, "Failed to extract the audio download link.")
 
@@ -399,39 +350,38 @@ def send_audiomack_audio(message, url):
 def send_youtube_audio(message, url):
     audio_url = extract_youtube_audio_link(url)
     if audio_url:
-        bot.reply_to(message, f"Here is your YouTube download link: {audio_url}\n\nPlease note: This link will use your own internet data to download the file.")
+        bot.reply_to(message, f"Here is your YouTube download link: {audio_url}\n\n.")
 
 
 def send_instagram_audio(message, url):
     audio_url = extract_instagram_audio_link(url)
     if audio_url:
-        bot.reply_to(message, f"Here is your Instagram download link: {audio_url}\n\nPlease note: This link will use your own internet data to download the file.")
+        bot.reply_to(message, f"Here is your Instagram download link: {audio_url}\n\n.")
 
 def send_facebook_audio(message, url):
     audio_url = extract_facebook_audio_link(url)
     if audio_url:
-        bot.reply_to(message, f"Here is your Facebook download link: {audio_url}\n\nPlease note: This link will use your own internet data to download the file.")
+        bot.reply_to(message, f"Here is your Facebook download link: {audio_url}\n\n.")
 
 
 
 def send_twitter_audio(message, url):
     audio_url = extract_twitter_audio_link(url)
     if audio_url:
-        bot.reply_to(message, f"Here is your Twitter download link: {audio_url}\n\nPlease note: This link will use your own internet data to download the file.")
+        bot.reply_to(message, f"Here is your Twitter download link: {audio_url}\n\n.")
 
 
 def send_linkedin_audio(message, url):
     audio_url = extract_linkedin_audio_link(url)
     if audio_url:
-        bot.reply_to(message, f"Here is your LinkedIn download link: {audio_url}\n\nPlease note: This link will use your own internet data to download the file.")
+        bot.reply_to(message, f"Here is your LinkedIn download link: {audio_url}\n\n.")
 
 def send_snapchat_audio(message, url):
     audio_url = extract_snapchat_audio_link(url)
     if audio_url:
-        bot.reply_to(message, f"Here is your Snapchat download link: {audio_url}\n\nPlease note: This link will use your own internet data to download the file.")
+        bot.reply_to(message, f"Here is your Snapchat download link: {audio_url}\n\n.")
 
 #==============================================================================
-#This is where the bot is set to keep polling for new messages and retry on failure
 @retry_on_failure
 def bot_polling():
     bot.polling()
