@@ -157,7 +157,7 @@ This section is for end-users who want to install and use the fully featured com
 
 ```3. Click start```
 
- 4.📌 Note, read the [Documentation[For_End_User]](https://t.me/EyeTubeAiBot) before use.
+ 4.📌 Note, read the [Documentation[For_End_User]]([https://t.me/EyeTubeAiBot](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/Documentation.md)) before use.
 
 [![Start Here](https://img.shields.io/badge/Launch%20%21-EyeTubeB👁T-red)](https://t.me/EyeTubeAiBot)
 
