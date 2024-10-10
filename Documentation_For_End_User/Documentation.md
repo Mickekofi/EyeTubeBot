@@ -22,17 +22,17 @@
 
 ## Related Information
 
-### *What is* [[ EyeTubeBot ? ]](https://github.com/Mickekofi/EyeTubeBot/blob/master/README.md)
+#### *What is* [[ EyeTubeBot ? ]](https://github.com/Mickekofi/EyeTubeBot/blob/master/README.md)
 
-### *How to 🔐Unlock* [[ ⚡️ Premium ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Subscription.md)
+#### *How to 🔐Unlock* [[ ⚡️ Premium ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Subscription.md)
 
-### *Learn About* [[ Terms & Conditions ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Terms_and_Conditions.md)
+#### *Learn About* [[ Terms & Conditions ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Terms_and_Conditions.md)
 
-### *Read About* [[ Privacy Policy ] ](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Privacy_Policy.md)
+#### *Read About* [[ Privacy Policy ] ](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Privacy_Policy.md)
 
-### *Join* [[ 🏆 EyeGa🎮ing ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/EyeGaming.md)
+#### *Join* [[ 🏆 EyeGa🎮ing ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/EyeGaming.md)
 
-### *Get to Know* [[ Who we are? ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User_/Who_are_we.md)
+#### *Get to Know* [[ Who we are? ]](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Who_are_we.md)
 
 
 
@@ -63,13 +63,13 @@ To download a **Movie,Real or any Video** from a Social media Platform, follow t
 visit the following links to learn how to downloads from these Social platforms:
 
 - [Tutorial Download from Youtube]()
-- 
+
 - [Tutorial Download from Facebook]()
-- 
+
 - [Tutorial Download from Instagram]()
-- 
+
 - [Tutorial Download from Twitter]()
-- 
+
 - [Tutorial Download from Tiktok]()
 
 ## 🧲 Extract and Download 🔊Audio/music from an Uploaded Video from Youtube
@@ -77,14 +77,14 @@ visit the following links to learn how to downloads from these Social platforms:
 To download a **Music or Audio** from Youtube, follow the steps below:
 
 1.  ✓Copy the video link from Youtube.
-2.  ✓Add the letter **"-a"** at the end of the link.eg;https://www.youtube.com/watch?v=**-a**
+2.  ✓Add the letter **" -a"** at the end of the link.eg;```https://www.youtube.com/watch?v -a```
 3.  ✓Paste the link in the bot.
 
 **Bot will automatically detect the link and download the audio for you.**
 
 visit the following links to learn how to downloads from Youtube:
 
-- [Download Music from Youtube]()
+- [Tutorial Download Music from Youtube]()
 
 
 ## 🔦 Fetch information from a Social Media Video Upload
@@ -92,7 +92,7 @@ visit the following links to learn how to downloads from Youtube:
 To extract information from a video uploaded on a social media platform, follow the steps below:
 
 1.  ✓Copy the video link from the social media platform.eg;Youtube,Facebook,Instagram etc.
-2.  ✓Add the letter **"-info" at the end of the link.eg;```https://www.youtube.com/watch?v=**-info**```
+2.  ✓Add the word **" -info"** at the end of the link.eg;```https://www.youtube.com/watch?v -info```
 3.  ✓Paste the link in the bot.
 
 **Bot will automatically detect the link and get all information for you.**

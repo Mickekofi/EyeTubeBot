@@ -120,10 +120,14 @@ EyeGaming is more than a referral program—it’s your chance to be part of an 
 
 ### Key Commands You’ll Need
 
-- **/refer** : Generate your referral link.
-- **/total_refer** : Track your referrals, subscribers, and earnings.
-- **/leaderboard** : View the weekly leaderboard to check your ranking.
-- **/claim_cash** : Earn your money
-- **/claim_subscription** : Earn a free 3 day subscription
+- ```/refer``` : Generate your referral link.
+ 
+- ```/total_refer``` : Track your referrals, subscribers, and earnings.
+ 
+- ```/leaderboard``` : View the weekly leaderboard to check your ranking.
+ 
+- ```/claim_cash``` : Earn your money
+
+- ```/claim_subscription``` : Earn a free 3 day subscription
 
 Start referring today and win with EyeGaming! The rewards are waiting for you. 😎

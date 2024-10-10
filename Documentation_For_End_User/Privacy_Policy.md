@@ -17,7 +17,7 @@
 
 ---
 
-# EyeTube Bot Privacy Policy
+# Privacy Policy
 
 At **EyeTubeBot**, we are committed to safeguarding the privacy of our users. This Privacy Policy outlines how we collect, use, and protect your personal information when you interact with the bot. Please read this policy carefully.
 
