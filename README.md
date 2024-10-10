@@ -209,7 +209,7 @@ We have several examples. Here is the first one to get you started:
 
 ## Read [👥 Documentation(For_End_User)](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/Documentation.md)
 
-## Read [👥 Documentation(For_Developer)]([https://github.com/Mickekofi/EyeTubeBot](https://github.com/Mickekofi/EyeTubeBot/blob/master/404.md))
+## Read [👥 Documentation(For_Developer)](https://github.com/Mickekofi/EyeTubeBot/blob/master/404.md)
 
 ## Read [👥 Who are we?](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Who_are_we.md)
 
