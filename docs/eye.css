@@ -1,0 +1,235 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    animation: slideInDown 1s ease-out;
+}
+
+header p {
+    font-size: 1.2rem;
+    animation: fadeInUp 1.5s ease-out;
+}
+
+header img {
+    width: 130px;
+    margin-top: 1rem;
+    animation: bounce 2s infinite;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    flex-wrap: wrap; /* Allows nav items to wrap on smaller screens */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* Button Styles */
+.btn-nav {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-nav:hover {
+    background-color: #e5533d;
+    transform: translateY(-3px);
+}
+
+/* Main Button */
+.btn-main {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #ff6347;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-main:hover {
+    background-color: #e5533d;
+}
+
+/* Features Layout */
+.features-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+    flex-wrap: wrap; /* Makes features wrap on smaller screens */
+}
+
+.features-left,
+.features-right {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 40%;
+}
+
+/* Center GIF */
+.gif-center {
+    width: 20%;
+    text-align: center;
+}
+
+.gif-center img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Feature Box Styles */
+.feature-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    width: 100%; /* Set width to 100% on mobile */
+}
+
+.feature-box:hover {
+    transform: scale(1.05);
+}
+
+.feature-box i {
+    font-size: 3rem;
+    color: #ff6347;
+    margin-bottom: 1rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1e1e2f;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ff6347;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Animations */
+@keyframes slideInDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+    
+    header p {
+        font-size: 1rem;
+    }
+
+    .features-left,
+    .features-right {
+        width: 100%; /* Make features full width on mobile */
+        gap: 1rem;
+    }
+
+    .gif-center {
+        width: 100%; /* Center the GIF on mobile */
+        margin: 2rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    .btn-nav,
+    .btn-main {
+        font-size: 0.9rem; /* Adjust button size for small screens */
+    }
+
+    .features-layout {
+        padding: 1rem;
+    }
+
+    .feature-box {
+        padding: 1.5rem; /* Adjust padding for smaller screens */
+    }
+}
