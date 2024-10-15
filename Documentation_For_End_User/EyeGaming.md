@@ -71,6 +71,18 @@ The more you refer, the more you earn!
 
 - **Leaderboard Rewards:** The top 3 users on the leaderboard every week automatically win a **1-day free subscription**.
 
+
+## claim_cash payment methods
+
+- Bitcoin
+
+- Skrill
+
+- MTN momo
+
+- Telecel Cash
+
+
 ---
 
 ## 🎮 Ready to Compete and Win?
