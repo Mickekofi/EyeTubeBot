@@ -1,4 +1,5 @@
 import telebot
+import types
 import yt_dlp
 import time
 import re
@@ -17,19 +18,23 @@ from EyeTube_Face import download_facebook_video
 import logging
 from EyeTube_Lin import download_linkedin_video
 
+import subprocess
+from telebot import TeleBot
+from update_checker import UpdateChecker
+
 logging.basicConfig(level=logging.INFO)
 
 
 
 print("Welcome to EyeTubeB👁t!.\n📌Note, this is just a basic core version of this program.\nTry Our more Matured automated Model with more automated features like all internet and social media links responce, Website legit detection, audio extraction etc..Try Today! 👉  https://t.me/EyeTubeAiBot \n\n")
 
-print("We could had made this a bit advanced and heavy but looking at cost and server resources, we decided to take alternatives and make it simple and light for you to use.\n\n")
+print("We could had made this a bit advanced and heavy but costs and server resources wont allow, we decided to take alternatives and make it simple and light for you to use.\n\n")
 # Prompt the user for the API token
 TOKEN = input("Please enter your Telegram API token 👉: ")
 
 # Check if the token was provided
 if not TOKEN:
-    print("Error: No API token provided. Exiting...")
+    print("❓You provided No API token.\n\n Shuting down/Exiting...")
     exit(1)
 
 try:
@@ -58,6 +63,43 @@ def retry_on_failure(func):
                 print(f"Error: {e}. Retrying in 5 seconds...")
                 time.sleep(20)
     return wrapper
+
+
+
+
+
+
+# Initialize the update checker with your GitHub repo URL
+update_checker = UpdateChecker("https://raw.githubusercontent.com/Mickekofi/EyeTubeBot")
+
+@bot.message_handler(commands=['check_update'])
+def check_updates(message):
+    """Check for updates and notify the user."""
+    latest_version = update_checker.get_latest_version()
+    local_version = update_checker.get_local_version()
+
+    if latest_version and local_version != latest_version:
+        bot.send_message(message.chat.id, f"A new version ({latest_version}) is available!")
+        bot.send_message(message.chat.id, "Please update your bot by running `git pull` in your bot's directory.")
+    else:
+        bot.send_message(message.chat.id, "Your bot is up to date.")
+
+@bot.message_handler(commands=['update'])
+def update_bot(message):
+    """Handle the bot update process."""
+    chat_id = message.chat.id
+    bot.send_message(chat_id, "Starting the update process...")
+    
+    try:
+        subprocess.run(["git", "pull"], check=True)
+        
+        #Remmeber to update the version number after pulling
+        update_checker.update_local_version("1.0.0")  # Update with the new version after pulling
+        
+        
+        bot.send_message(chat_id, "Bot updated successfully!")
+    except subprocess.CalledProcessError:
+        bot.send_message(chat_id, "Failed to update the bot.")
 
 
 #STEP 1
@@ -103,8 +145,8 @@ def send_welcome(message):
     markup = telebot.types.ReplyKeyboardMarkup(row_width=2)
     itembtn1 = telebot.types.KeyboardButton('/Help')
     itembtn2 = telebot.types.KeyboardButton('/About')
-    itembtn3 = telebot.types.KeyboardButton('/Engineer')
-    itembtn4 = telebot.types.KeyboardButton('/Donate')
+    itembtn3 = telebot.types.KeyboardButton('/')
+    itembtn4 = telebot.types.KeyboardButton('/')
     markup.add(itembtn1, itembtn2, itembtn3, itembtn4)
     bot.reply_to(message, "Welc👁me to eyeTube. Order your Link?", reply_markup=markup)
 
@@ -118,13 +160,6 @@ def send_about(message):
 
 It's a bot, self-employed as a delivery guy🏃‍♂️ collecting all files including; movies,videos and audios from all over the internet(Social Medias) and delivering it into your Computer.
 
-I present to you EyeTubeBot...
-
-Try Today
-t.me/EyeTubeAiBot 
-                    
-You can also use the following commands:\n\n/About - Learn more about EyeTube\n/Help - Get help on how to use EyeTube\n//Engineer - Contact the developers\n/Donate - Support EyeTube)
-
                       
             By ~_AI possibilities Start Up_
        
@@ -132,47 +167,18 @@ You can also use the following commands:\n\n/About - Learn more about EyeTube\n/
     
 
 @bot.message_handler(commands=['Help'])
-def send_help(message):
-    #How to use the bot
-    bot.send_animation(message.chat.id, open('help.gif', 'rb'),"🔑")
+def open_link_command(message):
+    # Create an inline keyboard
+    keyboard = types.InlineKeyboardMarkup()
+    button1 = types.InlineKeyboardButton(text="✅ Help", url="https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Documentation.md")
+    button2 = types.InlineKeyboardButton(text="❓ What Can EyeTubeBot Do", url="https://github.com/Mickekofi/EyeTubeBot/blob/master/README.md")
 
-    bot.reply_to(message, '''
-                 I accept links from these various sources in the meantime...🙏🏽
-
-1. YouTube
-2. LinkedIn
-3. Snapchat
-4. Facebook
-5. Instagram
-6. X(Twitter)
-7. others
-
-General
-Open the video or movie you want to download from the mentioned Social medias above 🖕🏻...
-
-✓ Tap on Share Button > Copy the link > Send it to me.
-
-
-VIDEO/MOVIE DOWNLOADING
-By Default Video Downloads are Set to HD Quality unless you apply the following commands "at the end of your link before send"
-
-✓ -h    =  This is for the highest Quality of the Video or Movie.
-
-✓ -l     = This is for the lowest Quality of the Video or Movie.
-
-AUDIO/MUSIC Only
-To Get the audio or Music only make sure you add -a at the end of the link before send.
-
-✓ -a    = It allows you to extract audio only...
-
-Note: Make sure you edit the name of the downloaded file by adding a " .mp3 " to it before it can open it as music.
-
-
-Other Issues
-You can also use the following commands:\n\n/About - Learn more about EyeTube\n/Help - Get help on how to use EyeTube\n/Engineer - Contact the developers\n/Donate - Support EyeTube)
-
-                 By ~_AI possibilities Start Up_
-                                   _9/2024_''')
+    keyboard.add(button1)
+    keyboard.add(button2)
+    
+    # Send a message with the inline keyboard
+    bot.send_message(message.chat.id, '''💁🏻 Explore How to Use EyeTubeB👁t core v1.0.0?\n
+                click any!''', reply_markup=keyboard)
 
                  
 #Engineer button should send the user the picture of the developer and picture of his home lab also with a link to his linkedin profile, github profile, whatsapp chat and email address and lastly a qoute from the developer
