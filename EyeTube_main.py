@@ -68,6 +68,8 @@ def retry_on_failure(func):
 
 
 
+import subprocess
+from update_checker import UpdateChecker
 
 # Initialize the update checker with your GitHub repo URL
 update_checker = UpdateChecker("https://raw.githubusercontent.com/Mickekofi/EyeTubeBot")
@@ -75,31 +77,45 @@ update_checker = UpdateChecker("https://raw.githubusercontent.com/Mickekofi/EyeT
 @bot.message_handler(commands=['check_update'])
 def check_updates(message):
     """Check for updates and notify the user."""
-    latest_version = update_checker.get_latest_version()
-    local_version = update_checker.get_local_version()
+    chat_id = message.chat.id
 
-    if latest_version and local_version != latest_version:
-        bot.send_message(message.chat.id, f"A new version ({latest_version}) is available!")
-        bot.send_message(message.chat.id, "Please update your bot by running `git pull` in your bot's directory.")
-    else:
-        bot.send_message(message.chat.id, "Your bot is up to date.")
+    try:
+        latest_version = update_checker.get_latest_version()
+        local_version = update_checker.get_local_version()
+
+        if latest_version is None:
+            bot.send_message(chat_id, "Failed to fetch the latest version. Please try again later.")
+        elif local_version != latest_version:
+            bot.send_message(chat_id, f"A new version ({latest_version}) is available!")
+            bot.send_message(chat_id, "Please update your bot by running `git pull` in your bot's directory.")
+        else:
+            bot.send_message(chat_id, "Your bot is up to date.")
+    except Exception as e:
+        bot.send_message(chat_id, f"An error occurred while checking for updates: {e}")
 
 @bot.message_handler(commands=['update'])
 def update_bot(message):
     """Handle the bot update process."""
     chat_id = message.chat.id
     bot.send_message(chat_id, "Starting the update process...")
-    
+
     try:
-        subprocess.run(["git", "pull"], check=True)
+        # Pull from the master branch
+        subprocess.run(["git", "pull", "origin", "master"], check=True)
         
-        #Remmeber to update the version number after pulling
-        update_checker.update_local_version("1.0.0")  # Update with the new version after pulling
+        # Fetch the latest version after a successful pull
+        latest_version = update_checker.get_latest_version()
         
-        
-        bot.send_message(chat_id, "Bot updated successfully!")
-    except subprocess.CalledProcessError:
-        bot.send_message(chat_id, "Failed to update the bot.")
+        if latest_version:
+            # Update the local version file
+            update_checker.update_local_version(latest_version)
+            bot.send_message(chat_id, "Bot updated successfully!")
+        else:
+            bot.send_message(chat_id, "Update completed, but failed to fetch the latest version. Please check manually.")
+    except subprocess.CalledProcessError as e:
+        bot.send_message(chat_id, f"Failed to update the bot: {e}")
+    except Exception as e:
+        bot.send_message(chat_id, f"An unexpected error occurred: {e}")
 
 
 #STEP 1
