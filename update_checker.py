@@ -4,7 +4,7 @@ import os
 class UpdateChecker:
     def __init__(self, repo_url, local_version_file="local_version.txt"):
         # Set the URL to the version.txt file on GitHub
-        self.repo_url = repo_url.rstrip("/") + "/main/version.txt"
+        self.repo_url = repo_url.rstrip("/") + "/master/version.txt"
         self.local_version_file = local_version_file
 
     def get_latest_version(self):
