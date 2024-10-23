@@ -345,7 +345,7 @@ TKAg7Sj4JpsAtjSc3kaXt6b14RWKvovzQS
 
 =<p align="center">
   <a href="https://github.com/Mickekofi/pictune">
-    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/pictune.jpg" alt="Logo" width="130">
+    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/pictune.png" alt="Logo" width="130">
   </a>
   <a href = "https://github.com/Mickekofi/pictune">
   <h1 align="center"><strong>PicTune Module</strong></h1>
