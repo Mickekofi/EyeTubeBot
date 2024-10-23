@@ -53,30 +53,24 @@ This is the basic **Core(beta)** version (1.0.1), purposed for only developers w
 
 1. Clone the repository:
 
-```git clone https://github.com/Mickekofi/EyeTubeBot.git
+```
+git clone https://github.com/Mickekofi/EyeTubeBot.git
     cd EyeTubeBot
     ```
 
 2. Install the required libraries:
 
-    ```bash
+    ```
     pip install -r requirements.txt
     ```
 
-3. Ensure the necessary imports are in place:
-    ```python
-    import logging
-    import time
-    import re
-    import telebot
-    from update_checker import UpdateChecker
-    ```
+
 
 ## Configuration
 
 1. Set up your bot with your Telegram API token:
 
-    ```python
+    ```
     TOKEN = input("Please enter your Telegram API token: ")
     bot = telebot.TeleBot(TOKEN)
     ```
@@ -90,7 +84,7 @@ Get your **Telegram Bot API Token** from [BotFather](https://t.me/BotFather)  Fr
 ## Usage
 
 1. **Starting the Bot**: Run the bot by executing the script:
-    ```bash
+    ```
     python EyeTube_main.py
     ```
 
@@ -126,9 +120,9 @@ EyeTubeBot includes built-in update handling. To check for updates:
 The bot also includes a button that directs users to the [Update Documentation](https://github.com/Mickekofi/EyeTubeBot/blob/master/update.md) to see what’s new in each release.
 
 
-## The Structure & Flow
+# The Structure & Flow
 
-After a Successful Inicialization of a Verified Telegram API, We Implement an Error Handler funtion which prevents the bot from crushing down and exiting due to an error and specifically a **Network Connection Failure**
+After a Successful Initialization of a Verified Telegram API, We Implement an Error Handler funtion which prevents the bot from crushing down and exiting due to an error and specifically a **Network Connection Failure**
 
 ```
 # Retry Error Handling

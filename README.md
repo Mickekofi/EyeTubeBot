@@ -114,7 +114,7 @@ I present to you;
 
 #### Tutorial
 
-  ![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/tutorials2.gif)
+  ![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/tutorials4.gif)
 
 <br>
     
