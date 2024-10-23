@@ -2,10 +2,9 @@
 
 
 
-
 =<p align="center">
   <a href="https://t.me/EyeTubeAiBot">
-    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/possibility_ai.jpg" alt="Logo" width="130">
+    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/possibility_ai.png" alt="Logo" width="130">
   </a>
   <a href = "https://t.me/EyeTubeAiBot">
   <h1 align="center"><strong>✨ Possibility AI</strong></h1>

@@ -1,6 +1,6 @@
 =<p align="center">
   <a href="https://t.me/EyeTubeAiBot">
-    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/logo.jpg" alt="Logo" width="130">
+    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/logo.png" alt="Logo" width="130">
   </a>
   <a href = "https://t.me/EyeTubeAiBot">
   <h1 align="center"><strong>EyeTubeBot Version(1.0.1)</strong></h1>
@@ -17,7 +17,7 @@
 
 ---
 
-**Welcome to EyeTubeBot**: a tool for downloading videos, movies, and extracting audio from multiple platforms. This is the **Core(beta)** version (1.0.1), designed for developers who want to automate the process of video and audio downloads from platforms such as YouTube, Instagram, Facebook, Twitter, LinkedIn, Snapchat, and Audiomack.
+This is the basic **Core(beta)** version (1.0.1), purposed for only developers who want to automate and further modify the process of video and audio downloads from platforms such as YouTube, Instagram, Facebook, Twitter, LinkedIn, Snapchat, and Audiomack.
 
 ## Highlights
 
@@ -34,10 +34,7 @@
 
 ## Features
 
-- Download videos from YouTube, Instagram, Facebook, Twitter, LinkedIn, Snapchat.
-- Extract audio from supported platforms (YouTube, Instagram, Twitter, Facebook, LinkedIn, Snapchat, Audiomack).
-- Automate the update process of your bot.
-- Basic error handling and retry mechanism.
+- Basic Link automation mechanism only.
 
 ## Requirements
 
@@ -49,19 +46,19 @@
   - `logging`
   - `subprocess`
   - `update_checker`
+
 - An active **Telegram Bot API Token** from [BotFather](https://t.me/BotFather).
 
 ## Installation
 
 1. Clone the repository:
 
-```bash
-
-    git clone https://github.com/Mickekofi/EyeTubeBot.git
+```git clone https://github.com/Mickekofi/EyeTubeBot.git
     cd EyeTubeBot
     ```
 
 2. Install the required libraries:
+
     ```bash
     pip install -r requirements.txt
     ```
