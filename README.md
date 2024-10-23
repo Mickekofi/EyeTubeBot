@@ -1,13 +1,13 @@
 =<p align="center">
   <a href="https://t.me/EyeTubeAiBot">
-    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/logo.png" alt="Logo" width="130">
+    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/logo.jpg" alt="Logo" width="130">
   </a>
   <a href = "https://t.me/EyeTubeAiBot">
   <h1 align="center"><strong>EyeTubeB👁T</strong></h1>
   </a>
   <p align="center">
-    <a href="http://www.gnu.org/licenses/agpl-3.0">
-      <img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPL License">
+    <a href="https://t.me/possibilityAI">
+      <img src="https://img.shields.io/badge/Join-Community-blue.svg" alt="AGPL License">
     </a>
     <a href="https://wa.me/233505994829?text=*EyeTubeB👁t_From_Github_User_💬Message_:*%20">
       <img src="https://img.shields.io/badge/Contact-Engineers-red.svg" alt="Build Status">
@@ -22,7 +22,7 @@
 
 🌟 As part of contributing to the Societal Evolution into a new Era full of 🚀 technological advancements, the emergence of  Automation in AI has led us to discover innovative ways to solve and change human repetitive processes into a more productive living. 
 
-It's a bot, self-employed as a delivery guy 🏃‍♂️, inspecting,analyzing Website Legitmacy and collecting data and all files including 🎬 movies, 🎥 videos, 🎵 audios and more... from all over the internet 🌐 (Social Media) and delivering them to your Computer.
+It's a bot, trained to Process 📎links from all over the internet 🌐 (Social Media) plus(➕) a Graphic Image Processing Capability and able to transform your images into Enhance products within seconds.
 
 I present to you;
 
@@ -30,7 +30,7 @@ I present to you;
 
 # ✅ EyeTubeBot
 
- ```EyeTubeBot is an innovative Telegram AI bot built with an Interactive User Interface which features Advanced automated Internet Capabilities.```
+ ```EyeTubeBot is an Telegram AI Bot built with an Interactive User Interface which features automated Internet and Image Processing Capabilities.```
 
 [![Try EyeTubeB👁T Today!](https://img.shields.io/badge/Open%20-EyeTubeB👁T-red)](https://t.me/EyeTubeAiBot)
 
@@ -38,14 +38,16 @@ I present to you;
 
 ## [ What Can this Bot do ? ]
 
+### Job 1: Link Processing
+
 <ol>
-    <li><strong>⬇️ Download 📽️ Movies / 🎬Videos with the 💯 Highest Quality from Social Media including:</strong>
+    <li><strong> Download 📽️ Movies / 🎬Videos with the 💯 Highest Quality from Social Media including:</strong>
         <ul>
             <li>✓ [ Facebook ]</li>
-            <li>✓ [ YouTube ]</li>
+            <li>✓ [ Twitter (X) ]</li>
             <li>✓ [ Instagram ]</li>
             <li>✓ [ Snapchat ]</li>
-            <li>✓ [ Twitter (X) ] [& more]</li>
+            <li>✓ [ Youtube ] [& more]</li>
         </ul>
     </li>
     <br>
@@ -83,6 +85,40 @@ I present to you;
     </li>
 </ol>
 <br>
+
+#### Tutorial
+
+![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/tutorials.gif)
+
+
+### Job 2: Image Processing
+
+<ol>
+    <li><strong> Perform Major Image Enhancement Tasks like;</strong>
+        <ul>
+            <li>✓ [ 🟥 Red Background ]</li>
+            <li>✓ [ 🟨 Yellow Background ]</li>
+            <li>✓ [ 🟩 Green Background ]</li>
+            <li>✓ [ ⬛️ Black Background ]</li>
+            <li>✓ [ ⬜️ White Background ] [& more]</li>
+            <br>
+            <li>✓ [ ✏️ 2D Anime Sketch]</li>
+            <li>✓ [ 🐦 3d Egyptian Art ]</li>
+            <li>✓ [ 🩻 Grayscale Artistic]</li>
+            <li>✓ [ ✂️ Resize ]</li>
+            <li>✓ [ 🛠 Extract Text from Image ]</li>
+            <li>✓ [ ✨ Retouch Enhance]</li>
+        </ul>
+    </li>
+
+
+#### Tutorial
+
+  ![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/tutorials2.gif)
+
+<br>
+    
+<br>
 <br>
 <h2>Who is EyeTubeBot For?</h2>
 <br>
@@ -94,6 +130,7 @@ I present to you;
 <br>
 <h4>2. Social Media Enthusiasts</h3>
 <ul>
+  <li>✓ Quickly resize or retouch images for thumbnails, banners, or social media posts.</li>
   <li>✓ Individuals who spend a lot of time on social platforms like YouTube, Instagram, and Facebook, and want to download and share videos with their friends or followers.</li>
 </ul>
 <br>
@@ -162,9 +199,6 @@ This section is for end-users who want to install and use the fully featured com
 
 [![Start Here](https://img.shields.io/badge/Launch%20%21-EyeTubeB👁T-red)](https://t.me/EyeTubeAiBot)
 
-### Tutorial
-
-![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/tutorials.gif)
 
 ## 🛠️ Installation and Setup (For_Developers)
 
@@ -210,7 +244,7 @@ We have several examples. Here is the first one to get you started:
 
 ## Read [👥 Documentation(For_End_User)](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/Documentation.md)
 
-## Read [👥 Documentation(For_Developer)](https://github.com/Mickekofi/EyeTubeBot/blob/master/404.md)
+## Read [👥 Documentation(For_Developer)](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_Dev/Documentation_for_dev.md)
 
 ## Read [👥 Who are we?](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Who_are_we.md)
 
@@ -298,12 +332,31 @@ or
 
 ### in our USDT cryto Wallet ID : 👇
 
- ```
-TT8XTX5EQPSGwmgYrqtU5yEH8sF73Nix9P
-```  
+TETHER US(USDT)
+
+```
+
+TKAg7Sj4JpsAtjSc3kaXt6b14RWKvovzQS
+```
+
+**Network: TRON (TRC-20)**
 
 ## Related
 
-Wait for the Next Project...
+=<p align="center">
+  <a href="https://github.com/Mickekofi/pictune">
+    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/pictune.jpg" alt="Logo" width="130">
+  </a>
+  <a href = "https://github.com/Mickekofi/pictune">
+  <h1 align="center"><strong>PicTune Module</strong></h1>
+  </a>
+</p>
 
-"Keep Moving Forward"
+---
+
+
+*pictune is a python module which is built on top of **pillow library** which aids to provide easy and quick code patterns targeting digital image enhancement manupulation*
+
+## Visit [PicTune](https://github.com/Mickekofi/pictune)
+
+

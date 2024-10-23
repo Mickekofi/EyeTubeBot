@@ -1,13 +1,13 @@
 =<p align="center">
   <a href="https://t.me/EyeTubeAiBot">
-    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/logo.png" alt="Logo" width="130">
+    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/logo.jpg" alt="Logo" width="130">
   </a>
   <a href = "https://t.me/EyeTubeAiBot">
-  <h1 align="center"><strong>EyeTubeB👁T</strong></h1>
+  <h1 align="center"><strong>EyeTubeBot Version(3.0.0)</strong></h1>
   </a>
   <p align="center">
-    <a href="http://www.gnu.org/licenses/agpl-3.0">
-      <img src="https://img.shields.io/badge/license-AGPL-blue.svg" alt="AGPL License">
+    <a href="https://t.me/possibilityAI">
+      <img src="https://img.shields.io/badge/Join-Community-blue.svg" alt="AGPL License">
     </a>
     <a href="https://wa.me/233505994829?text=*EyeTubeB👁t_From_Github_User_💬Message_:*%20">
       <img src="https://img.shields.io/badge/Contact-Engineers-red.svg" alt="Build Status">
@@ -16,7 +16,6 @@
 </p>
 
 ---
-
 
 # Documentation
 
@@ -51,6 +50,19 @@ The Menu Tab consists of all available commands used in the bot. These Commands 
 
 ![Menu Tab](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/show_menu.jpg)
 
+
+
+## Image Processing 
+
+To Process and automate an Image
+
+
+1.  ✓Paste the Image in the chat
+2.  ✓Choose a processing button
+
+![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/tutorials2.gif)
+
+
 ## ⬇️ Download 📽️ Movies / 🎬Reals from a Social Media Platform
 
 To download a **Movie,Real or any Video** from a Social media Platform, follow the steps below:*
@@ -62,7 +74,7 @@ To download a **Movie,Real or any Video** from a Social media Platform, follow t
 
 visit the following links to learn how to downloads from these Social platforms:
 
-- [Tutorial Download from Youtube]()
+![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/tutorials.gif)
 
 - [Tutorial Download from Facebook]()
 
@@ -70,7 +82,11 @@ visit the following links to learn how to downloads from these Social platforms:
 
 - [Tutorial Download from Twitter]()
 
-- [Tutorial Download from Tiktok]()
+- [Tutorial Download from Snapchat]()
+
+
+
+
 
 ## 🧲 Extract and Download 🔊Audio/music from an Uploaded Video from Youtube
 
@@ -83,6 +99,8 @@ To download a **Music or Audio** from Youtube, follow the steps below:
 **Bot will automatically detect the link and download the audio for you.**
 
 visit the following links to learn how to downloads from Youtube:
+
+![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/tutorials3.gif)
 
 - [Tutorial Download Music from Youtube]()
 

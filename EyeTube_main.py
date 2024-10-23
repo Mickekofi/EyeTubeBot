@@ -1,36 +1,43 @@
-import telebot
-import types
-import yt_dlp
+import logging
 import time
 import re
+from collections import Counter
+from collections import defaultdict
+import os
+import telebot
+from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
+from telebot import types
+
 from EyeTube_you_a import extract_youtube_audio_link
-from EyeTube_you import download_youtube_video
 from EyeTube_Ig_a import extract_instagram_audio_link
 from EyeTube_Face_a import extract_facebook_audio_link
 from EyeTube_X_a import extract_twitter_audio_link
 from EyeTube_Lin_a import extract_linkedin_audio_link
 from EyeTube_Snap_a import extract_snapchat_audio_link
 from EyeTube_am import extract_audiomack_audio_link
+from EyeTube_you import download_youtube_video
 from EyeTube_Ig import download_instagram_content
 from EyeTube_X import download_twitter_video
 from EyeTube_Snap import download_snapchat_video
 from EyeTube_Face import download_facebook_video
-import logging
 from EyeTube_Lin import download_linkedin_video
 
 import subprocess
-from telebot import TeleBot
 from update_checker import UpdateChecker
 
 logging.basicConfig(level=logging.INFO)
 
 
 
-print("Welcome to EyeTubeB👁t!.\n📌Note, this is just a basic core version of this program.\nTry Our more Matured automated Model with more automated features like all internet and social media links responce, Website legit detection, audio extraction etc..Try Today! 👉  https://t.me/EyeTubeAiBot \n\n")
+print("Welcome to EyeTubeBot For Git Developers!.\n📌 Note, this is just a basic Core(beta) Version(1.0.1) of this program.\nYou have only the Capability to automate the internet downloading videos,movies and etracting audios\n\nCheck for updates in the bot chat using the command `/update` which keeps you updated on the current upload work.\n We shall implement the full development here if we reach our target funds from the public... for the mean time \nTry Our more Matured automated Model(Version 3.0.0) with more automated features like Image Processing Features like Removing Background, Cartoon making,retouching image plus all internet and social media links responce, Website legit detection, audio extraction etc..Try Today!    https://t.me/EyeTubeAiBot \n\n")
 
-print("We could had made this a bit advanced and heavy but costs and server resources wont allow, we decided to take alternatives and make it simple and light for you to use.\n\n")
-# Prompt the user for the API token
-TOKEN = input("Please enter your Telegram API token 👉: ")
+
+
+print("Lets start EyeTubeB👁t Core(beta) Version...\n")
+
+admin = input("Please enter your name 👉 : ")
+
+TOKEN = input("\nPlease enter your Telegram API token 👉 : ")
 
 # Check if the token was provided
 if not TOKEN:
@@ -67,11 +74,8 @@ def retry_on_failure(func):
 
 
 
-
-import subprocess
-from update_checker import UpdateChecker
-
-# Initialize the update checker with your GitHub repo URL
+# UPDATE METHODS
+#==============================================================================
 update_checker = UpdateChecker("https://raw.githubusercontent.com/Mickekofi/EyeTubeBot")
 
 @bot.message_handler(commands=['check_update'])
@@ -86,12 +90,13 @@ def check_updates(message):
         if latest_version is None:
             bot.send_message(chat_id, "Failed to fetch the latest version. Please try again later.")
         elif local_version != latest_version:
-            bot.send_message(chat_id, f"A new version ({latest_version}) is available!")
-            bot.send_message(chat_id, "Please update your bot by running `git pull` in your bot's directory.")
+            bot.send_message(chat_id, f"📌 A new version ({latest_version}) is available!")
+            bot.send_message(chat_id, "⬆️ Please update your bot by typing /update.")
         else:
-            bot.send_message(chat_id, "Your bot is up to date.")
+            bot.send_message(chat_id, "✅ Your bot is up to date.")
     except Exception as e:
         bot.send_message(chat_id, f"An error occurred while checking for updates: {e}")
+
 
 @bot.message_handler(commands=['update'])
 def update_bot(message):
@@ -100,16 +105,18 @@ def update_bot(message):
     bot.send_message(chat_id, "Starting the update process...")
 
     try:
-        # Pull from the master branch
         subprocess.run(["git", "pull", "origin", "master"], check=True)
         
-        # Fetch the latest version after a successful pull
         latest_version = update_checker.get_latest_version()
         
         if latest_version:
-            # Update the local version file
             update_checker.update_local_version(latest_version)
-            bot.send_message(chat_id, "Bot updated successfully!")
+            
+            markup = InlineKeyboardMarkup()
+            update_button = InlineKeyboardButton("🎁 Check What is Newly Packed for you", url="https://github.com/Mickekofi/EyeTubeBot/blob/master/update.md")
+            markup.add(update_button)
+            
+            bot.send_message(chat_id, f"✅ Bot updated successfully! Version: {latest_version}", reply_markup=markup)
         else:
             bot.send_message(chat_id, "Update completed, but failed to fetch the latest version. Please check manually.")
     except subprocess.CalledProcessError as e:
@@ -151,9 +158,10 @@ def is_valid_snapchat_url(url):
     snapchat_regex = re.compile(r'(https?://)?(www\.)?(snapchat\.com/t/.+|snapchat\.com/add/.+|snapchat\.com/discover/.+|snapchat\.com/spotlight/.+)')
     return bool(snapchat_regex.match(url))
 
+
+
+# WELCOME START
 #==============================================================================
-
-
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
     
@@ -161,58 +169,48 @@ def send_welcome(message):
     markup = telebot.types.ReplyKeyboardMarkup(row_width=2)
     itembtn1 = telebot.types.KeyboardButton('/Help')
     itembtn2 = telebot.types.KeyboardButton('/About')
-    itembtn3 = telebot.types.KeyboardButton('/')
-    itembtn4 = telebot.types.KeyboardButton('/')
+    itembtn3 = telebot.types.KeyboardButton('/check_update')
+    itembtn4 = telebot.types.KeyboardButton('/update')
     markup.add(itembtn1, itembtn2, itembtn3, itembtn4)
-    bot.reply_to(message, "Welc👁me to eyeTube. Order your Link?", reply_markup=markup)
 
-#=============================================================================================
+    bot.reply_to(message, f"🕹 {bot_info.username} is Operated by {admin} as the Developer.\n\n Paste your Social Media Video Link here?", reply_markup=markup)
+
+#============================================================================================
 #About
 @bot.message_handler(commands=['About'])
-def send_about(message):
-    bot.send_photo(message.chat.id, open('logo.jpg', 'rb'),"Introducing ...")
-    bot.reply_to(message, '''👁️EyeTubeBot 
-▪️As part to contribute to the Societal Evolution into the new Era  full of Technology advancements, the emergence of  Automation in AI has lead us discover innovative ways to solve and change human  repeated processes to a more productive living.
+def open_about_command(message):
+    # Create an inline keyboard
+    keyboard = types.InlineKeyboardMarkup()
 
-It's a bot, self-employed as a delivery guy🏃‍♂️ collecting all files including; movies,videos and audios from all over the internet(Social Medias) and delivering it into your Computer.
-
-                      
-            By ~_AI possibilities Start Up_
-       
-              _9/2024_''')
+    # Create 4 buttons with different links
+    button1 = types.InlineKeyboardButton(text="Learn about EyeTubeB👁t Core(beta) For Developers", url="https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_Dev/Documentation.md")
+    button4 = types.InlineKeyboardButton(text="👥 Who are We", url="https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User_/Who_are_we.md")
+    button5 = types.InlineKeyboardButton(text="What is in for this Update", url="https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_Dev/update.md")
     
+    keyboard.add(button1)
+    keyboard.add(button4)  # Adding the other two buttons side by side
+    keyboard.add(button5)
+    # Send the message with the inline keyboard
+    bot.send_message(message.chat.id, "About Info", reply_markup=keyboard)
 
 @bot.message_handler(commands=['Help'])
 def open_link_command(message):
     # Create an inline keyboard
     keyboard = types.InlineKeyboardMarkup()
-    button1 = types.InlineKeyboardButton(text="✅ Help", url="https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Documentation.md")
-    button2 = types.InlineKeyboardButton(text="❓ What Can EyeTubeBot Do", url="https://github.com/Mickekofi/EyeTubeBot/blob/master/README.md")
+    button1 = types.InlineKeyboardButton(text="✅ Help", url="https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_Dev/Documentation.md")
+    button2 = types.InlineKeyboardButton(text="❓ What Can EyeTubeBot Do", url="https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_Dev/update.md")
 
     keyboard.add(button1)
     keyboard.add(button2)
     
     # Send a message with the inline keyboard
-    bot.send_message(message.chat.id, '''💁🏻 Explore How to Use EyeTubeB👁t core v1.0.0?\n
+    bot.send_message(message.chat.id, '''💁🏻 Explore How to Use EyeTubeB👁t Core(beta)?\n
                 click any!''', reply_markup=keyboard)
 
-                 
-#Engineer button should send the user the picture of the developer and picture of his home lab also with a link to his linkedin profile, github profile, whatsapp chat and email address and lastly a qoute from the developer
-@bot.message_handler(commands=['Engineer'])
-def send_engineer(message):
-    bot.reply_to(message, '''@mickekofi
-I am an Aspired Artificial Intelligence Engineer in the field of  Systems Automation and Development.
 
-I focus in engineering softwares and systems under the subjects of Data Science and AI in Automation with Python and C++.
 
-Find
-✓ LinkedIn : https://www.linkedin.com/in/michael-appiah-9b6919255
 
-✓ GitHub   : https://github.com/Mickekofi
 
-✓ Whatsapp : https://wa.me/233597326320
-
-✓ Mail     : mickekofi6@gmail.com''')
 
 
 
@@ -241,6 +239,15 @@ def handle_message(message):
         #open the start command automatically withot the user typing it or clicking on the start button
         send_welcome(message)
     
+
+
+
+
+
+
+
+
+
 
 
 #STAGE 4b
@@ -280,6 +287,7 @@ def handle_youtube_url(message, url):
 
 
 def handle_instagram_url(message, url):
+
     if ' -a' in url:
         bot.reply_to(message, "Generating audio download link...")
         send_instagram_audio(message, url.replace(' -a', '').strip())
@@ -403,9 +411,16 @@ def send_snapchat_audio(message, url):
     if audio_url:
         bot.reply_to(message, f"Here is your Snapchat download link: {audio_url}\n\n.")
 
+
+
+
+
+
+
+
 #==============================================================================
 @retry_on_failure
 def bot_polling():
-    bot.polling()
+    bot.polling(none_stop=True, timeout=60)
 
 bot_polling()
