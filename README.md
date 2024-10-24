@@ -114,55 +114,43 @@ I present to you;
 
 #### Tutorial
 
-  ![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/tutorials4.gif)
+  ![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/tutorials4.gif)
 
-<br>
+
     
-<br>
-<br>
-<h2>Who is EyeTubeBot For?</h2>
-<br>
-<h4>1. Content Consumers</h3>
-<ul>
-  <li>✓ People who frequently watch videos online and want to download them for offline viewing or personal use.</li>
-  <li>✓ Users who want to save content for future reference, education, entertainment, or sharing.</li>
-</ul>
-<br>
-<h4>2. Social Media Enthusiasts</h3>
-<ul>
-  <li>✓ Quickly resize or retouch images for thumbnails, banners, or social media posts.</li>
-  <li>✓ Individuals who spend a lot of time on social platforms like YouTube, Instagram, and Facebook, and want to download and share videos with their friends or followers.</li>
-</ul>
-<br>
-<h4>3. Creators and Marketers</h3>
-<ul>
-  <li>✓ Social media content creators and digital marketers who need to download videos for reference, editing, or reposting.</li>
-  <li>✓ Users who may want to study competitors' content or use certain clips as inspiration for their own videos.</li>
-</ul>
-<br>
-<h4>4. Students and Educators</h3>
-<ul>
-  <li>✓ Students who want to download educational videos, tutorials, or lectures for offline use.</li>
-  <li>✓ Educators who want to save educational content for teaching purposes or offline use in classrooms.</li>
-</ul>
-<br>
-<h4>5. Travelers and Individuals with Limited Internet Access</h3>
-<ul>
-  <li>✓ People with limited or inconsistent internet access who want to download videos in advance for offline viewing.</li>
-  <li>✓ Frequent travelers looking for entertainment or information during commutes or flights without needing a connection.</li>
-</ul>
-<br>
-<h4>6. Referral and Reward Enthusiasts</h3>
-<ul>
-  <li>✓ Users interested in our <strong><a href="https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/EyeGaming">EyeGa🎮ing 🏆</a></strong> who love to participate in referral programs to earn rewards like cash, free subscriptions, and recognition on leaderboards.</li>
-</ul>
-<br>
-<h4>7. Tech-Savvy Users</h3>
-<ul>
-  <li>✓ People who appreciate the convenience and automation of tools like Telegram bots to handle tasks, such as video downloading, quickly and efficiently.</li>
-</ul>
-</ul>
-<br>
+## Who is EyeTubeBot For?
+
+### 1. Content Consumers
+- ✓ People who frequently watch videos online and want an easy way to download them for offline viewing or personal use.
+- ✓ Users who like to save content for future reference, education, entertainment, or sharing with friends and family.
+- ✓ Anyone looking to enhance downloaded videos with retouched thumbnails or resized images.
+
+### 2. Social Media Enthusiasts
+- ✓ Individuals who need quick, hassle-free resizing or retouching of images for thumbnails, banners, or social media posts.
+- ✓ Social media users who frequent platforms like YouTube, Instagram, and Facebook and want to easily download and share videos with their audience.
+- ✓ Those who want to convert images into fun sketches or remove backgrounds for creative social media content.
+
+### 3. Creators and Marketers
+- ✓ Social media content creators and digital marketers who need to download videos for reference, editing, or reposting on their channels.
+- ✓ Users looking to study competitors' content, edit media files, or use specific clips for their own content creation.
+- ✓ Creators who need to refine or retouch promotional images to enhance visual appeal for marketing campaigns.
+
+### 4. Students and Educators
+- ✓ Students who want to download educational videos, tutorials, or lectures for offline use and study.
+- ✓ Educators who need to save video content or enhance visual materials for teaching and presentations.
+- ✓ Users looking to extract text from images, making it easier to pull relevant information from educational screenshots or scanned documents.
+
+### 5. Travelers and Individuals with Limited Internet Access
+- ✓ People with limited or inconsistent internet access who want to download videos in advance for offline viewing.
+- ✓ Frequent travelers looking for entertainment or educational content during commutes or flights, without needing a connection.
+- ✓ Travelers who want to retouch images and share visually enhanced content on the go.
+
+### 6. Referral and Reward Enthusiasts
+- ✓ Users interested in our [**EyeGa🎮ing 🏆**](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/EyeGaming) program, who love participating in referral programs to earn rewards like cash, free subscriptions, and leaderboard recognition.
+
+### 7. Tech-Savvy Users
+- ✓ People who appreciate the convenience and automation of tools like Telegram bots to handle tasks, such as video downloading, quickly and efficiently.
+- ✓ Users who enjoy applying advanced image processing techniques—like background removal, sketch conversion, and retouching—to their images.
 
 # [ Installation ]
 
@@ -239,6 +227,7 @@ We have several examples. Here is the first one to get you started:
 
 
 Set up your bot with your Telegram API token:
+
     ```python
     TOKEN = input("Please enter your Telegram API token: ")
     bot = telebot.TeleBot(TOKEN)

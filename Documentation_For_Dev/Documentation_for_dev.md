@@ -29,6 +29,7 @@ This is the basic **Core (beta)** version (1.0.1), designed for developers who w
 - [Update Handling](#update-handling)
 - [The Structure \& Flow](#the-structure--flow)
   - [Major Library / Module Imports](#major-library--module-imports)
+  - [Error Handling Stage](#error-handling-stage)
   - [Step 1: URL Validation](#step-1-url-validation)
   - [Step 2: Handling User Messages](#step-2-handling-user-messages)
   - [Step 3: Handling Specific Platform Links](#step-3-handling-specific-platform-links)
@@ -136,8 +137,10 @@ Below are the major import in the program
   import subprocess
   from update_checker import UpdateChecker
 
-    ```
+```
+
 1. import yt_dlp
+
 - The yt_dlp Library is an Advanced Library for Internet automated processes
 
 2. import logging
