@@ -355,7 +355,7 @@ If you find any bugs or have suggestions for improvements, feel free to [open an
 
 *pictunebot is a Telegram Image Processing Manupulation Bot for both End_Users and Developers* 
 
-#### Visit [PicTuneBot](https://github.com/Mickekofi/pictune) Repository
+#### Visit [picTuneBot](https://github.com/Mickekofi/picTuneBot/tree/master) Repository
 
 
 ## 🔗 Links
