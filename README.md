@@ -30,7 +30,7 @@ I present to you;
 
 # ✅ EyeTubeBot
 
- ```EyeTubeBot is an Telegram AI Bot built with an Interactive User Interface which features automated Internet and Image Processing Capabilities.```
+ ```EyeTubeBot is a Telegram AI Bot built with an Interactive User Interface which features automated Internet and Image Processing Capabilities.```
 
 [![Try EyeTubeB👁T Today!](https://img.shields.io/badge/Open%20-EyeTubeB👁T-red)](https://t.me/EyeTubeAiBot)
 
@@ -88,7 +88,7 @@ I present to you;
 
 #### Tutorial
 
-![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/tutorials.gif)
+![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/tutorials.gif)
 
 
 ### Job 2: Image Processing
@@ -228,10 +228,11 @@ We have several examples. Here is the first one to get you started:
 
 Set up your bot with your Telegram API token:
 
-    ```python
-    TOKEN = input("Please enter your Telegram API token: ")
-    bot = telebot.TeleBot(TOKEN)
-    ```
+```python
+TOKEN = input("Please enter your Telegram API token: ")
+bot = telebot.TeleBot(TOKEN)
+```
+
 Get your **Telegram Bot API Token** from [BotFather](https://t.me/BotFather).
 
 
@@ -362,9 +363,9 @@ If you find any bugs or have suggestions for improvements, feel free to [open an
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michael-appiah-9b6919255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/)
 
-## 🌟 Support
+## 🌱 Support
 
-### You can decide to buy or push to us a cup of ☕️ coffee in our skrill account at : 👇
+#### You can decide to buy or push to us a cup of ☕️ coffee in our skrill account at : 👇
 
  ```
  michaelappiah6910
@@ -372,7 +373,7 @@ If you find any bugs or have suggestions for improvements, feel free to [open an
 
 or
 
-### in our USDT cryto Wallet ID : 👇
+#### in our USDT cryto Wallet ID : 👇
 
 TETHER US(USDT)
 
