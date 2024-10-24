@@ -3,7 +3,6 @@ import time
 import re
 from collections import Counter
 from collections import defaultdict
-import os
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from telebot import types
@@ -29,11 +28,11 @@ logging.basicConfig(level=logging.INFO)
 
 
 
-print("Welcome to EyeTubeBot For Git Developers!.\n📌 Note, this is just a basic Core(beta) Version(1.0.1) of this program.\nYou have only the Capability to automate the internet downloading videos,movies and etracting audios\n\nCheck for updates in the bot chat using the command `/update` which keeps you updated on the current upload work.\n We shall implement the full development here if we reach our target funds from the public... for the mean time \nTry Our more Matured automated Model(Version 3.0.0) with more automated features like Image Processing Features like Removing Background, Cartoon making,retouching image plus all internet and social media links responce, Website legit detection, audio extraction etc..Try Today!    https://t.me/EyeTubeAiBot \n\n")
+print("Welcome to EyeTubeBot For Git Developers!.\n📌 Note, this is Version(1.0.1) of this program.\nWhich gives you Capability to automate the internet downloading videos,movies and extracting audios\n\nCheck for updates in the bot chat using the command `/update` which keeps you updated on the current upload work.\n\n We shall implement the full (Version 3.0) development here if we reach our target financial support funds from the Public... for the mean time \nTry Our more Matured automated Model(Version 3.0.0) with more automated features like Image Processing Features like Removing Background, Cartoon making,retouching image plus all internet and social media links responce, Website legit detection, audio extraction etc..Try Today!    https://t.me/EyeTubeAiBot \n\n")
 
 
 
-print("Lets start EyeTubeB👁t Core(beta) Version...\n")
+print("Lets start EyeTubeBot Version(101)...\n")
 
 admin = input("Please enter your name 👉 : ")
 
@@ -183,7 +182,7 @@ def open_about_command(message):
     keyboard = types.InlineKeyboardMarkup()
 
     # Create 4 buttons with different links
-    button1 = types.InlineKeyboardButton(text="Learn about EyeTubeB👁t Core(beta) For Developers", url="https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_Dev/Documentation.md")
+    button1 = types.InlineKeyboardButton(text="Learn about EyeTubeBot Version(101)", url="https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_Dev/Documentation.md")
     button4 = types.InlineKeyboardButton(text="👥 Who are We", url="https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User_/Who_are_we.md")
     button5 = types.InlineKeyboardButton(text="What is in for this Update", url="https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_Dev/update.md")
     

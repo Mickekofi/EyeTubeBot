@@ -166,10 +166,6 @@ I present to you;
 
 # [ Installation ]
 
-Whether you're here to install the fully built commercial version or explore the core features as a developer, this guide will walk you through the process.
-
-```EyeTubeBot``` is designed to cater to various needs:
-
 ```For End_Users: It offers a seamless and user-friendly experience with advanced Automated features and commercial-grade functionalities.```
 
 ```For Developers: The open-source core version is ideal for experimentation, customization, and further development.```
@@ -199,6 +195,7 @@ This section is for end-users who want to install and use the fully featured com
 
 [![Start Here](https://img.shields.io/badge/Launch%20%21-EyeTubeB👁T-red)](https://t.me/EyeTubeAiBot)
 
+![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/tutorials5.gif)
 
 ## 🛠️ Installation and Setup (For_Developers)
 
@@ -239,6 +236,15 @@ python3 EyeTube_main.py
 We have several examples. Here is the first one to get you started:
 
 ![Example](https://github.com/Mickekofi/EyeTubeBot/blob/master/example1.png)
+
+
+Set up your bot with your Telegram API token:
+    ```python
+    TOKEN = input("Please enter your Telegram API token: ")
+    bot = telebot.TeleBot(TOKEN)
+    ```
+Get your **Telegram Bot API Token** from [BotFather](https://t.me/BotFather).
+
 
 # 📝 Documentation
 
@@ -309,10 +315,57 @@ If you find any bugs or have suggestions for improvements, feel free to [open an
 
 ## API References
 
-1. ```pytelegram library ```
+1. ```YLT library```
 
-2. ```YLT library```
+2. ```pytelegram library ```
 
+
+
+
+## 👏 Acknowledgement
+
+- **🥇 [yt-dlp library](https://github.com/yt-dlp/yt-dlp)** : This is the Blueprint for all video and audio automating processing activities and this bot was based on the trained algorithms of this library.
+
+
+- **🥈 [pytelegram library](https://github.com/eternnoir/pyTelegramBotAPI)** : Totaly All User interactive activities Ccoe from this Library.
+   
+ 
+
+## Related New Projects
+
+=<p align="center">
+  <a href="https://github.com/Mickekofi/pictune">
+    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/pictune.png" alt="Logo" width="130">
+  </a>
+  <a href = "https://github.com/Mickekofi/pictune">
+  <h1 align="center"><strong>picTune Module</strong></h1>
+  </a>
+</p>
+
+---
+
+
+*pictune is a python module which is built on top of **pillow library** which aids to provide easy and quick code patterns targeting digital image enhancement manupulation*
+
+#### Visit [picTune](https://github.com/Mickekofi/pictune) Repository
+
+
+
+=<p align="center">
+  <a href="https://github.com/Mickekofi/pictune">
+    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/pictunebot.png" alt="Logo" width="130">
+  </a>
+  <a href = "https://github.com/Mickekofi/pictunebot">
+  <h1 align="center"><strong>picTune bot</strong></h1>
+  </a>
+</p>
+
+---
+
+
+*pictunebot is a Telegram Image Processing Manupulation Bot for both End_Users and Developers* 
+
+#### Visit [PicTuneBot](https://github.com/Mickekofi/pictune) Repository
 
 
 ## 🔗 Links
@@ -340,23 +393,3 @@ TKAg7Sj4JpsAtjSc3kaXt6b14RWKvovzQS
 ```
 
 **Network: TRON (TRC-20)**
-
-## Related
-
-=<p align="center">
-  <a href="https://github.com/Mickekofi/pictune">
-    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/pictune.png" alt="Logo" width="130">
-  </a>
-  <a href = "https://github.com/Mickekofi/pictune">
-  <h1 align="center"><strong>PicTune Module</strong></h1>
-  </a>
-</p>
-
----
-
-
-*pictune is a python module which is built on top of **pillow library** which aids to provide easy and quick code patterns targeting digital image enhancement manupulation*
-
-## Visit [PicTune](https://github.com/Mickekofi/pictune)
-
-

@@ -56,6 +56,12 @@ By accessing and using **EyeTubeBot** ("the Bot"), you acknowledge that you have
 
 - No refunds will be granted for unused portions of a subscription period or for failure to verify your subscription within the allotted timeframe.
 
+## Act 5. **Sponsorship and Service Policy**
+
+- In the event that EyeTubeBot secures ongoing financial support from sponsors, our service policy will be revised to offer all services within the bot free of charge. There will be no premium or paid tiers; all features will be accessible to every user without restriction.
+
+- This policy shift will be based on a formal agreement between the sponsor and EyeTubeBot. Any changes, including the removal of paid services, will be communicated to users and implemented in accordance with the terms of that agreement.
+
 ## Act 5. **Service Modifications**  
 
 - We reserve the right to modify and update any part of **EyeTubeBot** at any time.

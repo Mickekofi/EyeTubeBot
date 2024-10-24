@@ -60,7 +60,7 @@ To Process and automate an Image
 1.  ✓Paste the Image in the chat
 2.  ✓Choose a processing button
 
-![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/tutorials2.gif)
+![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/tutorials4.gif)
 
 
 ## ⬇️ Download 📽️ Movies / 🎬Reals from a Social Media Platform
@@ -74,7 +74,7 @@ To download a **Movie,Real or any Video** from a Social media Platform, follow t
 
 visit the following links to learn how to downloads from these Social platforms:
 
-![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/tutorials.gif)
+![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/tutorials.gif)
 
 - [Tutorial Download from Facebook]()
 
@@ -100,7 +100,7 @@ To download a **Music or Audio** from Youtube, follow the steps below:
 
 visit the following links to learn how to downloads from Youtube:
 
-![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/tutorials3.gif)
+![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/tutorials3.gif)
 
 - [Tutorial Download Music from Youtube]()
 
@@ -134,3 +134,5 @@ To detect a **Fraud or Legit Website**, follow the steps below:
 2.  ✓Paste the link in the bot.
 
 **Bot will automatically detect the website and tell you if it is Fraud or Legit.**
+
+![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/tutorials.gif)
