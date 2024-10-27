@@ -28,7 +28,7 @@ logging.basicConfig(level=logging.INFO)
 
 
 
-print("Welcome to EyeTubeBot For Git Developers!.\n📌 Note, this is Version(1.0.1) of this program.\nWhich gives you Capability to automate the internet downloading videos,movies and extracting audios\n\nCheck for updates in the bot chat using the command `/update` which keeps you updated on the current upload work.\n\n We shall implement the full (Version 3.0) development here if we reach our target financial support funds from the Public... for the mean time \nTry Our more Matured automated Model(Version 3.0.0) with more automated features like Image Processing Features like Removing Background, Cartoon making,retouching image plus all internet and social media links responce, Website legit detection, audio extraction etc..Try Today!    https://t.me/EyeTubeAiBot \n\n")
+print("Welcome to EyeTubeBot For Git Developers!.\n📌 Note, this is Version(1.0.1) of this program.\nWhich gives you Capability to automate the internet downloading videos,movies and extracting audios\n\n\nFind picTuneBot on github for the Image Processing Capability https://github.com/Mickekofi/picTuneBot/tree/master \n\n  Check for updates in the bot chat using the command `/update` which keeps you updated on the current upload work.\n\n We shall implement the full (Version 3.0) development here if we reach our target financial support funds from the Public... for the mean time \n\nplease report any bug or issue on github issues\nTry Our more Matured automated Model(Version 3.0.0) combined with more automated features like Image Processing Features plus grabing detailed Information about a specific internet and social media link, Website legit detection etc..Try Today!    https://t.me/EyeTubeAiBot \n\n")
 
 
 
@@ -115,7 +115,7 @@ def update_bot(message):
             update_button = InlineKeyboardButton("🎁 Check What is Newly Packed for you", url="https://github.com/Mickekofi/EyeTubeBot/blob/master/update.md")
             markup.add(update_button)
             
-            bot.send_message(chat_id, f"✅ Bot updated successfully! Version: {latest_version}", reply_markup=markup)
+            bot.send_message(chat_id, f"✅ Bot updated successfully! Version: {latest_version}\n\nPlease Retart it to take effect", reply_markup=markup)
         else:
             bot.send_message(chat_id, "Update completed, but failed to fetch the latest version. Please check manually.")
     except subprocess.CalledProcessError as e:
@@ -172,7 +172,7 @@ def send_welcome(message):
     itembtn4 = telebot.types.KeyboardButton('/update')
     markup.add(itembtn1, itembtn2, itembtn3, itembtn4)
 
-    bot.reply_to(message, f"🕹 {bot_info.username} is Operated by {admin} as the Developer.\n\n Paste your Social Media Video Link here?", reply_markup=markup)
+    bot.reply_to(message, f"🕹 {bot_info.username} is Operated by {admin} as the Developer.\n\nPaste your Social Media Movie, Audio or Video Link here?", reply_markup=markup)
 
 #============================================================================================
 #About
@@ -277,7 +277,7 @@ def handle_youtube_url(message, url):
         bot.reply_to(message, "Generating YouTube video download link. Please wait...")
         
         # Call the download function
-        download_url = download_youtube_video(url, quality)
+        download_url = download_youtube_video(url)
         
         if download_url:
             bot.reply_to(message, f"Here is your download link: {download_url}\n\n.")
