@@ -18,9 +18,8 @@
 ---
 
 # Introduction
-### ⚠️ Still Under Testing Phase...Will be Completed and Released on 18 November 2024
 
-🌟 As part of contributing to the Societal Evolution into a new Era full of 🚀 technological advancements, the emergence of  Automation in AI has led us to discover innovative ways to solve and change human repetitive processes into a more productive living. 
+As part of contributing to the Societal Evolution into a new Era full of 🚀 technological advancements, the emergence of  Automation in AI has led us to discover innovative ways to solve and change human repetitive processes into a more productive living. 
 
 It's a bot, trained to Process 📎links from all over the internet 🌐 (Social Media) plus(➕) a Graphic Image Processing Capability and able to transform your images into Enhance products within seconds.
 
