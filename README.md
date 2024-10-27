@@ -117,39 +117,6 @@ I present to you;
 
 
     
-## Who is EyeTubeBot For?
-
-### 1. Content Consumers
-- ✓ People who frequently watch videos online and want an easy way to download them for offline viewing or personal use.
-- ✓ Users who like to save content for future reference, education, entertainment, or sharing with friends and family.
-- ✓ Anyone looking to enhance downloaded videos with retouched thumbnails or resized images.
-
-### 2. Social Media Enthusiasts
-- ✓ Individuals who need quick, hassle-free resizing or retouching of images for thumbnails, banners, or social media posts.
-- ✓ Social media users who frequent platforms like YouTube, Instagram, and Facebook and want to easily download and share videos with their audience.
-- ✓ Those who want to convert images into fun sketches or remove backgrounds for creative social media content.
-
-### 3. Creators and Marketers
-- ✓ Social media content creators and digital marketers who need to download videos for reference, editing, or reposting on their channels.
-- ✓ Users looking to study competitors' content, edit media files, or use specific clips for their own content creation.
-- ✓ Creators who need to refine or retouch promotional images to enhance visual appeal for marketing campaigns.
-
-### 4. Students and Educators
-- ✓ Students who want to download educational videos, tutorials, or lectures for offline use and study.
-- ✓ Educators who need to save video content or enhance visual materials for teaching and presentations.
-- ✓ Users looking to extract text from images, making it easier to pull relevant information from educational screenshots or scanned documents.
-
-### 5. Travelers and Individuals with Limited Internet Access
-- ✓ People with limited or inconsistent internet access who want to download videos in advance for offline viewing.
-- ✓ Frequent travelers looking for entertainment or educational content during commutes or flights, without needing a connection.
-- ✓ Travelers who want to retouch images and share visually enhanced content on the go.
-
-### 6. Referral and Reward Enthusiasts
-- ✓ Users interested in our [**EyeGa🎮ing 🏆**](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/EyeGaming) program, who love participating in referral programs to earn rewards like cash, free subscriptions, and leaderboard recognition.
-
-### 7. Tech-Savvy Users
-- ✓ People who appreciate the convenience and automation of tools like Telegram bots to handle tasks, such as video downloading, quickly and efficiently.
-- ✓ Users who enjoy applying advanced image processing techniques—like background removal, sketch conversion, and retouching—to their images.
 
 # [ Installation ]
 
@@ -178,7 +145,7 @@ This section is for end-users who want to install and use the fully featured com
 
 ```3. Click start```
 
- 4.📌 Note, read the [Documentation[For_End_User]]([https://t.me/EyeTubeAiBot](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/Documentation.md)) before use.
+4.📌 Note, read the [Documentation[For_End_User]]([https://t.me/EyeTubeAiBot](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/Documentation.md)) before use.
 
 [![Start Here](https://img.shields.io/badge/Launch%20%21-EyeTubeB👁T-red)](https://t.me/EyeTubeAiBot)
 
@@ -232,8 +199,11 @@ TOKEN = input("Please enter your Telegram API token: ")
 bot = telebot.TeleBot(TOKEN)
 ```
 
-Get your **Telegram Bot API Token** from [BotFather](https://t.me/BotFather).
+**How to Set up your token**
 
+- Get your **Telegram Bot API Token** from [BotFather](https://t.me/BotFather).
+
+- Complete the process to get your token
 
 # 📝 Documentation
 
