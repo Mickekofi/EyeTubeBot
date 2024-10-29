@@ -27,7 +27,7 @@ I present to you;
 
 [![Try EyeTubeB👁T Today!](https://img.shields.io/badge/Try%20Today%21-EyeTubeB👁T-red)](https://t.me/EyeTubeAiBot)
 
-# ✅ EyeTubeBot
+# Open Source & Commercial User Product
 
  ```EyeTubeBot is a Telegram AI Bot built with an Interactive User Interface which features automated Internet and Image Processing Capabilities.```
 
@@ -120,15 +120,15 @@ I present to you;
 
 # [ Installation ]
 
-```For End_Users: It offers a seamless and user-friendly experience with advanced Automated features and commercial-grade functionalities.```
+```Commercial User Product(Version 3.0.0): It offers a seamless and user-friendly experience with advanced Automated features and commercial-grade functionalities.```
 
-```For Developers: The open-source core version is ideal for experimentation, customization, and further development.```
+```Open Source Tool For Developers(Version 1.0.1): The open-source core version is ideal for contribution, experimentation, customization, and further development.```
 
 Choose your journey below to get started!
 
-## 🛠️ Installation and Setup (For_End_User)
+## 🛠️ Installation and Setup [Commercial User Product]
 
-This section is for end-users who want to install and use the fully featured commercial version of the bot.
+This section is for end-users who want to install and use the fully featured customized commercial version of the bot.
 
 **Prerequisites:**
 
@@ -145,13 +145,13 @@ This section is for end-users who want to install and use the fully featured com
 
 ```3. Click start```
 
-4.📌 Note, read the [Documentation[For_End_User]]([https://t.me/EyeTubeAiBot](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/Documentation.md)) before use.
+4.📌 Note, read the [Documentation[Commercial_User_Product]]([https://t.me/EyeTubeAiBot](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/Documentation.md)) before use.
 
 [![Start Here](https://img.shields.io/badge/Launch%20%21-EyeTubeB👁T-red)](https://t.me/EyeTubeAiBot)
 
 ![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/tutorials5.gif)
 
-## 🛠️ Installation and Setup (For_Developers)
+## 🛠️ Installation and Setup [ For_Developers(Open Source) ]
 
 This section is for developers who want to clone and run the core features of the bot locally.
 
@@ -207,9 +207,9 @@ bot = telebot.TeleBot(TOKEN)
 
 # 📝 Documentation
 
-## Read [👥 Documentation(For_End_User)](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/Documentation.md)
+## Read [👥 Documentation(Commercial_User_Product)](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/Documentation.md)
 
-## Read [👥 Documentation(For_Developer)](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_Dev/Documentation_for_dev.md)
+## Read [👥 Documentation(For_Developer(Open Source))](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_Dev/Documentation_for_dev.md)
 
 ## Read [👥 Who are we?](https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User/Who_are_we.md)
 
