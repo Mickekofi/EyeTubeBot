@@ -311,7 +311,7 @@ If you find any bugs or have suggestions for improvements, feel free to [open an
 
 
 =<p align="center">
-  <a href="https://github.com/Mickekofi/pictune">
+  <a href="https://github.com/Mickekofi/picTuneBot/tree/master">
     <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/pictunebot.png" alt="Logo" width="130">
   </a>
   <a href = "https://github.com/Mickekofi/pictunebot">
