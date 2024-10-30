@@ -19,8 +19,6 @@
 
 # Introduction
 
-<a href="https://www.producthunt.com/posts/eyetubebot?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-eyetubebot" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=550383&theme=light" alt="EyeTubeBot - Automated&#0032;social&#0032;poss | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-
 As part of contributing to the Societal Evolution into a new Era full of 🚀 technological advancements, the emergence of Automation in AI has led us to discover innovative ways to solve and change human repetitive processes into a more productive living. 
 
 It's a bot, trained to Process 📎links from all over the internet 🌐 (Social Media) plus(➕) a Graphic Image Processing Capability and able to transform your images into Enhance products within seconds.
