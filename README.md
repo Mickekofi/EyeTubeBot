@@ -17,7 +17,7 @@
 
 ---
 
-# Contents Jorney Highlights
+# Contents Journey Highlights
 
 - [Introduction](#introduction)
 - [Open Source & Commercial User Product](#open-source--commercial-user-product)
@@ -45,6 +45,8 @@
   - [picTune Bot](#pictune-bot)
 - [Links](#links)
 - [Support](#support)
+
+
 
 
 # Introduction
