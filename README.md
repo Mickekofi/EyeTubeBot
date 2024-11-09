@@ -67,7 +67,7 @@ I present to you;
 
 ![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/eyetubebot.gif)
 
-## [ What Can this Bot do ? ]
+## What Can this Bot do
 
 ### Job 1: Link Processing
 
@@ -150,7 +150,7 @@ I present to you;
 
     
 
-# [ Installation ]
+# Installation
 
 ```Commercial User Product(Version 3.0.0): It offers a seamless and user-friendly experience with advanced Automated features and commercial-grade functionalities.```
 
@@ -158,7 +158,7 @@ I present to you;
 
 Choose your journey below to get started!
 
-## 🛠️ Installation and Setup [Commercial User Product]
+## 🛠️ Commercial User Product Installation and Setup
 
 This section is for end-users who want to install and use the fully featured customized commercial version of the bot.
 
@@ -183,7 +183,7 @@ This section is for end-users who want to install and use the fully featured cus
 
 ![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/tutorials5.gif)
 
-## 🛠️ Installation and Setup [ For_Developers(Open Source) ]
+## Developer Installation and Setup (Open Source)
 
 This section is for developers who want to clone and run the core features of the bot locally.
 
