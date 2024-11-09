@@ -17,6 +17,36 @@
 
 ---
 
+# Contents Jorney Highlights
+
+- [Introduction](#introduction)
+- [Open Source & Commercial User Product](#open-source--commercial-user-product)
+- [What Can This Bot Do?](#what-can-this-bot-do)
+  - [Job 1: Link Processing](#job-1-link-processing)
+  - [Job 2: Image Processing](#job-2-image-processing)
+- [Tutorial](#tutorial)
+- [Installation](#installation)
+  - [Commercial User Product Installation and Setup](#commercial-user-product-installation-and-setup)
+  - [Developer Installation and Setup (Open Source)](#developer-installation-and-setup-open-source)
+- [Examples](#examples)
+- [Documentation](#documentation)
+  - [Documentation for Commercial Users](#documentation-for-commercial-users)
+  - [Documentation for Developers](#documentation-for-developers)
+  - [Who Are We?](#who-are-we)
+- [Feedback](#feedback)
+- [Contributing](#contributing)
+  - [How to Contribute](#how-to-contribute)
+  - [Contribution Guidelines](#contribution-guidelines)
+- [Reporting Issues](#reporting-issues)
+- [API References](#api-references)
+- [Acknowledgements](#acknowledgements)
+- [Related New Projects](#related-new-projects)
+  - [picTune Module](#pictune-module)
+  - [picTune Bot](#pictune-bot)
+- [Links](#links)
+- [Support](#support)
+
+
 # Introduction
 
 As part of contributing to the Societal Evolution into a new Era full of 🚀 technological advancements, the emergence of Automation in AI has led us to discover innovative ways to solve and change human repetitive processes into a more productive living. 
@@ -283,10 +313,10 @@ If you find any bugs or have suggestions for improvements, feel free to [open an
 
 ## 👏 Acknowledgement
 
-- **🥇 [yt-dlp library](https://github.com/yt-dlp/yt-dlp)** : This is the Blueprint for all video and audio automating processing activities and this bot was based on the trained algorithms of this library.
+- **🥇 [yt-dlp library](https://github.com/yt-dlp/yt-dlp)** 
 
 
-- **🥈 [pytelegram library](https://github.com/eternnoir/pyTelegramBotAPI)** : Totaly All User interactive activities Ccoe from this Library.
+- **🥈 [pytelegram library](https://github.com/eternnoir/pyTelegramBotAPI)** 
    
  
 
