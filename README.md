@@ -44,7 +44,7 @@
   - [picTune Module](#pictune-module)
   - [picTune Bot](#pictune-bot)
 - [Links](#links)
-- [Support](#support)
+- [Support](#🌱support)
 
 
 
@@ -158,7 +158,7 @@ I present to you;
 
 Choose your journey below to get started!
 
-## 🛠️ Commercial User Product Installation and Setup
+## Commercial User Product Installation and Setup
 
 This section is for end-users who want to install and use the fully featured customized commercial version of the bot.
 
