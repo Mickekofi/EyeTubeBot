@@ -44,7 +44,7 @@
   - [picTune Module](#pictune-module)
   - [picTune Bot](#pictune-bot)
 - [Links](#links)
-- [Support](#🌱support)
+- [Support](#support)
 
 
 
@@ -359,12 +359,12 @@ If you find any bugs or have suggestions for improvements, feel free to [open an
 #### Visit [picTuneBot](https://github.com/Mickekofi/picTuneBot/tree/master) Repository
 
 
-## 🔗 Links
+## Links
 
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michael-appiah-9b6919255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/)
 
-## 🌱 Support
+## Support
 
 #### You can decide to buy or push to us a cup of ☕️ coffee in our skrill account at : 👇
 
