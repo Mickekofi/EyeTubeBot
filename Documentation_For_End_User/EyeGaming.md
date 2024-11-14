@@ -65,7 +65,7 @@ The more you refer, the more you earn!
 
 ### 3. **Claim Your Rewards:**
 
-- **Cash Rewards:** For every 1 new subscriber, claim your **$1 reward** by typing `/claim`.
+- **Cash Rewards:** For every 1 new subscriber, claim your **$1 reward** by typing `/claim_cash`.
 
 - **Free Subscription:** Once you’ve reached 50 referrals, you’ll unlock a **3-day free subscription** by typing **`/claim_subscription`.
 
