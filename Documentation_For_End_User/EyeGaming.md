@@ -36,7 +36,7 @@ EyeGaming is your gateway to exciting rewards, including cash prizes and free su
    - Hit **50 referrals** and enjoy a **1-day free subscription** as a reward for your efforts.
 
 3. **Win Weekly Prizes:**
-   - Climb the leaderboard! The top 3 referrers each week win a **1-day free subscription** as a special prize.
+   - Climb the leaderboard! The top 2 referrers each week win a **1-day free subscription** as a special prize.
 
 4. **Effortless Participation:**
    - Generating your referral link is quick and easy, and tracking your progress is even simpler with dedicated bot commands.
@@ -65,7 +65,7 @@ The more you refer, the more you earn!
 
 ### 3. **Claim Your Rewards:**
 
-- **Cash Rewards:** For every 5 new subscribers, claim your **$1 reward** by typing `/claim`.
+- **Cash Rewards:** For every 1 new subscriber, claim your **$1 reward** by typing `/claim`.
 
 - **Free Subscription:** Once you’ve reached 50 referrals, you’ll unlock a **3-day free subscription** by typing **`/claim_subscription`.
 
