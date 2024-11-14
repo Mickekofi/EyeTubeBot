@@ -33,7 +33,7 @@ EyeGaming is your gateway to exciting rewards, including cash prizes and free su
    - Earn **$1** for every 1 new subscribers referred through your unique referral link. More referrals, more cash!
 
 2. **Unlock Free Subscriptions:**
-   - Hit **50 referrals** and enjoy a **1-day free subscription** as a reward for your efforts.
+   - Hit **50 referrals** and enjoy a **3-day free subscription** as a reward for your efforts.
 
 3. **Win Weekly Prizes:**
    - Climb the leaderboard! The top 2 referrers each week win a **1-day free subscription** as a special prize.
@@ -51,7 +51,7 @@ EyeGaming is your gateway to exciting rewards, including cash prizes and free su
 
 - **Step 2:** Share your link with friends, family, and social networks.
 
-- **Step 3:** Earn **$1** for every 5 new subscribers who join EyeTubeBot using your link.
+- **Step 3:** Earn **$1** for every 1 new subscribers who join EyeTubeBot using your link.
 
 The more you refer, the more you earn!
 
