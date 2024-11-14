@@ -30,7 +30,7 @@ EyeGaming is your gateway to exciting rewards, including cash prizes and free su
 ## 🌟 Why Join the EyeTubeBot Referral Challenge?
 
 1. **Earn Cash for Sharing:**
-   - Earn **$1** for every 1 new subscribers referred through your unique referral link. More referrals, more cash!
+   - Earn **$1 to $100** for every 1 to 100 new subscribers referred through your unique referral link. More referrals, more cash!
 
 2. **Unlock Free Subscriptions:**
    - Hit **50 referrals** and enjoy a **3-day free subscription** as a reward for your efforts.
@@ -51,7 +51,7 @@ EyeGaming is your gateway to exciting rewards, including cash prizes and free su
 
 - **Step 2:** Share your link with friends, family, and social networks.
 
-- **Step 3:** Earn **$1** for every 1 new subscribers who join EyeTubeBot using your link.
+- **Step 3:** Earn **$1** per every 1 new subscriber who joins EyeTubeBot using your link.
 
 The more you refer, the more you earn!
 
@@ -65,14 +65,14 @@ The more you refer, the more you earn!
 
 ### 3. **Claim Your Rewards:**
 
-- **Cash Rewards:** For every 1 new subscriber, claim your **$1 reward** by typing `/claim_cash`.
+- **Cash Withdraw:** For every 1 new subscriber, claim your **$1 US-Dollar** by typing `/claim_cash`.
 
 - **Free Subscription:** Once you’ve reached 50 referrals, you’ll unlock a **3-day free subscription** by typing **`/claim_subscription`.
 
 - **Leaderboard Rewards:** The top 3 users on the leaderboard every week automatically win a **1-day free subscription**.
 
 
-## claim_cash payment methods
+## Money Withdraw payment methods
 
 - Bitcoin
 
