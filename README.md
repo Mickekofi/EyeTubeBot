@@ -366,7 +366,7 @@ If you find any bugs or have suggestions for improvements, feel free to [open an
 
 ## Support
 
-#### You can decide to buy or push to us a cup of ☕️ coffee in our skrill account at : 👇
+#### You can decide to buy or push to us a cup of ☕️ coffee in our skrill to skrill account at : 👇
 
  ```
  michaelappiah6910
