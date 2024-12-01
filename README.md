@@ -6,7 +6,7 @@
   <h1 align="center"><strong>EyeTubeB👁T</strong></h1>
   </a>
   <p align="center">
-    <a href="https://t.me/possibilityAI">
+    <a href="https://chat.whatsapp.com/Et2oy7QEwHVGzcYkIAimYO">
       <img src="https://img.shields.io/badge/Join-Community-blue.svg" alt="AGPL License">
     </a>
     <a href="https://wa.me/233505994829?text=*EyeTubeB👁t_From_Github_User_💬Message_:*%20">
