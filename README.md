@@ -19,32 +19,35 @@
 
 # Contents Journey Highlights
 
+- [Contents Journey Highlights](#contents-journey-highlights)
 - [Introduction](#introduction)
-- [Open Source & Commercial User Product](#open-source--commercial-user-product)
-- [What Can This Bot Do?](#what-can-this-bot-do)
-  - [Job 1: Link Processing](#job-1-link-processing)
-  - [Job 2: Image Processing](#job-2-image-processing)
-- [Tutorial](#tutorial)
+- [Open Source \& Commercial User Product](#open-source--commercial-user-product)
+  - [What Can this Bot do](#what-can-this-bot-do)
+    - [Job 1: Link Processing](#job-1-link-processing)
+      - [Tutorial](#tutorial)
+    - [Job 2: Image Processing](#job-2-image-processing)
+      - [Tutorial](#tutorial-1)
 - [Installation](#installation)
   - [Commercial User Product Installation and Setup](#commercial-user-product-installation-and-setup)
   - [Developer Installation and Setup (Open Source)](#developer-installation-and-setup-open-source)
-- [Examples](#examples)
-- [Documentation](#documentation)
-  - [Documentation for Commercial Users](#documentation-for-commercial-users)
-  - [Documentation for Developers](#documentation-for-developers)
-  - [Who Are We?](#who-are-we)
-- [Feedback](#feedback)
-- [Contributing](#contributing)
-  - [How to Contribute](#how-to-contribute)
-  - [Contribution Guidelines](#contribution-guidelines)
-- [Reporting Issues](#reporting-issues)
-- [API References](#api-references)
-- [Acknowledgements](#acknowledgements)
-- [Related New Projects](#related-new-projects)
-  - [picTune Module](#pictune-module)
-  - [picTune Bot](#pictune-bot)
-- [Links](#links)
-- [Support](#support)
+    - [Examples](#examples)
+- [📝 Documentation](#-documentation)
+  - [Read 👥 Documentation(Commercial\_User\_Product)](#read--documentationcommercial_user_product)
+  - [Read 👥 Documentation(For\_Developer(Open Source))](#read--documentationfor_developeropen-source)
+  - [Read 👥 Who are we?](#read--who-are-we)
+  - [Feedback](#feedback)
+  - [Contributing](#contributing)
+    - [How to Contribute](#how-to-contribute)
+    - [Contribution Guidelines](#contribution-guidelines)
+  - [Reporting Issues](#reporting-issues)
+  - [API References](#api-references)
+  - [👏 Acknowledgement](#-acknowledgement)
+  - [Related New Projects](#related-new-projects)
+      - [Visit PigTune Repository](#visit-pigtune-repository)
+  - [Links](#links)
+  - [Support](#support)
+      - [You can decide to buy or push to us a cup of ☕️ coffee in our skrill to skrill account at : 👇](#you-can-decide-to-buy-or-push-to-us-a-cup-of-️-coffee-in-our-skrill-to-skrill-account-at--)
+      - [in our USDT cryto Wallet ID : 👇](#in-our-usdt-cryto-wallet-id--)
 
 
 
@@ -206,15 +209,23 @@ Navigate to the project directory:
 cd EyeTubeBot
 ```
 
+Create a virtual environment and activate it:
+
+```sh
+python3 -m venv venv
+source venv/bin/activate
+```
+
 install the dependancies
 
 ```sh
 pip install -r requirements.txt
 ```
 
-run it 
+run it
+ 
 ```sh
-python3 EyeTube_main.py
+python3 eyetube.py
 ```
 
 ### Examples 
@@ -323,40 +334,38 @@ If you find any bugs or have suggestions for improvements, feel free to [open an
  
 
 ## Related New Projects
-
-=<p align="center">
+<!-- 
+<p align="center">
   <a href="https://github.com/Mickekofi/pictune">
     <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/pictune.png" alt="Logo" width="130">
   </a>
   <a href = "https://github.com/Mickekofi/pictune">
-  <h1 align="center"><strong>picTune Module</strong></h1>
+  <h1 align="center"><strong>PigTune Library</strong></h1>
   </a>
 </p>
 
 ---
-
 
 *pictune is a python module which is built on top of **pillow library** which aids to provide easy and quick code patterns targeting digital image enhancement manupulation*
 
-#### Visit [picTune](https://github.com/Mickekofi/pictune) Repository
-
+#### Visit [picTune](https://github.com/Mickekofi/pictune) Repository -->
 
 
 =<p align="center">
-  <a href="https://github.com/Mickekofi/picTuneBot/tree/master">
-    <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/pictunebot.png" alt="Logo" width="130">
+  <a href="https://github.com/Mickekofi/pigtune/tree/master">
+    <img src="https://github.com/Mickekofi/pigtune/tree/master/logo" alt="Logo" width="130">
   </a>
-  <a href = "https://github.com/Mickekofi/pictunebot">
-  <h1 align="center"><strong>picTune bot</strong></h1>
+  <a href = "https://github.com/Mickekofi/pigtune">
+  <h1 align="center"><strong>PigTune</strong></h1>
   </a>
 </p>
 
 ---
 
 
-*pictunebot is a Telegram Image Processing Manupulation Bot for both End_Users and Developers* 
+*PigTune is a Telegram Image Processing Manupulation Bot for both End_Users and Developers* 
 
-#### Visit [picTuneBot](https://github.com/Mickekofi/picTuneBot/tree/master) Repository
+#### Visit [PigTune](https://github.com/Mickekofi/pictune/tree/master) Repository
 
 
 ## Links

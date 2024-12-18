@@ -28,31 +28,30 @@ logging.basicConfig(level=logging.INFO)
 
 
 
-print("Welcome to EyeTubeBot For Git Developers!.\n📌 Note, this is Version(1.0.1) of this program.\nWhich gives you Capability to automate the internet downloading videos,movies and extracting audios\n\n\nFind picTuneBot on github for the Image Processing Capability https://github.com/Mickekofi/picTuneBot/tree/master \n\n  Check for updates in the bot chat using the command `/update` which keeps you updated on the current upload work.\n\n We shall implement the full (Version 3.0) development here if we reach our target financial support funds from the Public... for the mean time \n\nplease report any bug or issue on github issues\nTry Our more Matured automated Model(Version 3.0.0) combined with more automated features like Image Processing Features plus grabing detailed Information about a specific internet and social media link, Website legit detection etc..Try Today!    https://t.me/EyeTubeAiBot \n\n")
+print("Welcome to EyeTubeBot For Git Developers!.\n📌 Note, this is Version(1.0.1) of this program.\nWhich gives you Capability to automate the internet downloading videos,movies and extracting audios\n\n\nFind PigTune Repo on github for the Image Manupulating Capability https://github.com/Mickekofi/pigtune \n\n  Check for updates in the bot chat using the command `/update` which keeps you updated on the current upload work.\n\n We shall implement the full (Version 3.0) development here if we reach our target financial support funds from the Public... for the mean time \n\nplease report any bug or issue on github issues\nTry Our more Matured automated Model(Version 3.0.0) combined with more automated features like Image Processing Features plus grabing detailed Information about a specific internet and social media link, Website legit detection etc..Try Today!    https://t.me/EyeTubeAiBot \n\n")
 
+print("\033[93mLets start EyeTubeBot Version(101)...\n\033[0m")
 
+admin = input("\033[92mPlease enter your name 👉 : \033[0m")
 
-print("Lets start EyeTubeBot Version(101)...\n")
-
-admin = input("Please enter your name 👉 : ")
-
-TOKEN = input("\nPlease enter your Telegram API token 👉 : ")
+TOKEN = input("\n\033[92mPlease enter your Telegram API token 👉 : \033[0m")
 
 # Check if the token was provided
 if not TOKEN:
-    print("❓You provided No API token.\n\n Shuting down/Exiting...")
+    print("\033[91m❓You provided No API token.\n\n Shuting down/Exiting...\033[0m")
     exit(1)
 
 try:
     bot = telebot.TeleBot(TOKEN)
-    print("Bot initialized successfully!")
+    print("\033[92mBot initialized successfully!\033[0m")
     
     bot_info = bot.get_me()
-    print(f"Bot Username: {bot_info.username}")
-    print("Ready to receive commands.")
+    print(f"\033[92mBot Username: {bot_info.username}\033[0m")
+    print("\033[92mReady to receive commands.\033[0m")
     
 except Exception as e:
-    print(f"Error: Failed to initialize bot. {e}")
+    print(f"\033[91mError: Failed to initialize bot. {e}\033[0m")
+
 
 
 
@@ -172,7 +171,7 @@ def send_welcome(message):
     itembtn4 = telebot.types.KeyboardButton('/update')
     markup.add(itembtn1, itembtn2, itembtn3, itembtn4)
 
-    bot.reply_to(message, f"🕹 {bot_info.username} is Operated by {admin} as the Developer.\n\nPaste your Social Media Movie, Audio or Video Link here?", reply_markup=markup)
+    bot.reply_to(message, f"🕹 {bot_info.username} is Operated by {admin}.\n\nPaste your Social Media, Audio or Video Link here?", reply_markup=markup)
 
 #============================================================================================
 #About
@@ -409,7 +408,6 @@ def send_snapchat_audio(message, url):
     audio_url = extract_snapchat_audio_link(url)
     if audio_url:
         bot.reply_to(message, f"Here is your Snapchat download link: {audio_url}\n\n.")
-
 
 
 
