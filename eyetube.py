@@ -170,10 +170,9 @@ def is_valid_url(url):
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
     
-    # Creating buttons
     markup = telebot.types.ReplyKeyboardMarkup(row_width=2)
     itembtn1 = telebot.types.KeyboardButton('/Help')
-    itembtn2 = telebot.types.KeyboardButton('/About')
+    itembtn2 = telebot.types.KeyboardButton('/Engineer')
     itembtn3 = telebot.types.KeyboardButton('/check_update')
     itembtn4 = telebot.types.KeyboardButton('/update')
     markup.add(itembtn1, itembtn2, itembtn3, itembtn4)
@@ -182,35 +181,53 @@ def send_welcome(message):
 
 #============================================================================================
 #About
-@bot.message_handler(commands=['About'])
+@bot.message_handler(commands=['Help'])
 def open_about_command(message):
-    # Create an inline keyboard
     keyboard = types.InlineKeyboardMarkup()
 
-    # Create 4 buttons with different links
-    button1 = types.InlineKeyboardButton(text="Learn about EyeTubeBot Version(2.0.1)", url="https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_Dev/Documentation.md")
+    button6 = types.InlineKeyboardButton(text="Visit Our Page", url="https://github.com/Mickekofi/EyeTubeBot")
+    button1 = types.InlineKeyboardButton(text="📚 Learn about EyeTubeBot Version(2.0.1)", url="https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_Dev/Documentation.md")
     button4 = types.InlineKeyboardButton(text="👥 Who are We", url="https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User_/Who_are_we.md")
     button5 = types.InlineKeyboardButton(text="What is in for this Update", url="https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_Dev/update.md")
     
+    keyboard.add(button6)  
     keyboard.add(button1)
-    keyboard.add(button4)  # Adding the other two buttons side by side
+    keyboard.add(button4)  
     keyboard.add(button5)
-    # Send the message with the inline keyboard
+
     bot.send_message(message.chat.id, "About Info", reply_markup=keyboard)
 
-@bot.message_handler(commands=['Help'])
-def open_link_command(message):
-    # Create an inline keyboard
-    keyboard = types.InlineKeyboardMarkup()
-    button1 = types.InlineKeyboardButton(text="✅ Help", url="https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_Dev/Documentation.md")
-    button2 = types.InlineKeyboardButton(text="❓ What Can EyeTubeBot Do", url="https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_Dev/update.md")
-
-    keyboard.add(button1)
-    keyboard.add(button2)
+    bot.send_message(message.chat.id,'''❓𝐒𝐮𝐠𝐠𝐞𝐬𝐭 𝐚𝐧 𝐈𝐬𝐬𝐮𝐞 𝐚 𝐁𝐮𝐠 𝐨𝐫 𝐚 𝐅𝐞𝐚𝐭𝐮𝐫𝐞 𝐑𝐞𝐪𝐮𝐞𝐬𝐭?📬𝐬;
+    𝐜𝐨𝐩𝐲 𝐚𝐧𝐝 𝐩𝐚𝐬𝐭𝐞 below 𝐢𝐧 𝐲𝐨𝐮𝐫 𝐛𝐫𝐨𝐰𝐬𝐞𝐫 
+                     👇''')
+    bot.send_message(message.chat.id, f'''mailto:eyetubebot@gmail.com?subject=📬ID_{message.from_user.id}%20[Issue]%20Report%20&body=(🖇Please_Attach_your_Issue_screenshot)%0A%0A-[Country]:%0A%0A%0A%0A-%5BPlease%20describe%20your%20Issue%20here%5D%20:
+                     ''')
     
-    # Send a message with the inline keyboard
-    bot.send_message(message.chat.id, '''💁🏻 Explore How to Use EyeTubeB👁t v2.0.1?\n
-                click any!''', reply_markup=keyboard)
+
+    
+@bot.message_handler(commands=['Engineer'])
+def send_engineer(message):
+    bot.send_photo(message.chat.id, open('Michael.jpg', 'rb'), caption="💬 \"🅰🅽🆈🅱🅾🅳🆈 🅲🅰🅽 🅲🅾🅾🅺\" - 𝗠𝗶𝗰𝗵𝗮𝗲𝗹 𝗔𝗽𝗽𝗶𝗮𝗵")
+
+    bot.reply_to(message, """
+    
+𝐘𝐞𝐥𝐥𝐨 , 𝐈'𝐦 𝐌𝐢𝐜𝐡𝐚𝐞𝐥 𝐀𝐩𝐩𝐢𝐚𝐡, 𝐚𝐧 𝐚𝐬𝐩𝐢𝐫𝐢𝐧𝐠 𝐀𝐫𝐭𝐢𝐟𝐢𝐜𝐢𝐚𝐥 𝐈𝐧𝐭𝐞𝐥𝐥𝐢𝐠𝐞𝐧𝐜𝐞 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫 𝐚𝐧𝐝 𝐭𝐡𝐞 𝐥𝐞𝐚𝐝𝐞𝐫 𝐨𝐟 𝐏𝐨𝐬𝐬𝐢𝐛𝐢𝐥𝐢𝐭𝐲 𝐀𝐢 𝐚𝐧𝐝 𝐂𝐮𝐫𝐫𝐞𝐧𝐭𝐥𝐲 𝐚 𝐒𝐭𝐮𝐝𝐞𝐧𝐭 𝐨𝐟 𝐭𝐡𝐞 𝐔𝐧𝐢𝐯𝐞𝐫𝐬𝐢𝐭𝐲 𝐨𝐟 𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧, 𝐖𝐢𝐧𝐧𝐞𝐛𝐚.
+    
+    𝐈 𝐬𝐩𝐞𝐜𝐢𝐚𝐥𝐢𝐳𝐞 𝐢𝐧 𝐁𝐮𝐢𝐥𝐝𝐢𝐧𝐠 𝐀𝐢 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐞𝐝 𝐂𝐡𝐚𝐭𝐁𝐨𝐭𝐬, 𝐒𝐲𝐬𝐭𝐞𝐦𝐬 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐮𝐬𝐢𝐧𝐠 𝐏𝐲𝐭𝐡𝐨𝐧 𝐚𝐧𝐝 𝐂++.
+
+    𝐂𝐨𝐧𝐧𝐞𝐜𝐭 𝐰𝐢𝐭𝐡 𝐦𝐞:  
+               
+    • 𝙇𝙞𝙣𝙠𝙚𝙙𝙄𝙣: [𝙈𝙞𝙘𝙝𝙖𝙚𝙡 𝘼𝙥𝙥𝙞𝙖𝙝](https://www.linkedin.com/in/michael-appiah-9b6919255) 💼
+    
+    • 𝙓(𝙏𝙬𝙞𝙩𝙩𝙚𝙧) : ( https://x.com/mickekofi )             
+   
+    • 𝙂𝙞𝙩𝙃𝙪𝙗: [𝙈𝙞𝙘𝙠𝙚𝙠𝙤𝙛𝙞] (https://github.com/Mickekofi) 🧑‍💻
+    
+    
+                 
+            ©️ Possibility AI `24
+                                  
+    """)
 
 
 
@@ -305,11 +322,11 @@ def handle_youtube_url(message, url):
         if download_url:
             bot.reply_to(message, f"✅ Here is your download link: {download_url}\n\n🚓check : [ /status ]")
         else:
-            bot.reply_to(message, "!🔥looks like there is much pressure on the Sever. Please 🔄Try again.")
+            send_error_message(message, "Youtube")
 
     except Exception as e:
         logging.error(f"Error in handling YouTube URL: {e}")
-        bot.reply_to(message, "⛑ Hold on we are Updating the Youtube Response Service.. 🔄 Please try again.")
+        send_error_message(message, "Youtube")
         # Optional: You could implement a retry mechanism here if desired
 
 
@@ -321,20 +338,23 @@ def handle_instagram_url(message, url):
             return
         
         if ' -a' in url:
-            bot.reply_to(message, "Generating Instagram audio download link...")
+            bot.reply_to(message, "🎵 Generating Instagram audio download link...")
             send_instagram_audio(message, url.replace(' -a', '').strip())
+            return
+        
+        bot.reply_to(message, "📺 Downloading Instagram video. Please wait...")
+        download_url = download_instagram_content(url.strip())
+        
+        if download_url:
+            bot.reply_to(message, f"✅ Here is your download link: {download_url}\n\n🚓 Check: [ /status ]")
         else:
-            bot.reply_to(message, "📺Downloading Instagram video. Please wait...")
-            download_url = download_instagram_content(url)
-            if download_url:
-                bot.reply_to(message, f"✅ Here is your download link: {download_url}\n\n🚓check : [ /status ]")
-            else:
-                bot.reply_to(message, "!🔥looks like there is too much pressure on the Sever. Please 🔄Try again.")
+            send_error_message(message, "Instagram")
+    
     except Exception as e:
-        bot.reply_to(message, f"❗️Someting UnExpected happened!\n🚧 Hold on we are Updating this Section of the Bot.. 🔄Please try again.")
-        logging.error(f"Error in handling Instagram URL: {e}")
+        logging.error(f"Error handling Instagram URL: {e}")
+        send_error_message(message, "Instagram")
 
-# Handle Twitter URL
+
 def handle_twitter_url(message, url):
     try:
         if ' -info' in url:
@@ -345,81 +365,104 @@ def handle_twitter_url(message, url):
         if ' -a' in url:
             bot.reply_to(message, "🎤 Generating Twitter audio download link...")
             send_twitter_audio(message, url.replace(' -a', '').strip())
-        else:
-            bot.reply_to(message, "📺 Generating Twitter video download link. Please wait...")
-            download_url = download_twitter_video(url)
-            if download_url:
-                bot.reply_to(message, f"✅ Here is your download link: {download_url}\n\n🚓check : [ /status ]")
-            else:
-                bot.reply_to(message, "!🔥looks like there is too much pressure on the Sever. Please 🔄Try again.")
-    except Exception as e:
-        bot.reply_to(message, f"❗️Someting UnExpected happened! We are 👨🏽‍💻working 24/7 to Fix these issues in the next release. 🔄Please try again.")
-        logging.error(f"Error in handling Twitter URL: {e}")
+            return
 
-# Handle Facebook URL
+        bot.reply_to(message, "📺 Generating Twitter video download link. Please wait...")
+        download_url = download_twitter_video(url.strip())
+        
+        if download_url:
+            bot.reply_to(message, f"✅ Here is your download link: {download_url}\n\n🚓 Check: [ /status ]")
+        else:
+            send_error_message(message, "Twitter")
+    
+    except Exception as e:
+        logging.error(f"Error handling Twitter URL: {e}")
+        send_error_message(message, "Twitter")
+
+
 def handle_facebook_url(message, url):
     try:
         if ' -info' in url:
             bot.reply_to(message, "🧲 Fetching Facebook video information. Please wait...")
             process_media(message, url.replace('-info', '').strip())
+            return
 
         if ' -a' in url:
             bot.reply_to(message, "🎤 Generating Facebook audio download link...")
             send_facebook_audio(message, url.replace(' -a', '').strip())
-        else:
-            bot.reply_to(message, "📺 Downloading Facebook video. Please wait...")
-            video_url = download_facebook_video(url)
-            if video_url:
-                bot.reply_to(message, f"✅ Here is your download link: {video_url}\n\n🚓check : [ /status ]")
-            else:
-                bot.reply_to(message, "!🔥looks like there is too much pressure on the Server today. Please 🔄Try again.")
-    except Exception as e:
-        bot.reply_to(message, f"⛑ Hold on we are Updating the Facebook Response Service.. 🔄 Please try again.")
-        logging.error(f"Error in handling Facebook URL: {e}")
+            return
 
-# Handle LinkedIn URL
+        bot.reply_to(message, "📺 Downloading Facebook video. Please wait...")
+        video_url = download_facebook_video(url.strip())
+        
+        if video_url:
+            bot.reply_to(message, f"✅ Here is your download link: {video_url}\n\n🚓 Check: [ /status ]")
+        else:
+            send_error_message(message, "Facebook")
+    
+    except Exception as e:
+        logging.error(f"Error handling Facebook URL: {e}")
+        send_error_message(message, "Facebook")
+
+
 def handle_linkedin_url(message, url):
     try:
-
         if ' -info' in url:
             bot.reply_to(message, "🧲 Fetching LinkedIn video information. Please wait...")
             process_media(message, url.replace('-info', '').strip())
             return
-        
+
         if ' -a' in url:
-            bot.reply_to(message, "🎤Generating LinkedIn audio download link...")
+            bot.reply_to(message, "🎤 Generating LinkedIn audio download link...")
             send_linkedin_audio(message, url.replace(' -a', '').strip())
+            return
+
+        bot.reply_to(message, "📺 Downloading LinkedIn video. Please wait...")
+        video_url = download_linkedin_video(url.strip())
+        
+        if video_url:
+            bot.reply_to(message, f"✅ Here is your download link: {video_url}\n\n🚓 Check: [ /status ]")
         else:
-            bot.reply_to(message, "📺 Downloading LinkedIn video. Please wait...")
-            video_url = download_linkedin_video(url)
-            if video_url:
-                bot.reply_to(message, f"✅ Here is your download link: {video_url}\n\n🚓check : [ /status ]")
-            else:
-                bot.reply_to(message, "!🔥looks like there is too much pressure on the Server today. Please 🔄Try again.")
+            send_error_message(message, "LinkedIn")
+    
     except Exception as e:
-        bot.reply_to(message, f"⛑ Hold on we are Updating the Linkedin Response Service.. 🔄 Please try again..")
-        logging.error(f"Error in handling LinkedIn URL: {e}")
-# Handle Snapchat URL
+        logging.error(f"Error handling LinkedIn URL: {e}")
+        send_error_message(message, "LinkedIn")
+
+
 def handle_snapchat_url(message, url):
     try:
         if ' -info' in url:
             bot.reply_to(message, "🧲 Fetching Snapchat video information. Please wait...")
             process_media(message, url.replace('-info', '').strip())
             return
-        
+
         if ' -a' in url:
             bot.reply_to(message, "🎤 Generating Snapchat audio download link...")
             send_snapchat_audio(message, url.replace(' -a', '').strip())
+            return
+
+        bot.reply_to(message, "📺 Downloading Snapchat video. Please wait...")
+        video_url = download_snapchat_video(url.strip())
+        
+        if video_url:
+            bot.reply_to(message, f"✅ Here is your download link: {video_url}\n\n🚓 Check: [ /status ]")
         else:
-            bot.reply_to(message, "📺 Downloading Snapchat video. Please wait...")
-            video_url = download_snapchat_video(url)
-            if video_url:
-                bot.reply_to(message, f"✅ Here is your download link: {video_url}\n\n🚓check : [ /status ]")
-            else:
-                bot.reply_to(message, "!🔥looks like there is too much pressure on the Server today. Please 🔄Try again.")
+            send_error_message(message, "Snapchat")
+    
     except Exception as e:
-        bot.reply_to(message, f"⛑ Hold on we are Updating the Snapchat Response Service.. 🔄 Please try again.")
-        logging.error(f"Error in handling Snapchat URL: {e}")
+        logging.error(f"Error handling Snapchat URL: {e}")
+        send_error_message(message, "Snapchat")
+
+
+def send_error_message(message, platform):
+    """Send a generic error message with platform-specific details."""
+    error_message = (
+        f"❓ ERROR: Unable to process your {platform} request.\n"
+        "Report this issue or bug request via email 📬.\n\n"
+        f"mailto:eyetubebot@gmail.com?subject=📬ID_{message.from_user.id}%20[Issue]%20Report%20&body=(🖇Please_Attach_your_Issue_screenshot)%0A%0A-[Country]:%0A%0A%0A%0A-%5BPlease%20describe%20your%20Issue%20here%5D%20:"
+    )
+    bot.send_message(message.chat.id, error_message)
 
 
 
@@ -433,14 +476,14 @@ def send_audiomack_audio(message, url):
     if audio_url:
         bot.reply_to(message, f"Here is your AudioMack download link: {audio_url}\n\n")
     else:
-        bot.reply_to(message, "Failed to extract the audio download link.")
-
+        send_error_message(message, "AudioMack")
 
 def send_youtube_audio(message, url):
     audio_url = extract_youtube_audio_link(url)
     if audio_url:
         bot.reply_to(message, f"Here is your YouTube download link: {audio_url}\n\n.")
-
+    else:
+        send_error_message(message, "YouTube")
 
 def send_instagram_audio(message, url):
     audio_url = extract_instagram_audio_link(url)

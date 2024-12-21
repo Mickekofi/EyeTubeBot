@@ -357,7 +357,7 @@ If you find any bugs or have suggestions for improvements, feel free to [open an
 
 =<p align="center">
   <a href="https://github.com/Mickekofi/pigtune/tree/master">
-    <img src="https://github.com/Mickekofi/pigtune/tree/master/logo.png" alt="Logo" width="130">
+    <img src="https://github.com/Mickekofi/pigtune/blob/master/logo.png" alt="Logo" width="130">
   </a>
   <a href = "https://github.com/Mickekofi/pigtune/tree/master">
   <h1 align="center"><strong>PigTune</strong></h1>
