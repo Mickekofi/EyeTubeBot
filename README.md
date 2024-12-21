@@ -124,6 +124,8 @@
 
 ### Job 2: Image Manupulation₍ₛₑₚₐᵣₐₜₑ ᵣₑₚₒₛᵢₜₒᵣy₎
 
+**Note below;**
+
 #### 𝐕𝐢𝐬𝐢𝐭 [𝐏𝐢𝐠𝐓𝐮𝐧𝐞 𝐁𝐨𝐭](https://github.com/Mickekofi/pigtune/tree/master) 𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲 𝐭𝐨 𝐚𝐜𝐜𝐞𝐬𝐬
 
 <ol>
@@ -213,8 +215,8 @@ cd EyeTubeBot
 Create a virtual environment and activate it:
 
 ```sh
-python3 -m venv myenv
-source myenv/bin/activate
+python3 -m venv eye
+source eye/bin/activate
 ```
 
 install the dependancies

@@ -197,9 +197,10 @@ def open_about_command(message):
 
     bot.send_message(message.chat.id, "About Info", reply_markup=keyboard)
 
-    bot.send_message(message.chat.id,'''❓𝐒𝐮𝐠𝐠𝐞𝐬𝐭 𝐚𝐧 𝐈𝐬𝐬𝐮𝐞 𝐚 𝐁𝐮𝐠 𝐨𝐫 𝐚 𝐅𝐞𝐚𝐭𝐮𝐫𝐞 𝐑𝐞𝐪𝐮𝐞𝐬𝐭?📬𝐬;
-    𝐜𝐨𝐩𝐲 𝐚𝐧𝐝 𝐩𝐚𝐬𝐭𝐞 below 𝐢𝐧 𝐲𝐨𝐮𝐫 𝐛𝐫𝐨𝐰𝐬𝐞𝐫 
-                     👇''')
+    bot.send_message(message.chat.id,'''❓𝐒𝐮𝐠𝐠𝐞𝐬𝐭 𝐚𝐧 𝐈𝐬𝐬𝐮𝐞 𝐚 𝐁𝐮𝐠 𝐨𝐫 𝐚 𝐅𝐞𝐚𝐭𝐮𝐫𝐞 𝐑𝐞𝐪𝐮𝐞𝐬𝐭?📬;
+    
+    𝙍𝙚𝙥𝙤𝙧𝙩 𝙩𝙤 𝙂𝙞𝙩𝙝𝙪𝙗 𝙤𝙧 𝐜𝐨𝐩𝐲 𝐚𝐧𝐝 𝐩𝐚𝐬𝐭𝐞 𝙩𝙝𝙚 𝙎𝙩𝙧𝙞𝙣𝙜𝙨 𝙗𝙚𝙡𝙤𝙬 𝐢𝐧 𝐲𝐨𝐮𝐫 𝐛𝐫𝐨𝐰𝐬𝐞𝐫 
+                     👇👇👇''')
     bot.send_message(message.chat.id, f'''mailto:eyetubebot@gmail.com?subject=📬ID_{message.from_user.id}%20[Issue]%20Report%20&body=(🖇Please_Attach_your_Issue_screenshot)%0A%0A-[Country]:%0A%0A%0A%0A-%5BPlease%20describe%20your%20Issue%20here%5D%20:
                      ''')
     
@@ -207,7 +208,7 @@ def open_about_command(message):
     
 @bot.message_handler(commands=['Engineer'])
 def send_engineer(message):
-    bot.send_photo(message.chat.id, open('Michael.jpg', 'rb'), caption="💬 \"🅰🅽🆈🅱🅾🅳🆈 🅲🅰🅽 🅲🅾🅾🅺\" - 𝗠𝗶𝗰𝗵𝗮𝗲𝗹 𝗔𝗽𝗽𝗶𝗮𝗵")
+    bot.send_photo(message.chat.id, open('Michael.jpg', 'rb'), caption="💬 \"🅰🅽🆈🅾🅽🅴 🅲🅰🅽 🅲🅾🅾🅺\" - 𝗠𝗶𝗰𝗵𝗮𝗲𝗹 𝗔𝗽𝗽𝗶𝗮𝗵")
 
     bot.reply_to(message, """
     
@@ -217,11 +218,10 @@ def send_engineer(message):
 
     𝐂𝐨𝐧𝐧𝐞𝐜𝐭 𝐰𝐢𝐭𝐡 𝐦𝐞:  
                
-    • 𝙇𝙞𝙣𝙠𝙚𝙙𝙄𝙣: [𝙈𝙞𝙘𝙝𝙖𝙚𝙡 𝘼𝙥𝙥𝙞𝙖𝙝](https://www.linkedin.com/in/michael-appiah-9b6919255) 💼
-    
-    • 𝙓(𝙏𝙬𝙞𝙩𝙩𝙚𝙧) : ( https://x.com/mickekofi )             
+    • 𝙇𝙞𝙣𝙠𝙚𝙙𝙄𝙣: [𝙈𝙞𝙘𝙝𝙖𝙚𝙡 𝘼𝙥𝙥𝙞𝙖𝙝]( https://www.linkedin.com/in/michael-appiah-9b6919255 ) 💼
+                 
    
-    • 𝙂𝙞𝙩𝙃𝙪𝙗: [𝙈𝙞𝙘𝙠𝙚𝙠𝙤𝙛𝙞] (https://github.com/Mickekofi) 🧑‍💻
+    • 𝙂𝙞𝙩𝙃𝙪𝙗: [𝙈𝙞𝙘𝙠𝙚𝙠𝙤𝙛𝙞] ( https://github.com/Mickekofi ) 🧑‍💻
     
     
                  
@@ -457,13 +457,22 @@ def handle_snapchat_url(message, url):
 
 def send_error_message(message, platform):
     """Send a generic error message with platform-specific details."""
+    # First block of the message
     error_message = (
-        f"❓ ERROR: Unable to process your {platform} request.\n"
-        "Report this issue or bug request via email 📬.\n\n"
-        f"mailto:eyetubebot@gmail.com?subject=📬ID_{message.from_user.id}%20[Issue]%20Report%20&body=(🖇Please_Attach_your_Issue_screenshot)%0A%0A-[Country]:%0A%0A%0A%0A-%5BPlease%20describe%20your%20Issue%20here%5D%20:"
+        f"❓ ERROR: Unable to process your {platform} request.\n\n"
+        "𝙍𝙚𝙥𝙤𝙧𝙩 𝙩𝙝𝙞𝙨 𝙄𝙨𝙨𝙪𝙚 𝙤𝙣 𝙂𝙞𝙩𝙃𝙪𝙗 𝙤𝙧 𝐜𝐨𝐩𝐲 𝐚𝐧𝐝 𝐩𝐚𝐬𝐭𝐞 𝙩𝙝𝙚 𝙎𝙩𝙧𝙞𝙣𝙜𝙨 𝙗𝙚𝙡𝙤𝙬 𝙞𝙣 𝙮𝙤𝙪𝙧 𝙗𝙧𝙤𝙬𝙨𝙚𝙧\n    👇 👇 👇.\n\n"
     )
+    
     bot.send_message(message.chat.id, error_message)
 
+    # Second block of the message
+    email_template = (
+        f"mailto:eyetubebot@gmail.com?subject=📬ID_{message.from_user.id}%20[Issue]%20Report%20&"
+        "body=(🖇Please_Attach_your_Issue_screenshot)%0A%0A-[Country]:%0A%0A%0A%0A-"
+        "[Please describe your Issue here]:"
+    )
+
+    bot.send_message(message.chat.id, email_template)
 
 
 
