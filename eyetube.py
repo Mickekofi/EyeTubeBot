@@ -20,23 +20,23 @@ from EyeTube_X import download_twitter_video
 from EyeTube_Snap import download_snapchat_video
 from EyeTube_Face import download_facebook_video
 from EyeTube_Lin import download_linkedin_video
-
+import pw
+import support
 import subprocess
+import requests
+from bs4 import BeautifulSoup
+import logging
+import whois
+
 from update_checker import UpdateChecker
 
 logging.basicConfig(level=logging.INFO)
-
-
-
-print("Welcome to EyeTubeBot For Git Developers!.\n📌 Note, this is Version(1.0.1) of this program.\nWhich gives you Capability to automate the internet downloading videos,movies and extracting audios\n\n\nFind PigTune Repo on github for the Image Manupulating Capability https://github.com/Mickekofi/pigtune \n\n  Check for updates in the bot chat using the command `/update` which keeps you updated on the current upload work.\n\n We shall implement the full (Version 3.0) development here if we reach our target financial support funds from the Public... for the mean time \n\nplease report any bug or issue on github issues\nTry Our more Matured automated Model(Version 3.0.0) combined with more automated features like Image Processing Features plus grabing detailed Information about a specific internet and social media link, Website legit detection etc..Try Today!    https://t.me/EyeTubeAiBot \n\n")
-
-print("\033[93mLets start EyeTubeBot Version(101)...\n\033[0m")
-
+pw.auto()
+print("\033[93mLets start EyeTubeBot 2 0 1...\n\033[0m")
+support.check_support()
 admin = input("\033[92mPlease enter your name 👉 : \033[0m")
-
 TOKEN = input("\n\033[92mPlease enter your Telegram API token 👉 : \033[0m")
 
-# Check if the token was provided
 if not TOKEN:
     print("\033[91m❓You provided No API token.\n\n Shuting down/Exiting...\033[0m")
     exit(1)
@@ -51,12 +51,6 @@ try:
     
 except Exception as e:
     print(f"\033[91mError: Failed to initialize bot. {e}\033[0m")
-
-
-
-
-
-
 #==============================================================================
 # Retry Error Handling
 def retry_on_failure(func):
@@ -111,7 +105,7 @@ def update_bot(message):
             update_checker.update_local_version(latest_version)
             
             markup = InlineKeyboardMarkup()
-            update_button = InlineKeyboardButton("🎁 Check What is Newly Packed for you", url="https://github.com/Mickekofi/EyeTubeBot/blob/master/update.md")
+            update_button = InlineKeyboardButton("🎁 𝗖𝗵𝗲𝗰𝗸 𝗪𝗵𝗮𝘁 𝗶𝘀 𝗡𝗲𝘄𝗹𝘆 𝗣𝗮𝗰𝗸𝗲𝗱 𝗳𝗼𝗿 𝘆𝗼𝘂", url="https://github.com/Mickekofi/EyeTubeBot/blob/master/update.md")
             markup.add(update_button)
             
             bot.send_message(chat_id, f"✅ Bot updated successfully! Version: {latest_version}\n\nPlease Retart it to take effect", reply_markup=markup)
@@ -156,6 +150,19 @@ def is_valid_snapchat_url(url):
     snapchat_regex = re.compile(r'(https?://)?(www\.)?(snapchat\.com/t/.+|snapchat\.com/add/.+|snapchat\.com/discover/.+|snapchat\.com/spotlight/.+)')
     return bool(snapchat_regex.match(url))
 
+def is_valid_url(url):
+    # This regex will match a wide variety of valid URLs including subdomains, paths, and query strings
+    url_regex = re.compile(
+        r'^(https?://)?'  # Optional scheme (http or https)
+        r'([a-zA-Z0-9-]+\.)+'  # Subdomains (optional) and main domain
+        r'[a-zA-Z]{2,}'  # Top-level domain (e.g., .com, .org, etc.)
+        r'(:[0-9]{1,5})?'  # Optional port number
+        r'(/[^\s]*)?$'  # Optional path and query string
+    )
+    return bool(url_regex.match(url))
+
+
+
 
 
 # WELCOME START
@@ -171,7 +178,7 @@ def send_welcome(message):
     itembtn4 = telebot.types.KeyboardButton('/update')
     markup.add(itembtn1, itembtn2, itembtn3, itembtn4)
 
-    bot.reply_to(message, f"🕹 {bot_info.username} is Operated by {admin}.\n\nPaste your Social Media, Audio or Video Link here?", reply_markup=markup)
+    bot.reply_to(message, f"🕹 {bot_info.username} is Operated by {admin}.\n\n𝙋𝙖𝙨𝙩𝙚 𝙮𝙤𝙪𝙧 𝙎𝙤𝙘𝙞𝙖𝙡 𝙈𝙚𝙙𝙞𝙖 🎬 𝙑𝙞𝙙𝙚𝙤 𝙇𝙞𝙣𝙠  𝙝𝙚𝙧𝙚 𝙤𝙧 𝙖𝙣𝙮 𝙬𝙚𝙗 𝙡𝙞𝙣𝙠 📎?", reply_markup=markup)
 
 #============================================================================================
 #About
@@ -181,7 +188,7 @@ def open_about_command(message):
     keyboard = types.InlineKeyboardMarkup()
 
     # Create 4 buttons with different links
-    button1 = types.InlineKeyboardButton(text="Learn about EyeTubeBot Version(101)", url="https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_Dev/Documentation.md")
+    button1 = types.InlineKeyboardButton(text="Learn about EyeTubeBot Version(2.0.1)", url="https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_Dev/Documentation.md")
     button4 = types.InlineKeyboardButton(text="👥 Who are We", url="https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_End_User_/Who_are_we.md")
     button5 = types.InlineKeyboardButton(text="What is in for this Update", url="https://github.com/Mickekofi/EyeTubeBot/tree/master/Documentation_For_Dev/update.md")
     
@@ -202,7 +209,7 @@ def open_link_command(message):
     keyboard.add(button2)
     
     # Send a message with the inline keyboard
-    bot.send_message(message.chat.id, '''💁🏻 Explore How to Use EyeTubeB👁t Core(beta)?\n
+    bot.send_message(message.chat.id, '''💁🏻 Explore How to Use EyeTubeB👁t v2.0.1?\n
                 click any!''', reply_markup=keyboard)
 
 
@@ -232,6 +239,8 @@ def handle_message(message):
         handle_snapchat_url(message, url)
     elif is_valid_audiomack_url(url):
         handle_audiomack_url(message, url)
+    elif is_valid_url(url):
+        process_link(message, url)
     else:
         bot.reply_to(message, "Sorry, this link is not valid😢")
         #open the start command automatically withot the user typing it or clicking on the start button
@@ -252,16 +261,28 @@ def handle_message(message):
 #==============================================================================
 #This is Where the platform handle functions is defined with two conditions or Roads and checks the string link again if the user wants to download the audio(-a) or video(default) of the link. It then sends the users choice on the right path to the respective "send_audio_link" or "send_video_link" function for further processing and extraction of the download link
 # Handle the AudioMack URL
+# Handle AudioMack URL
 def handle_audiomack_url(message, url):
     bot.reply_to(message, "AudioMack only supports audio downloads. Please wait while I fetch the link...")
-    send_audiomack_audio(message, url)
+    try:
+        send_audiomack_audio(message, url)
+    except Exception as e:
+        bot.reply_to(message, f"Error: {e}. Retrying in 5 seconds...")
+        logging.error(f"Error in handling AudioMack URL: {e}")
 
+# Handle YouTube URL
 def handle_youtube_url(message, url):
+    try:
+        if ' -info' in url:
+            bot.reply_to(message, "📺 Fetching YouTube video information. Please wait...")
+            process_media(message, url.replace('-info', '').strip())
+            return
+
         # Determine audio or video download request
-        if '-a' in url:
-            bot.reply_to(message, "Generating YouTube audio download link...")
+        if ' -a' in url:
+            bot.reply_to(message, "🎤 Generating YouTube audio download link...")
             send_youtube_audio(message, url.replace('-a', '').strip())
-            return  
+            return  # Exit the function after handling audio download
         
         # Set default quality
         quality = 'best'
@@ -271,94 +292,134 @@ def handle_youtube_url(message, url):
             quality = 'worst'
             url = url.replace('-l', '').strip()
         elif '-h' in url:
-            quality = 'best' 
+            quality = 'best'  # This line is actually redundant as quality is already set to 'best'
 
+        # Notify the user that the download is in progress
         bot.reply_to(message, "Generating YouTube video download link. Please wait...")
         
         # Call the download function
+        cookies_file = 'you1cookies.txt'  # Define the path to your cookies file
         download_url = download_youtube_video(url)
         
+        # Check the download URL and respond accordingly
         if download_url:
-            bot.reply_to(message, f"Here is your download link: {download_url}\n\n.")
+            bot.reply_to(message, f"✅ Here is your download link: {download_url}\n\n🚓check : [ /status ]")
         else:
-            bot.reply_to(message, "Failed to generate the download link. Please check the URL and try again.")
+            bot.reply_to(message, "!🔥looks like there is much pressure on the Sever. Please 🔄Try again.")
+
+    except Exception as e:
+        logging.error(f"Error in handling YouTube URL: {e}")
+        bot.reply_to(message, "⛑ Hold on we are Updating the Youtube Response Service.. 🔄 Please try again.")
+        # Optional: You could implement a retry mechanism here if desired
 
 
 def handle_instagram_url(message, url):
-
-    if ' -a' in url:
-        bot.reply_to(message, "Generating audio download link...")
-        send_instagram_audio(message, url.replace(' -a', '').strip())
-    else:
-        bot.reply_to(message, "Downloading Instagram video. Please wait...")
-
-
-        try:
+    try:
+        if ' -info' in url:
+            bot.reply_to(message, "🧲 Fetching Instagram video information. Please wait...")
+            process_media(message, url.replace('-info', '').strip())
+            return
+        
+        if ' -a' in url:
+            bot.reply_to(message, "Generating Instagram audio download link...")
+            send_instagram_audio(message, url.replace(' -a', '').strip())
+        else:
+            bot.reply_to(message, "📺Downloading Instagram video. Please wait...")
             download_url = download_instagram_content(url)
             if download_url:
-                bot.reply_to(message, f"Here is your download link: {download_url}\n\n.")
+                bot.reply_to(message, f"✅ Here is your download link: {download_url}\n\n🚓check : [ /status ]")
             else:
-                bot.reply_to(message, "Failed to generate the download link.")
-        except Exception as e:
-            bot.reply_to(message, f"Error: {e}")
-        
+                bot.reply_to(message, "!🔥looks like there is too much pressure on the Sever. Please 🔄Try again.")
+    except Exception as e:
+        bot.reply_to(message, f"❗️Someting UnExpected happened!\n🚧 Hold on we are Updating this Section of the Bot.. 🔄Please try again.")
+        logging.error(f"Error in handling Instagram URL: {e}")
+
+# Handle Twitter URL
 def handle_twitter_url(message, url):
-    if ' -a' in url:
-        bot.reply_to(message, "Generating audio download link...")
-        send_twitter_audio(message, url.replace(' -a', '').strip())
-    else:
-        bot.reply_to(message, "Generating Twitter video download link. Please wait...")
-        try:
+    try:
+        if ' -info' in url:
+            bot.reply_to(message, "🧲 Fetching Twitter video information. Please wait...")
+            process_media(message, url.replace('-info', '').strip())
+            return
+
+        if ' -a' in url:
+            bot.reply_to(message, "🎤 Generating Twitter audio download link...")
+            send_twitter_audio(message, url.replace(' -a', '').strip())
+        else:
+            bot.reply_to(message, "📺 Generating Twitter video download link. Please wait...")
             download_url = download_twitter_video(url)
             if download_url:
-                bot.reply_to(message, f"Here is your download link: {download_url}\n\n.")
+                bot.reply_to(message, f"✅ Here is your download link: {download_url}\n\n🚓check : [ /status ]")
             else:
-                bot.reply_to(message, "Failed to generate the download link.")
-        except Exception as e:
-            bot.reply_to(message, f"Error: {e}")
+                bot.reply_to(message, "!🔥looks like there is too much pressure on the Sever. Please 🔄Try again.")
+    except Exception as e:
+        bot.reply_to(message, f"❗️Someting UnExpected happened! We are 👨🏽‍💻working 24/7 to Fix these issues in the next release. 🔄Please try again.")
+        logging.error(f"Error in handling Twitter URL: {e}")
 
+# Handle Facebook URL
 def handle_facebook_url(message, url):
-    if ' -a' in url:
-        bot.reply_to(message, "Generating audio download link...")
-        send_facebook_audio(message, url.replace(' -a', '').strip())
-    else:
-        bot.reply_to(message, "Downloading Facebook video. Please wait...")
-        try:
-            video_url = download_facebook_video(url)
-            bot.reply_to(message, f"Here is your download link: {video_url}\n\n.")
-        except Exception as e:
-            bot.reply_to(message, f"Failed to download video: {e}")
+    try:
+        if ' -info' in url:
+            bot.reply_to(message, "🧲 Fetching Facebook video information. Please wait...")
+            process_media(message, url.replace('-info', '').strip())
 
+        if ' -a' in url:
+            bot.reply_to(message, "🎤 Generating Facebook audio download link...")
+            send_facebook_audio(message, url.replace(' -a', '').strip())
+        else:
+            bot.reply_to(message, "📺 Downloading Facebook video. Please wait...")
+            video_url = download_facebook_video(url)
+            if video_url:
+                bot.reply_to(message, f"✅ Here is your download link: {video_url}\n\n🚓check : [ /status ]")
+            else:
+                bot.reply_to(message, "!🔥looks like there is too much pressure on the Server today. Please 🔄Try again.")
+    except Exception as e:
+        bot.reply_to(message, f"⛑ Hold on we are Updating the Facebook Response Service.. 🔄 Please try again.")
+        logging.error(f"Error in handling Facebook URL: {e}")
+
+# Handle LinkedIn URL
 def handle_linkedin_url(message, url):
-    if ' -a' in url:
-        bot.reply_to(message, "Generating audio download link...")
-        send_linkedin_audio(message, url.replace(' -a', '').strip())
-    else:
-        bot.reply_to(message, "Downloading LinkedIn video. Please wait...")
-        try:
-            logging.info(f"Received LinkedIn URL: {url}")  # Debugging line    
+    try:
+
+        if ' -info' in url:
+            bot.reply_to(message, "🧲 Fetching LinkedIn video information. Please wait...")
+            process_media(message, url.replace('-info', '').strip())
+            return
+        
+        if ' -a' in url:
+            bot.reply_to(message, "🎤Generating LinkedIn audio download link...")
+            send_linkedin_audio(message, url.replace(' -a', '').strip())
+        else:
+            bot.reply_to(message, "📺 Downloading LinkedIn video. Please wait...")
             video_url = download_linkedin_video(url)
             if video_url:
-                bot.reply_to(message, f"Here is your download link: {video_url}\n\n.")
+                bot.reply_to(message, f"✅ Here is your download link: {video_url}\n\n🚓check : [ /status ]")
             else:
-                bot.reply_to(message, "Sorry, something went wrong while generating the download link.")
-        except Exception as e:
-            logging.error(f"Error while downloading LinkedIn video: {e}")
-            bot.reply_to(message, "An error occurred while processing your request. Please try again later.")
-
-
+                bot.reply_to(message, "!🔥looks like there is too much pressure on the Server today. Please 🔄Try again.")
+    except Exception as e:
+        bot.reply_to(message, f"⛑ Hold on we are Updating the Linkedin Response Service.. 🔄 Please try again..")
+        logging.error(f"Error in handling LinkedIn URL: {e}")
+# Handle Snapchat URL
 def handle_snapchat_url(message, url):
-    if ' -a' in url:
-        bot.reply_to(message, "Generating audio download link...")
-        send_snapchat_audio(message, url.replace(' -a', '').strip())
-    else:
-        bot.reply_to(message, "Downloading Snapchat video. Please wait...")
-        try:
+    try:
+        if ' -info' in url:
+            bot.reply_to(message, "🧲 Fetching Snapchat video information. Please wait...")
+            process_media(message, url.replace('-info', '').strip())
+            return
+        
+        if ' -a' in url:
+            bot.reply_to(message, "🎤 Generating Snapchat audio download link...")
+            send_snapchat_audio(message, url.replace(' -a', '').strip())
+        else:
+            bot.reply_to(message, "📺 Downloading Snapchat video. Please wait...")
             video_url = download_snapchat_video(url)
-            bot.reply_to(message, f"Here is your download link: {video_url}\n\n.")
-        except Exception as e:
-            bot.reply_to(message, f"Failed to download video: {e}")
-
+            if video_url:
+                bot.reply_to(message, f"✅ Here is your download link: {video_url}\n\n🚓check : [ /status ]")
+            else:
+                bot.reply_to(message, "!🔥looks like there is too much pressure on the Server today. Please 🔄Try again.")
+    except Exception as e:
+        bot.reply_to(message, f"⛑ Hold on we are Updating the Snapchat Response Service.. 🔄 Please try again.")
+        logging.error(f"Error in handling Snapchat URL: {e}")
 
 
 
@@ -370,7 +431,7 @@ def handle_snapchat_url(message, url):
 def send_audiomack_audio(message, url):
     audio_url = extract_audiomack_audio_link(url)
     if audio_url:
-        bot.reply_to(message, f"Here is your AudioMack download link: {audio_url}\n\n.")
+        bot.reply_to(message, f"Here is your AudioMack download link: {audio_url}\n\n")
     else:
         bot.reply_to(message, "Failed to extract the audio download link.")
 
@@ -409,6 +470,271 @@ def send_snapchat_audio(message, url):
     if audio_url:
         bot.reply_to(message, f"Here is your Snapchat download link: {audio_url}\n\n.")
 
+
+
+
+
+#WEBSITE INFO
+#==============================================================================
+# Process Links Based on Platform
+def process_media(message, url):
+    if is_valid_url(url):
+        try:
+            if "youtube.com" in url or "youtu.be" in url:
+                metadata = fetch_youtube_metadata(url)
+                platform = "YouTube 🎥"
+            elif "twitter.com" in url:
+                metadata = fetch_twitter_metadata(url)
+                platform = "Twitter 🐦"
+            elif "facebook.com" in url:
+                metadata = fetch_facebook_metadata(url)
+                platform = "Facebook 📘"
+            elif "instagram.com" in url:
+                metadata = fetch_instagram_metadata(url)
+                platform = "Instagram 📸"
+            elif "linkedin.com" in url:
+                metadata = fetch_linkedin_metadata(url)
+                platform = "LinkedIn 💼"
+            else:
+                bot.reply_to(message, "Platform not supported 😢")
+                return
+
+            # Send metadata to user with emojis
+            bot.reply_to(message, (
+                f"✅ Platform: {platform}\n\n"
+                f"🌐 Title: {metadata.get('title', 'No title found')}\n\n"
+                f"📝 Description: {metadata.get('description', 'No description found')}\n\n"
+                f"🔗 URL: {metadata.get('url', 'No URL found')}\n\n"
+                f"📸 Image/Thumbnail: {metadata.get('image', metadata.get('thumbnail', 'No image found'))}\n\n\n🚓check : [ /status ]"
+            ))
+        except Exception as e:
+            bot.reply_to(message, f"Oops! Something went wrong while fetching the data 😓\nError: {str(e)}")
+    else:
+        bot.reply_to(message, "Invalid URL. Please check the link and try again. 🚨")
+
+
+# YouTube Metadata Scraper
+def fetch_youtube_metadata(url):
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        metadata = {
+            'title': soup.find('meta', attrs={'property': 'og:title'})['content'] if soup.find('meta', attrs={'property': 'og:title'}) else 'No title found',
+            'description': soup.find('meta', attrs={'property': 'og:description'})['content'] if soup.find('meta', attrs={'property': 'og:description'}) else 'No description found',
+            'thumbnail': soup.find('meta', attrs={'property': 'og:image'})['content'] if soup.find('meta', attrs={'property': 'og:image'}) else 'No thumbnail found',
+            'url': soup.find('meta', attrs={'property': 'og:url'})['content'] if soup.find('meta', attrs={'property': 'og:url'}) else 'No URL found'
+        }
+        return metadata
+    except Exception as e:
+        return {"error": str(e)}
+
+
+# Twitter Metadata Scraper
+def fetch_twitter_metadata(url):
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        metadata = {
+            'title': soup.find('meta', attrs={'property': 'og:title'})['content'] if soup.find('meta', attrs={'property': 'og:title'}) else 'No title found',
+            'description': soup.find('meta', attrs={'property': 'og:description'})['content'] if soup.find('meta', attrs={'property': 'og:description'}) else 'No description found',
+            'image': soup.find('meta', attrs={'property': 'og:image'})['content'] if soup.find('meta', attrs={'property': 'og:image'}) else 'No image found',
+            'url': soup.find('meta', attrs={'property': 'og:url'})['content'] if soup.find('meta', attrs={'property': 'og:url'}) else 'No URL found'
+        }
+        return metadata
+    except Exception as e:
+        return {"error": str(e)}
+
+
+# Facebook Metadata Scraper
+def fetch_facebook_metadata(url):
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        metadata = {
+            'title': soup.find('meta', attrs={'property': 'og:title'})['content'] if soup.find('meta', attrs={'property': 'og:title'}) else 'No title found',
+            'description': soup.find('meta', attrs={'property': 'og:description'})['content'] if soup.find('meta', attrs={'property': 'og:description'}) else 'No description found',
+            'image': soup.find('meta', attrs={'property': 'og:image'})['content'] if soup.find('meta', attrs={'property': 'og:image'}) else 'No image found',
+            'url': soup.find('meta', attrs={'property': 'og:url'})['content'] if soup.find('meta', attrs={'property': 'og:url'}) else 'No URL found'
+        }
+        return metadata
+    except Exception as e:
+        return {"error": str(e)}
+
+
+# Instagram Metadata Scraper
+def fetch_instagram_metadata(url):
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        metadata = {
+            'title': soup.find('meta', attrs={'property': 'og:title'})['content'] if soup.find('meta', attrs={'property': 'og:title'}) else 'No title found',
+            'description': soup.find('meta', attrs={'property': 'og:description'})['content'] if soup.find('meta', attrs={'property': 'og:description'}) else 'No description found',
+            'image': soup.find('meta', attrs={'property': 'og:image'})['content'] if soup.find('meta', attrs={'property': 'og:image'}) else 'No image found',
+            'url': soup.find('meta', attrs={'property': 'og:url'})['content'] if soup.find('meta', attrs={'property': 'og:url'}) else 'No URL found'
+        }
+        return metadata
+    except Exception as e:
+        return {"error": str(e)}
+
+
+# LinkedIn Metadata Scraper
+def fetch_linkedin_metadata(url):
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        metadata = {
+            'title': soup.find('meta', attrs={'property': 'og:title'})['content'] if soup.find('meta', attrs={'property': 'og:title'}) else 'No title found',
+            'description': soup.find('meta', attrs={'property': 'og:description'})['content'] if soup.find('meta', attrs={'property': 'og:description'}) else 'No description found',
+            'image': soup.find('meta', attrs={'property': 'og:image'})['content'] if soup.find('meta', attrs={'property': 'og:image'}) else 'No image found',
+            'url': soup.find('meta', attrs={'property': 'og:url'})['content'] if soup.find('meta', attrs={'property': 'og:url'}) else 'No URL found'
+        }
+        return metadata
+    except Exception as e:
+        return {"error": str(e)}
+
+
+# Bot Message Handler
+@bot.message_handler(func=lambda message: True)
+def handle_message(message):
+    url = message.text.strip()  # Expect a URL in the message
+    process_media(message, url)  # Process the URL and fetch metadata
+
+
+
+
+#WEBSITE INFO FOR ANY LINK
+#==============================================================================
+def extract_metadata(url):
+    try:
+        # Fetch the main URL
+        response = requests.get(url)
+        response.raise_for_status()  # Handle bad responses (like 404)
+
+        # HTTP Status Code
+        http_status = response.status_code
+
+        # Parse the page content
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        # Extract title
+        title = soup.title.string if soup.title else 'No title found 🧐'
+
+        # Extract description
+        description = soup.find('meta', attrs={'name': 'description'})
+        description_content = description['content'] if description else 'No description found 🤷‍♂️'
+
+        # Extract canonical URL
+        canonical = soup.find('link', attrs={'rel': 'canonical'})
+        canonical_url = canonical['href'] if canonical else 'No canonical URL found 🔗'
+
+        # Extract author
+        owner = soup.find('meta', attrs={'name': 'author'})
+        owner_content = owner['content'] if owner else 'No author information found 🤔'
+
+        # Extract keywords
+        keywords = soup.find('meta', attrs={'name': 'keywords'})
+        keywords_content = keywords['content'] if keywords else 'No keywords found 🔑'
+
+        # Extract OpenGraph metadata (if available)
+        og_title = soup.find('meta', attrs={'property': 'og:title'})
+        og_title_content = og_title['content'] if og_title else 'No OpenGraph title found 📱'
+
+        # Check for basic safety (simple heuristic)
+        is_safe = "✅ Safe and sound!" if "phishing" not in response.text.lower() else "⚠️ Potentially unsafe website!"
+
+        # WHOIS information
+        whois_info = whois.whois(url)
+        creation_date = whois_info.creation_date if whois_info.creation_date else 'No creation date found 📅'
+
+        # Check for robots.txt file (gracefully handle 404)
+        robots_url = url.rstrip('/') + "/robots.txt"
+        try:
+            robots_response = requests.get(robots_url)
+            if robots_response.status_code == 200:
+                robots_content = robots_response.text
+            else:
+                robots_content = 'No robots.txt file found 🤖'
+        except requests.exceptions.HTTPError:
+            robots_content = 'No robots.txt file found 🤖'
+
+        # Gather social media links (optional)
+        social_links = []
+        for anchor in soup.find_all('a', href=True):
+            href = anchor['href']
+            if "facebook.com" in href:
+                social_links.append("📘 Facebook")
+            elif "twitter.com" in href:
+                social_links.append("🐦 Twitter")
+            elif "linkedin.com" in href:
+                social_links.append("🔗 LinkedIn")
+
+        social_links = social_links if social_links else ['No social media links found 🚫']
+
+        # Return all extracted information with emojis for fun output
+        return {
+            'title': title,
+            'description': description_content,
+            'owner': owner_content,
+            'canonical_url': canonical_url,
+            'keywords': keywords_content,
+            'http_status': f"HTTP Status: {http_status} 🖥️",
+            'is_safe': is_safe,
+            'creation_date': creation_date,
+            'robots_content': robots_content,
+            'open_graph_title': og_title_content,
+            'social_links': ', '.join(social_links)
+        }
+
+    # Handle errors for specific HTTP issues
+    except requests.exceptions.HTTPError as http_err:
+        return {"error": f"\nno data: We managed to 🔑get this for you 🛑: {http_err}"}
+
+    # Handle request errors
+    except requests.exceptions.RequestException as req_err:
+        return {"error": f"Request error occurred ❗: {req_err}"}
+
+    # Handle any other exceptions
+    except Exception as e:
+        return {"error": f"Unexpected error occurred 🤯: {str(e)}"}
+
+
+# Step 3: Process Links Function
+def process_link(message, url):
+    try:
+        if is_valid_url(url):
+            bot.reply_to(message, "🛠️ Digging Information from the provided Site... 🌐")
+            metadata = extract_metadata(url)
+            # Send metadata to user
+            if "error" in metadata:
+                bot.reply_to(message, f"⚠️ This page/site is ⛓protected  : {metadata['error']},\n\n please click this👆 link then copy & paste to me")
+            else:
+                bot.reply_to(message, (
+                    f"🎯 Title: {metadata['title']}\n\n"
+                    f"📝 Description: {metadata['description']}\n\n"
+                    f"👤 Owner: {metadata['owner']}\n\n"
+                    f"🔗 Canonical URL: {metadata['canonical_url']}\n\n"
+                    f"🔑 Keywords: {metadata['keywords']}\n\n"
+                    f"📡 OpenGraph Title: {metadata['open_graph_title']}\n\n"
+                    f"🛡️ Safety Status: {metadata['is_safe']}\n\n"
+                    f"📅 Creation Date: {metadata['creation_date']}\n\n"
+                    f"🤖 robots.txt Content: {metadata['robots_content']}\n\n"
+                    f"🌐 Social Media Links: {metadata['social_links']}\n\n"
+                    f"🖥️ HTTP Status Code: {metadata['http_status']}\n\n\n🚓check : [ /status ]"
+                ))
+        else:
+            bot.reply_to(message, "❌ Invalid URL. Please check the link and try again.")
+    except Exception as e:
+        bot.reply_to(message, f"😞 We're sorry, This page/site has an Advanced ⛓protection. We are working 24/7 to break into links like these")
 
 
 

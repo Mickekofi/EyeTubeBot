@@ -3,7 +3,7 @@
     <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/logo.png" alt="Logo" width="130">
   </a>
   <a href = "https://t.me/EyeTubeAiBot">
-  <h1 align="center"><strong>EyeTubeB👁T</strong></h1>
+  <h1 align="center"><strong></strong></h1>
   </a>
   <p align="center">
     <a href="https://chat.whatsapp.com/Et2oy7QEwHVGzcYkIAimYO">
@@ -25,7 +25,8 @@
   - [What Can this Bot do](#what-can-this-bot-do)
     - [Job 1: Link Processing](#job-1-link-processing)
       - [Tutorial](#tutorial)
-    - [Job 2: Image Processing](#job-2-image-processing)
+    - [Job 2: Image Manupulation₍ₛₑₚₐᵣₐₜₑ ᵣₑₚₒₛᵢₜₒᵣy₎](#job-2-image-manupulationₛₑₚₐᵣₐₜₑ-ᵣₑₚₒₛᵢₜₒᵣy)
+      - [𝐕𝐢𝐬𝐢𝐭 𝐏𝐢𝐠𝐓𝐮𝐧𝐞 𝐁𝐨𝐭 𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲 𝐭𝐨 𝐚𝐜𝐜𝐞𝐬𝐬](#𝐕𝐢𝐬𝐢𝐭-𝐏𝐢𝐠𝐓𝐮𝐧𝐞-𝐁𝐨𝐭-𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲-𝐭𝐨-𝐚𝐜𝐜𝐞𝐬𝐬)
       - [Tutorial](#tutorial-1)
 - [Installation](#installation)
   - [Commercial User Product Installation and Setup](#commercial-user-product-installation-and-setup)
@@ -43,7 +44,7 @@
   - [API References](#api-references)
   - [👏 Acknowledgement](#-acknowledgement)
   - [Related New Projects](#related-new-projects)
-      - [Visit PigTune Repository](#visit-pigtune-repository)
+      - [Visit PigTune Bot Repository](#visit-pigtune-bot-repository)
   - [Links](#links)
   - [Support](#support)
       - [You can decide to buy or push to us a cup of ☕️ coffee in our skrill to skrill account at : 👇](#you-can-decide-to-buy-or-push-to-us-a-cup-of-️-coffee-in-our-skrill-to-skrill-account-at--)
@@ -54,11 +55,8 @@
 
 # Introduction
 
-As part of contributing to the Societal Evolution into a new Era full of 🚀 technological advancements, the emergence of Automation in AI has led us to discover innovative ways to solve and change human repetitive processes into a more productive living. 
+𝐄𝐲𝐞𝐓𝐮𝐛𝐞𝐁𝐨𝐭 𝐢𝐬 𝐚 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐁𝐨𝐭 𝐢𝐬 𝐩𝐮𝐫𝐩𝐨𝐬𝐞𝐝 𝐟𝐨𝐫 𝐒𝐨𝐜𝐢𝐚𝐥 𝐦𝐞𝐝𝐢𝐚 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐝𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐢𝐧𝐜𝐥𝐮𝐝𝐢𝐧𝐠 𝐕𝐢𝐝𝐞𝐨𝐬, 𝐌𝐮𝐬𝐢𝐜,𝐈𝐦𝐚𝐠𝐞𝐬,𝐭𝐡𝐮𝐦𝐧𝐚𝐢𝐥𝐬,𝐚𝐧𝐝 𝐞𝐱𝐭𝐫𝐚𝐜𝐭 𝐝𝐞𝐭𝐚𝐢𝐥𝐞𝐝 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 𝐟𝐫𝐨𝐦 𝐰𝐞𝐛𝐬𝐢𝐭𝐞𝐬 𝐚𝐧𝐝 𝐭𝐡𝐞 𝐢𝐧𝐭𝐞𝐫𝐧𝐞𝐭, 𝐀𝐝𝐝𝐢𝐭𝐢𝐨𝐧𝐚𝐥𝐲 𝐭𝐚𝐤𝐢𝐧𝐠 𝐨𝐯𝐞𝐫 𝐈𝐦𝐚𝐠𝐞 𝐌𝐚𝐧𝐮𝐩𝐮𝐥𝐚𝐭𝐢𝐨𝐧 𝐩𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠
 
-It's a bot, trained to Process 📎links from all over the internet 🌐 (Social Media) plus(➕) a Graphic Image Processing Capability and able to transform your images into Enhance products within seconds.
-
-I present to you;
 
 [![Try EyeTubeB👁T Today!](https://img.shields.io/badge/Try%20Today%21-EyeTubeB👁T-red)](https://t.me/EyeTubeAiBot)
 
@@ -66,7 +64,6 @@ I present to you;
 
  ```EyeTubeBot is a Telegram AI Bot built with an Interactive User Interface which features automated Internet and Image Processing Capabilities.```
 
-[![Try EyeTubeB👁T Today!](https://img.shields.io/badge/Open%20-EyeTubeB👁T-red)](https://t.me/EyeTubeAiBot)
 
 ![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/eyetubebot.gif)
 
@@ -125,7 +122,9 @@ I present to you;
 ![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/tutorials.gif)
 
 
-### Job 2: Image Processing
+### Job 2: Image Manupulation₍ₛₑₚₐᵣₐₜₑ ᵣₑₚₒₛᵢₜₒᵣy₎
+
+#### 𝐕𝐢𝐬𝐢𝐭 [𝐏𝐢𝐠𝐓𝐮𝐧𝐞 𝐁𝐨𝐭](https://github.com/Mickekofi/pigtune/tree/master) 𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲 𝐭𝐨 𝐚𝐜𝐜𝐞𝐬𝐬
 
 <ol>
     <li><strong> Perform Major Image Enhancement Tasks like;</strong>
@@ -157,7 +156,7 @@ I present to you;
 
 ```Commercial User Product(Version 3.0.0): It offers a seamless and user-friendly experience with advanced Automated features and commercial-grade functionalities.```
 
-```Open Source Tool For Developers(Version 1.0.1): The open-source core version is ideal for contribution, experimentation, customization, and further development.```
+```Open Source Tool For Developers(Version 2.0.1): The open-source core version is ideal for contribution, experimentation, customization, and further development.```
 
 Choose your journey below to get started!
 
@@ -180,7 +179,7 @@ This section is for end-users who want to install and use the fully featured cus
 
 ```3. Click start```
 
-4.📌 Note, read the [Documentation[Commercial_User_Product]]([https://t.me/EyeTubeAiBot](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/Documentation.md)) before use.
+4.📌 𝐍𝐨𝐭𝐞, 𝐫𝐞𝐚𝐝 𝐭𝐡𝐞  [𝐃𝐨𝐜𝐮𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧[𝐂𝐨𝐦𝐦𝐞𝐫𝐜𝐢𝐚𝐥_𝐔𝐬𝐞𝐫_𝐏𝐫𝐨𝐝𝐮𝐜𝐭]]([https://t.me/EyeTubeAiBot](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/Documentation.md))
 
 [![Start Here](https://img.shields.io/badge/Launch%20%21-EyeTubeB👁T-red)](https://t.me/EyeTubeAiBot)
 
@@ -192,12 +191,14 @@ This section is for developers who want to clone and run the core features of th
 
 **Prerequisites:**
 
-1. Git
-2. Python 3
-3. Telegram Bot API token
+- Git
+- Python 3
+- Telegram Bot API token
 
 
 **Installation:**
+
+𝐩𝐥𝐞𝐚𝐬𝐞 𝐧𝐨𝐭𝐞; 𝐘𝐨𝐮 𝐦𝐮𝐬𝐭 ⭐ (𝐬𝐭𝐚𝐫) 𝐨𝐫 𝐅𝐨𝐫𝐤 🍽  𝐭𝐡𝐢𝐬 𝐫𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲 𝐨𝐧 𝐆𝐢𝐭𝐇𝐮𝐛 𝐛𝐞𝐟𝐨𝐫𝐞 𝐜𝐥𝐨𝐧𝐢𝐧𝐠 𝐨𝐫 𝐮𝐬𝐢𝐧𝐠 𝐢𝐭.
 
 ```sh
 git clone https://github.com/Mickekofi/EyeTubBot.git
@@ -212,8 +213,8 @@ cd EyeTubeBot
 Create a virtual environment and activate it:
 
 ```sh
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv myenv
+source myenv/bin/activate
 ```
 
 install the dependancies
@@ -232,14 +233,14 @@ python3 eyetube.py
 
 We have several examples. Here is the first one to get you started:
 
-![Example](https://github.com/Mickekofi/EyeTubeBot/blob/master/example1.png)
+![Example](https://github.com/Mickekofi/EyeTubeBot/blob/master/example1.jpg)
 
 
 Set up your bot with your Telegram API token:
 
 ```python
-TOKEN = input("Please enter your Telegram API token: ")
-bot = telebot.TeleBot(TOKEN)
+admin = input("Please enter your name 👉 : ")
+TOKEN = input("Please enter your Telegram API token 👉 : ")
 ```
 
 **How to Set up your token**
@@ -247,6 +248,9 @@ bot = telebot.TeleBot(TOKEN)
 - Get your **Telegram Bot API Token** from [BotFather](https://t.me/BotFather).
 
 - Complete the process to get your token
+
+𝐩𝐥𝐞𝐚𝐬𝐞 𝐧𝐨𝐭𝐞; 𝐘𝐨𝐮 𝐦𝐮𝐬𝐭 ⭐ (𝐬𝐭𝐚𝐫) 𝐨𝐫 𝐅𝐨𝐫𝐤 🍽  𝐭𝐡𝐢𝐬 𝐫𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲 𝐨𝐧 𝐆𝐢𝐭𝐇𝐮𝐛 𝐛𝐞𝐟𝐨𝐫𝐞 𝐜𝐥𝐨𝐧𝐢𝐧𝐠 𝐨𝐫 𝐮𝐬𝐢𝐧𝐠 𝐢𝐭.
+
 
 # 📝 Documentation
 
@@ -353,9 +357,9 @@ If you find any bugs or have suggestions for improvements, feel free to [open an
 
 =<p align="center">
   <a href="https://github.com/Mickekofi/pigtune/tree/master">
-    <img src="https://github.com/Mickekofi/pigtune/tree/master/logo" alt="Logo" width="130">
+    <img src="https://github.com/Mickekofi/pigtune/tree/master/logo.png" alt="Logo" width="130">
   </a>
-  <a href = "https://github.com/Mickekofi/pigtune">
+  <a href = "https://github.com/Mickekofi/pigtune/tree/master">
   <h1 align="center"><strong>PigTune</strong></h1>
   </a>
 </p>
@@ -365,7 +369,7 @@ If you find any bugs or have suggestions for improvements, feel free to [open an
 
 *PigTune is a Telegram Image Processing Manupulation Bot for both End_Users and Developers* 
 
-#### Visit [PigTune](https://github.com/Mickekofi/pictune/tree/master) Repository
+#### Visit [PigTune Bot](https://github.com/Mickekofi/pigtune/tree/master) Repository
 
 
 ## Links

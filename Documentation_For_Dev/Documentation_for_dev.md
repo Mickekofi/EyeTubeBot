@@ -3,7 +3,7 @@
     <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/logo.png" alt="Logo" width="130">
   </a>
 </p>
-<h1 align="center"><strong>EyeTubeBot Version (1.0.1)</strong></h1>
+<h1 align="center"><strong>EyeTubeBot Version (2.0.1)</strong></h1>
 <p align="center">
   <a href="https://t.me/possibilityAI">
     <img src="https://img.shields.io/badge/Join-Community-blue.svg" alt="Join Community">
@@ -15,7 +15,7 @@
 
 ---
 
-This is the basic **Core (beta)** version (1.0.1), designed for developers who want to automate and modify the process of video and audio downloads from platforms such as YouTube, Instagram, Facebook, Twitter, LinkedIn, Snapchat, and Audiomack.
+This is the basic **Core (beta)** version (2.0.1), designed for developers who want to automate and modify the process of video and audio downloads from platforms such as YouTube, Instagram, Facebook, Twitter, LinkedIn, Snapchat, and Audiomack, Also Grab detailed collection of information from website and Social medial Content postings
 
 ## Highlights
 
@@ -25,6 +25,11 @@ This is the basic **Core (beta)** version (1.0.1), designed for developers who w
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
+- [⬇️ Download 📽️ Movies / 🎬Reals from a Social Media Platform](#️-download-️-movies--reals-from-a-social-media-platform)
+- [🧲 Extract and Download 🔊Audio/music from an Uploaded Video from Youtube](#-extract-and-download-audiomusic-from-an-uploaded-video-from-youtube)
+- [🔦 Fetch information from a Social Media Video Upload](#-fetch-information-from-a-social-media-video-upload)
+- [⛏️ Dig all Information from a Target Website](#️-dig-all-information-from-a-target-website)
+- [👮🏾‍♂️ Detect ✓ \[ Fraud \& Legit Website \]](#️-detect---fraud--legit-website-)
 - [Commands](#commands)
 - [Update Handling](#update-handling)
 - [The Structure \& Flow](#the-structure--flow)
@@ -36,6 +41,7 @@ This is the basic **Core (beta)** version (1.0.1), designed for developers who w
   - [Step 3a: Downloading YouTube Videos](#step-3a-downloading-youtube-videos)
   - [Step 3b: Downloading YouTube Audio](#step-3b-downloading-youtube-audio)
   - [Bot Polling and Final Setup](#bot-polling-and-final-setup)
+- [There is More We are Yet to add here!](#there-is-more-we-are-yet-to-add-here)
 
 ## Features
 
@@ -97,10 +103,80 @@ This is the basic **Core (beta)** version (1.0.1), designed for developers who w
      - Snapchat
      - Audiomack
 
-3. **Audio/Video Download**:
-   - To download **audio**, append `-a` to the URL.
-   - To download **video**, simply paste the URL. The bot will automatically handle the request.
-   - For YouTube, specify the video quality using `-h` for high quality or `-l` for low quality (default is high).
+
+## ⬇️ Download 📽️ Movies / 🎬Reals from a Social Media Platform
+
+To download a **Movie,Real or any Video** from a Social media Platform, follow the steps below:*
+
+1.  ✓Copy the video link from the social media platform.eg;Youtube,Facebook,Instagram etc.
+2.  ✓Paste the link in the bot.
+
+**Bot will automatically detect the link and download the video for you.**
+
+visit the following links to learn how to downloads from these Social platforms:
+
+![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/tutorials.gif)
+
+- [Tutorial Download from Facebook]()
+
+- [Tutorial Download from Instagram]()
+
+- [Tutorial Download from Twitter]()
+
+- [Tutorial Download from Snapchat]()
+
+
+
+
+
+## 🧲 Extract and Download 🔊Audio/music from an Uploaded Video from Youtube
+
+To download a **Music or Audio** from Youtube, follow the steps below:
+
+1.  ✓Copy the video link from Youtube.
+2.  ✓Add the letter **" -a"** at the end of the link.eg;```https://www.youtube.com/watch?v -a```
+3.  ✓Paste the link in the bot.
+
+**Bot will automatically detect the link and download the audio for you.**
+
+visit the following links to learn how to downloads from Youtube:
+
+![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/tutorials3.gif)
+
+- [Tutorial Download Music from Youtube]()
+
+
+## 🔦 Fetch information from a Social Media Video Upload
+
+To extract information from a video uploaded on a social media platform, follow the steps below:
+
+1.  ✓Copy the video link from the social media platform.eg;Youtube,Facebook,Instagram etc.
+2.  ✓Add the word **" -info"** at the end of the link.eg;```https://www.youtube.com/watch?v -info```
+3.  ✓Paste the link in the bot.
+
+**Bot will automatically detect the link and get all information for you.**
+
+
+## ⛏️ Dig all Information from a Target Website
+
+To extract all information from a website, follow the steps below:
+
+1.  ✓Copy the website link.
+2.  ✓Paste the link in the bot.
+
+**Bot will automatically detect the link and get all information for you.**
+
+
+## 👮🏾‍♂️ Detect ✓ [ Fraud & Legit Website ]
+
+To detect a **Fraud or Legit Website**, follow the steps below:
+
+1.  ✓Copy the website link.
+2.  ✓Paste the link in the bot.
+
+**Bot will automatically detect the website and tell you if it is Fraud or Legit.**
+
+![Preview](https://github.com/Mickekofi/EyeTubeBot/blob/master/Documentation_For_End_User/tutorials.gif)
 
 ## Commands
 
@@ -372,3 +448,4 @@ def bot_polling():
 bot_polling()
 ```
 
+## There is More We are Yet to add here!

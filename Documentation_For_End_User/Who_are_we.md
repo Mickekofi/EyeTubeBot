@@ -1,7 +1,3 @@
-
-
-
-
 =<p align="center">
   <a href="https://t.me/EyeTubeAiBot">
     <img src="https://github.com/Mickekofi/EyeTubeBot/blob/master/possibility_ai.png" alt="Logo" width="130">
